@@ -3,6 +3,9 @@
 
 - use contemporary technologies and techniques
     - Field Catalog shouldn't look old and dated
+    - off-load heavy lifting to third-party libraries and frameworks where possible
+        - don't reinvent the wheel
+        - lots of smart and talented folks have done this before and well
 
 <!SLIDE bullets incremental>
 # Catalog 2 Objectives
