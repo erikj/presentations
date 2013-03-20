@@ -1,0 +1,2 @@
+rvm_project_rvmrc_default=1 # switch to default ruby version when exiting directory
+rvm ruby-1.9.3-p392
