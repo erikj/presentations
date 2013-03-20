@@ -36,3 +36,14 @@
           type="text/css" />
 
 => *responsive magic*
+
+!SLIDE bullets incremental
+# Responsive Bootstrap
+
+- fluid grid elements "stack" when width is constrained
+- navbar collapses to a dropdown menu
+- provides easily accessed utility classes:
+
+    - `.visible-phone` / `.hidden-phone`, `<768 px`
+    - `.visible-tablet` / `.hidden-tablet`, `768-979 px`
+    - `.visible-desktop` / `.hidden-desktop`, `>979 px`
