@@ -8,6 +8,7 @@
   "sections": [
     "# Browser-side Field-Catalog 2.0:\n## HTML5, Responsive Web Design, Twitter Bootstrap",
     {"section":"requirements"},
+    {"section":"objectives"},
     {"section":"html5"},
     {"section":"bootstrap"},
     {"section":"responsive"} //,
