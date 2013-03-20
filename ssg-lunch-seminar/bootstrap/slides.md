@@ -62,7 +62,7 @@
 - like Bootstrap-specific **jQuery UI**
 - available as plugins
 
-!SLIDE bullets incremental
+!SLIDE smaller bullets incremental
 # Bootstrap: JavaScript Plugins
 
 - modal windows
