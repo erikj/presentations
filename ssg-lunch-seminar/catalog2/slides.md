@@ -1,17 +1,14 @@
-<!--<!SLIDE[tpl=catalog2] bullets incremental>
--->
+<!SLIDE bullets incremental>
+
+# Catalog-2 Requirements
+
+## Replace Field-Catalog 1
 
 <!SLIDE bullets incremental>
 
-# Catalog-2 Intro
+# Catalog-2 Requirements
 
-## replace Field-Catalog-1
-
-<!SLIDE bullets incremental>
-
-# Catalog-2 Intro
-
-## Field-Catalog 1
+## Replace Field-Catalog 1
 
  - clone-and-patch workflow
 
@@ -27,57 +24,43 @@
 
 <!SLIDE bullets incremental>
 
-# Catalog-2 Intro
+# Catalog-2 Requirements
 
-## Field-Catalog 1
+## Field-Catalog 1: Catalogs
 
     @@@sh
-    % cd /net/web/catalog/html/
-    % ls
-    1                       dc3_2012@              index.html.20110913     sbi_hly-02-03/
-    ace/                    dc3_2012_dev@          index.html.20111219     sbi_hly-04-02/
-    ace-asia/               dc3_catalog_earth@     index.html.save         sbi_hly-04-03/
-    adele_sprite/           documentation/         index.old.html          sbi_nbp03-04a/
-    amma/                   documentation.rm/      indoex/                 sheba/
-    bamex/                  du.out                 itop_2009/              skeleton/
-    banner.html             du.runit               itop_2010/              snorman/
-    base/                   dwfe/                  itop_2010_prelim/       start08@
-    best/                   dycoms/                ix.html                 start_08/
-    best_hly-08-02/         dynamo/                jasmine/                stratus/
-    best_hly-08-03/         dynamo_catalog_earth@  jja-ws/                 svn/
-    best_hly-09-02/         epic/                  js/                     table.html
-    best_kn195-10/          eventlog@              lakeice/                test/
-    best_kn195-10.save/     fastex/                map/                    test1/
-    best_psea-10-01@        favicon.ico            milagro/                testit
-    best_sea-10-01/         fc/                    milagro.mark/           tmp/
-    best_summer-09@         fcicons/               movie/                  torero/
-    best_tn249/             field_catalog.sh*      name/                   torero_catalog_earth@
-    best_tn249.orig/        front/                 name_2003/              tparc@
-    best_tn249.save/        ge.html                pacdex/                 tparc_2007/
-    best_tn250/             ge.html~               pacdex_hiaper/          tparc_2008/
-    best_tn250.orig/        gif/                   pase/                   tparc.rm/
-    best_tn250.save/        hippo/                 plows_08-09/            trex/
-    cases99/                hippo2/                plows_09-10/            trex.rm/
-    catalog-admin-scripts/  hippo3/                post/                   vocals/
-    catalog.html            hippo4/                predict/                vortex2_2009/
-    catalog_projects.out    hippo5/                predict_catalog_earth@  vortex2_2010/
-    cat.html                hiwc@                  rainex/                 wms-ops@
-    cat_table.html          hiwc_2013@             ramadda1.3/             wrf-2004/
-    chat/                   hold/                  ramadda1.3.rm/          wrf-2005/
-    contacts/               ice_l/                 ramadda1.3.zip          wrf_2006/
-    css/                    ice-l@                 ramadda_old/            wrf-2006@
-    cupido/                 ice-t/                 rico/                   wrf_2007/
-    data/                   ice-t_catalog_earth@   robots.txt              wrf_2008/
-    dc3@                    ihop/                  salljex/
-    dc3_2011/               index.html             sbi/
-    dc3_2011.rm/            index.html.20091029    sbi_hly-02-01/
-
+    % ls /net/web/catalog/html/
+    1                       catalog.html           fastex/               index.html.20111219  predict_catalog_earth@  testit
+    ace/                    catalog_projects.out   favicon.ico           index.html.save      rainex/                 tmp/
+    ace-asia/               cat.html               fc/                   index.old.html       ramadda1.3/             torero/
+    adele_sprite/           cat_table.html         fcicons/              indoex/              ramadda1.3.rm/          torero_catalog_earth@
+    amma/                   chat/                  field_catalog.sh*     itop_2009/           ramadda1.3.zip          tparc@
+    bamex/                  contacts/              front/                itop_2010/           ramadda_old/            tparc_2007/
+    banner.html             css/                   ge.html               itop_2010_prelim/    rico/                   tparc_2008/
+    base/                   cupido/                ge.html~              ix.html              robots.txt              tparc.rm/
+    best/                   data/                  gif/                  jasmine/             salljex/                trex/
+    best_hly-08-02/         dc3@                   hippo/                jja-ws/              sbi/                    trex.rm/
+    best_hly-08-03/         dc3_2011/              hippo2/               js/                  sbi_hly-02-01/          vocals/
+    best_hly-09-02/         dc3_2011.rm/           hippo3/               lakeice/             sbi_hly-02-03/          vortex2_2009/
+    best_kn195-10/          dc3_2012@              hippo4/               map/                 sbi_hly-04-02/          vortex2_2010/
+    best_kn195-10.save/     dc3_2012_dev@          hippo5/               milagro/             sbi_hly-04-03/          wms-ops@
+    best_psea-10-01@        dc3_catalog_earth@     hiwc@                 milagro.mark/        sbi_nbp03-04a/          wrf-2004/
+    best_sea-10-01/         documentation/         hiwc_2013@            movie/               sheba/                  wrf-2005/
+    best_summer-09@         documentation.rm/      hold/                 name/                skeleton/               wrf_2006/
+    best_tn249/             du.out                 ice_l/                name_2003/           snorman/                wrf-2006@
+    best_tn249.orig/        du.runit               ice-l@                pacdex/              start08@                wrf_2007/
+    best_tn249.save/        dwfe/                  ice-t/                pacdex_hiaper/       start_08/               wrf_2008/
+    best_tn250/             dycoms/                ice-t_catalog_earth@  pase/                stratus/
+    best_tn250.orig/        dynamo/                ihop/                 plows_08-09/         svn/
+    best_tn250.save/        dynamo_catalog_earth@  index.html            plows_09-10/         table.html
+    cases99/                epic/                  index.html.20091029   post/                test/
+    catalog-admin-scripts/  eventlog@              index.html.20110913   predict/             test1/
 
 <!SLIDE bullets incremental>
 
-# Catalog-2 Intro
+# Catalog-2 Requirements
 
-## Field-Catalog 1
+## Field-Catalog 1: DC3 Catalog
 
     @@@sh
     % ls dc3_2012/
@@ -91,15 +74,47 @@
     display_panel/  index.20120629.html  low_bandwidth/       other/           science/
 
 <!SLIDE bullets incremental>
+# Catalog 2 Requirements
+## many projects:
 
-# Catalog-2 Intro
+- single database
+- single code-base
 
-## Catalog 2
+<!SLIDE bullets incremental>
+# Catalog 2 Requirements
+## per-project customization:
 
-- many projects:
+- views (**HTML**)
 
-  - single database
+    - banners
+    - footers
+    - sub-pages:
+        - home page
+        - tools & links
+        - etc.
 
-  - single code-base
-  
-  
+<!SLIDE bullets incremental>
+# Catalog 2 Requirements
+## per-project customization:
+
+- style (**CSS**)
+
+<!SLIDE bullets incremental>
+# Catalog 2 Requirements
+## browser support
+
+- modern desktop browsers:
+    - Chrome
+    - Firefox
+    - Safari
+    - etc.
+
+<!SLIDE bullets incremental>
+# Catalog 2 Requirements
+## browser support
+
+- mobile browsers:
+    - Android
+    - iOS / Mobile Safari
+    - phone **and** tablet form factors
+    - not just *works ok*, but *works well*
