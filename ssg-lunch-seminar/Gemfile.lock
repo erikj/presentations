@@ -1,8 +1,19 @@
+GIT
+  remote: git@github.com:schacon/showoff.git
+  revision: d297bd29f3dd192548c6c3ca35900b46bc5bec90
+  specs:
+    showoff (0.7.0)
+      gli (~> 2)
+      json
+      nokogiri
+      parslet
+      redcarpet
+      sinatra (~> 1.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
     blankslate (2.1.2.4)
-    bluecloth (2.2.0)
     gli (2.5.5)
     json (1.7.7)
     nokogiri (1.5.8)
@@ -11,13 +22,8 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
-    showoff (0.7.0)
-      bluecloth
-      gli (>= 1.3.2)
-      json
-      nokogiri
-      parslet
-      sinatra
+    redcarpet (2.2.2)
+    rubygems-bundler (1.1.1)
     sinatra (1.4.1)
       rack (~> 1.5, >= 1.5.2)
       rack-protection (~> 1.4)
@@ -28,4 +34,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  showoff
+  rubygems-bundler
+  showoff!
