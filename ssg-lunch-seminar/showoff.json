@@ -1,7 +1,16 @@
 {
-  "name": "Something",
-  "description": "Example Presentation",
+  "name": "SSG Lunch Seminar",
+  "description": "Browser-side Field-Catalog 2.0: HTML5, Responsive Web Design, Twitter Bootstrap",
+   // "templates": {
+   //    "catalog2":"templates/catalog2.html"
+   //  },
+
   "sections": [
-    {"section":"one"}
+    "# Browser-side Field-Catalog 2.0:\n## HTML5, Responsive Web Design, Twitter Bootstrap",
+    {"section":"catalog2"},
+    {"section":"html5"},
+    {"section":"bootstrap"},
+    {"section":"responsive"} //,
+    // {"section":""},
   ]
 }
