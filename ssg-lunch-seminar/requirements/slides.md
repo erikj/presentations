@@ -1,31 +1,16 @@
 <!SLIDE bullets incremental>
-
 # Catalog-2 Requirements
-
 ## Replace Field-Catalog 1
 
-<!SLIDE bullets incremental>
-
-# Catalog-2 Requirements
-
-## Replace Field-Catalog 1
-
- - clone-and-patch workflow
-
- - each project has its own:
-
-  - database
-
-  - code base
-
-    - static **HTML**
-
-    - perl **CGI**s
+- clone-and-patch workflow
+- each project has its own:
+    - database
+    - code base
+        - static **HTML**
+        - perl **CGI**s
 
 <!SLIDE bullets incremental>
-
 # Catalog-2 Requirements
-
 ## Field-Catalog 1: Catalogs
 
     @@@sh
