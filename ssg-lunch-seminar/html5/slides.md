@@ -67,7 +67,7 @@
 - **DOM** now part of HTML spec
 
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental small
 # HTML5 New Features: media queries
 
 query device display properties via **CSS3**
