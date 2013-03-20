@@ -11,7 +11,8 @@
     {"section":"objectives"},
     {"section":"html5"},
     {"section":"bootstrap"},
-    {"section":"responsive"} //,
-    // {"section":""},
+    {"section":"responsive"},
+    {"section":"demo"},
+    {"section":"end"}
   ]
 }
