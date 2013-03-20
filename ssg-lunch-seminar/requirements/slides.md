@@ -1,4 +1,4 @@
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # Catalog-2 Requirements
 ## Replace Field-Catalog 1
 
@@ -9,7 +9,7 @@
         - static **HTML**
         - perl **CGI**s
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # Catalog-2 Requirements
 ## Field-Catalog 1: Catalogs
 
@@ -41,7 +41,7 @@
     cases99/                epic/                  index.html.20091029   post/                test/
     catalog-admin-scripts/  eventlog@              index.html.20110913   predict/             test1/
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 
 # Catalog-2 Requirements
 
@@ -58,14 +58,14 @@
     data/           images/              js/                  ops/             rss_feeds/
     display_panel/  index.20120629.html  low_bandwidth/       other/           science/
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # Catalog 2 Requirements
 ## many projects:
 
 - single database
 - single code-base
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # Catalog 2 Requirements
 ## per-project customization:
 
@@ -78,13 +78,13 @@
         - tools & links
         - etc.
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # Catalog 2 Requirements
 ## per-project customization:
 
 - style (**CSS**)
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # Catalog 2 Requirements
 ## browser support
 
@@ -94,7 +94,7 @@
     - Safari
     - etc.
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # Catalog 2 Requirements
 ## browser support
 

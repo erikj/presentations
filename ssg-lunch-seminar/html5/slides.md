@@ -1,8 +1,8 @@
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental center
 
-![html5 logo](200px-HTML5-logo.svg.png)
+![html5 logo](500px-HTML5-logo.svg.png)
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 Background: HTML
 
 - born in 1990
@@ -12,7 +12,7 @@
 - fault-tolerant
   - e.g. auto-close `<td>` if `</td>` isn't provided
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 Background: XHTML
 
 - implementation of **XML**
@@ -22,13 +22,13 @@
 - attempt @ standardization
 - strict: parse error stops document processing
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 Background: Living Standard
 
 - *The concept of a living standard is that it is never complete and is always being updated and improved*
 - "moving target"
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 Background
 
 - supercedes:
@@ -36,7 +36,7 @@
     - **XHTML 1**
     - **DOM** Level 2 **HTML**
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 Background
 
 - attempts to replace
@@ -45,7 +45,7 @@
         - e.g. Adobe Flash
 
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 New Features
 
 - media elements:
@@ -55,7 +55,7 @@
     - SVG
     - MathML
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 New Features
 
 - semantic content identifiers:
@@ -67,7 +67,7 @@
 - **DOM** now part of HTML spec
 
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 New Features: media queries
 
 query device display properties via **CSS3**
@@ -80,7 +80,7 @@ query device display properties via **CSS3**
 
 <http://www.w3.org/TR/css3-mediaqueries/>
 
-<!SLIDE bullets incremental>
+!SLIDE bullets incremental
 # HTML5 New Features: browser support
 
 - not yet an official standard, so no browsers completely support all **HTML5** features
