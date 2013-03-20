@@ -27,12 +27,12 @@
 !SLIDE bullets incremental
 # Responsive Bootstrap
 
-- **Bootstrap's** responsive-design **CSS** takes care of a lot of this:
+**Bootstrap's** responsive-design **CSS** takes care of a lot of this:
 
-        @@@html
-        <link href="bootstrap-responsive.css"
+    @@@html
+    <link href="bootstrap-responsive.css"
           media="screen"
           rel="stylesheet"
           type="text/css" />
 
-- => *responsive magic*
+=> *responsive magic*
