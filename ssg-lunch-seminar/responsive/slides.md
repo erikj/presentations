@@ -58,16 +58,12 @@
 - Allows assignment of page width, based on pixels, device width, scaling, etc.
 
 !SLIDE smaller incremental center
-# Responsive Viewport
-
-Default, no viewport tag:
+# Responsive Viewport Disabled
 
 ![catalog-ui-no-viewport.png](catalog-ui-no-viewport.png)
 
 !SLIDE smaller incremental center
-# Responsive Viewport
-
-Viewport tagged
+# Responsive Viewport Enabled
 
     @@@html
     <meta content='width=device-width, initial-scale=1'

@@ -1,4 +1,4 @@
-!SLIDE small
+!SLIDE bullets small
 # Further Reading
 
 - <http://www.html5rocks.com/en/>
