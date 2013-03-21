@@ -72,9 +72,28 @@
 
 - **DOM** now part of HTML spec
 
+!SLIDE center
+# HTML5 New Features
+## That's Not All, Folks...
+
+![but wait, there's more!](but-wait.jpg)
+
+!SLIDE smaller incremental
+# HTML5 New Features
+## More!
+
+- Timed media playback
+- Offline Web Applications
+- Document editing
+- Drag-and-drop
+- Cross-document messaging
+- Browser history management
+- **MIME** type and protocol handler registration
+- Microdata
+- Web Storage
 
 !SLIDE bullets incremental small
-# HTML5: media queries
+# HTML5 media queries
 
 query device display properties via **CSS3**
     
