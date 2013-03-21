@@ -3,7 +3,7 @@
 ![html5 logo](500px-HTML5-logo.svg.png)
 
 !SLIDE bullets incremental
-# HTML5 Background: HTML
+# HTML
 
 - born in 1990
 - implementation of **SGML**
@@ -13,7 +13,7 @@
   - e.g. auto-close `<td>` if `</td>` isn't provided
 
 !SLIDE bullets incremental
-# HTML5 Background: XHTML
+# XHTML
 
 - implementation of **XML**
     - valid **XHTML** == valid **XML**
@@ -22,27 +22,29 @@
 - attempt @ standardization
 - strict: parse error stops document processing
 
-!SLIDE bullets incremental
-# HTML5 Background: Living Standard
+!SLIDE small bullets incremental
+# HTML5: Living Standard
 
-- *The concept of a living standard is that it is never complete and is always being updated and improved* - <http://en.wikipedia.org/wiki/HTML5#Standardization_process>
+- *The concept of a living standard is that it is never complete and is always being updated and improved* - [en.wikipedia.org/wiki/HTML5#Standardization_process](http://en.wikipedia.org/wiki/HTML5#Standardization_process)
 - "moving target"
 
 !SLIDE bullets incremental
-# HTML5 Background
+# HTML5
 
-- supercedes:
-    - **HTML 4**
-    - **XHTML 1**
-    - **DOM** Level 2 **HTML**
+## supercedes:
+
+- **HTML 4**
+- **XHTML 1**
+- **DOM** Level 2 **HTML**
 
 !SLIDE bullets incremental
-# HTML5 Background
+# HTML5
 
-- attempts to replace
-    - ad-hoc and non-standard APIs
-    - proprietary plugins
-        - e.g. Adobe Flash
+## attempts to replace
+
+- ad-hoc and non-standard APIs
+- proprietary plugins
+    - e.g. Adobe Flash
 
 
 !SLIDE bullets incremental
@@ -68,7 +70,7 @@
 
 
 !SLIDE bullets incremental small
-# HTML5 New Features: media queries
+# HTML5: media queries
 
 query device display properties via **CSS3**
     
@@ -81,7 +83,7 @@ query device display properties via **CSS3**
 <http://www.w3.org/TR/css3-mediaqueries/>
 
 !SLIDE bullets incremental
-# HTML5 New Features: browser support
+# HTML5: browser support
 
 - not yet an official standard, so no browsers completely support all **HTML5** features
 
