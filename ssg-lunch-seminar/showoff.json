@@ -6,7 +6,7 @@
    //  },
 
   "sections": [
-    "# Browser-side Field-Catalog 2.0:\n## HTML5, Responsive Web Design, Twitter Bootstrap",
+    "# Browser-side Field-Catalog 2.0\n## HTML5, Responsive Web Design, Twitter Bootstrap\n### SSG Lunch Seminar\n### Erik Johnson, 2013/03/21",
     {"section":"requirements"},
     {"section":"objectives"},
     {"section":"html5"},
