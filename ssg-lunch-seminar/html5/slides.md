@@ -26,11 +26,16 @@
 # HTML5: Living Standard
 
 - *The concept of a living standard is that it is never complete and is always being updated and improved* - [en.wikipedia.org/wiki/HTML5#Standardization_process](http://en.wikipedia.org/wiki/HTML5#Standardization_process)
+
+- 
+
+        @@@html
+        <!doctype html>
+
 - "moving target"
 
 !SLIDE bullets incremental
 # HTML5
-
 ## supercedes:
 
 - **HTML 4**
@@ -39,7 +44,6 @@
 
 !SLIDE bullets incremental
 # HTML5
-
 ## attempts to replace
 
 - ad-hoc and non-standard APIs
