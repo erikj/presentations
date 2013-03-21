@@ -14,11 +14,13 @@
 
 
 !SLIDE bullets incremental
-# Bootstrap
+# Bootstrap Development
 
 - Developed by employees, @mdo and @fat, @ Twitter for internal tools and Open-Sourced for users beyond Twitter
 
-- @mdo and @fat have left Twitter, and Bootstrap will drop the "Twitter" prefix w/ version 3.0
+- @mdo and @fat have left Twitter
+
+- Bootstrap will drop the "Twitter" prefix w/ version 3.0
 
 !SLIDE bullets incremental
 # Bootstrap Development
