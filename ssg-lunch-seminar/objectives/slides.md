@@ -1,4 +1,4 @@
-!SLIDE bullets incremental
+!SLIDE incremental
 # Catalog 2 Objectives
 
 - use contemporary technologies and techniques
@@ -7,7 +7,7 @@
         - don't reinvent the wheel
         - lots of smart and talented folks have done this before and well
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Catalog 2 Objectives
 
 - **DRY:** Don't Repeat Yourself

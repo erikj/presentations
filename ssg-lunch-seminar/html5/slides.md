@@ -1,8 +1,8 @@
-!SLIDE bullets incremental center
+!SLIDE incremental center
 
 ![html5 logo](500px-HTML5-logo.svg.png)
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # HTML
 
 - born in 1990
@@ -12,7 +12,7 @@
 - fault-tolerant
   - e.g. auto-close `<td>` if `</td>` isn't provided
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # XHTML
 
 - implementation of **XML**
@@ -22,7 +22,7 @@
 - attempt @ standardization
 - strict: parse error stops document processing
 
-!SLIDE small bullets incremental
+!SLIDE small incremental
 # HTML5: Living Standard
 
 - *The concept of a living standard is that it is never complete and is always being updated and improved* - [en.wikipedia.org/wiki/HTML5#Standardization_process](http://en.wikipedia.org/wiki/HTML5#Standardization_process)
@@ -34,7 +34,7 @@
 
 - "moving target"
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # HTML5
 ## supercedes:
 
@@ -42,7 +42,7 @@
 - **XHTML 1**
 - **DOM** Level 2 **HTML**
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # HTML5
 ## attempts to replace
 
@@ -51,7 +51,7 @@
     - e.g. Adobe Flash
 
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # HTML5 New Features
 ## media elements:
 
@@ -61,7 +61,7 @@
 - SVG
 - MathML
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # HTML5 New Features
 ## semantic content identifiers
 
@@ -92,7 +92,7 @@
 - Microdata
 - Web Storage
 
-!SLIDE bullets incremental small
+!SLIDE incremental small
 # HTML5 media queries
 
 query device display properties via **CSS3**
@@ -105,7 +105,7 @@ query device display properties via **CSS3**
 
 <http://www.w3.org/TR/css3-mediaqueries/>
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # HTML5: browser support
 
 - not yet an official standard, so no browsers completely support all **HTML5** features

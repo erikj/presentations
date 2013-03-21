@@ -1,4 +1,4 @@
-!SLIDE bullets incremental
+!SLIDE incremental
 # Catalog-2 Requirements: Replace Field-Catalog 1
 
 - clone-and-patch workflow
@@ -54,14 +54,14 @@
     data/           images/              js/                  ops/             rss_feeds/
     display_panel/  index.20120629.html  low_bandwidth/       other/           science/
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Catalog 2 Requirements
 ## many projects:
 
 - single database
 - single code-base
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Catalog 2 Requirements
 ## per-project customization:
 
@@ -74,13 +74,13 @@
         - tools & links
         - etc.
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Catalog 2 Requirements
 ## per-project customization:
 
 - style (**CSS**)
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Catalog 2 Requirements
 ## browser support
 
@@ -90,7 +90,7 @@
     - Safari
     - etc.
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Catalog 2 Requirements
 ## browser support
 

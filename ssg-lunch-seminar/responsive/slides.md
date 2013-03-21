@@ -1,16 +1,16 @@
-!SLIDE bullets incremental
+!SLIDE incremental
 # Responsive Design
 
 *Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to mobile phones).* - <http://en.wikipedia.org/wiki/Responsive_web_design>
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Responsive Design Elements
 
 - dynamic **CSS** based on media queries of device display properties
 - fluid grid based on percentages
 - fluid image sizes based on percentages
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Responsive Design
 
 ## write once, display anywhere
@@ -19,12 +19,12 @@
 - phones
 - tablets
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Responsive Design
 
 - When done properly, responsive web pages look nice and work well on - variety of devices and form factors.
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Responsive Bootstrap
 
 **Bootstrap's** responsive-design **CSS** takes care of a lot of this:
@@ -37,7 +37,7 @@
 
 => *responsive magic*
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Responsive Bootstrap
 
 - fluid grid elements "stack" when width is constrained
@@ -49,7 +49,7 @@
     - `.visible-desktop` / `.hidden-desktop`: `>979 px`
 
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Responsive Viewport
 
 - By default, mobile browsers try to mimic desktop display

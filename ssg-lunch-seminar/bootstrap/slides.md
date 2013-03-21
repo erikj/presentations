@@ -5,7 +5,7 @@
 
 *Sleek, intuitive, and powerful front-end framework for faster and easier web development.* - <http://twitter.github.com/bootstrap/>
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Bootstrap
 
 - A framework of **CSS** and **Javascript** components implementing common web-design patterns
@@ -13,7 +13,7 @@
 - Easy to make things look nice by default
 
 
-!SLIDE center smaller bullets incremental
+!SLIDE center smaller incremental
 # Bootstrap Development
 
 ![bird](twitter-logo.png)
@@ -24,14 +24,14 @@
 
 - Bootstrap will drop the "Twitter" prefix w/ version 3.0
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Bootstrap Development
 
 - 3000+ commits in 20 months
 - **github.com/twitter/bootstrap/issues:** 125 open, 7707 closed
 - 270+ contributors
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Bootstrap: layout systems
 
 - defined-width grid, *pixels*, constant
@@ -39,7 +39,7 @@
 - responsive-design hooks
 
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Bootstrap: CSS enhancements
 
 ## consistent / better-than-default:
@@ -50,7 +50,7 @@
 - image helpers
 - icons
 
-!SLIDE small bullets incremental
+!SLIDE small incremental
 # Bootstrap: Components
 
 - dropdown menus
@@ -61,14 +61,14 @@
 - alerts
 - progress bars
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Bootstrap: JavaScript
 
 - requires **jQuery**
 - like Bootstrap-specific **jQuery UI**
 - available as plugins
 
-!SLIDE smaller bullets incremental
+!SLIDE smaller incremental
 # Bootstrap: JavaScript Plugins
 
 - modal windows

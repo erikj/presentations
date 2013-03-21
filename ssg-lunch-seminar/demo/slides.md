@@ -1,11 +1,11 @@
-!SLIDE bullets incremental center
+!SLIDE incremental center
 # Demo
 
 - **Enough Talk!**
 
 - ![lets-surf](lets-surf.jpg)
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Demo
 
 - [Bootstrap Responsive Demo utility classes](http://erikj.github.com/responsive-demo/)

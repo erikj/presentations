@@ -1,4 +1,4 @@
-!SLIDE small bullets
+!SLIDE small
 # Further Reading
 
 - <http://www.html5rocks.com/en/>
@@ -9,7 +9,7 @@
 by Mark Otto (@mdo)](http://alistapart.com/article/building-twitter-bootstrap)
 - [iOS Developer Library: Configuring The Viewport](http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)
 
-!SLIDE bullets
+!SLIDE
 # Thanks!
 
 *Questions?*
