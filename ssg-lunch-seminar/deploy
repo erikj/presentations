@@ -1,1 +1,1 @@
-git push origin master && bundle exec showoff github && git push origin gh-pages
+git push origin master && bundle exec showoff static && bundle exec showoff github && git push origin gh-pages
