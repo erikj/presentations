@@ -1,6 +1,5 @@
 !SLIDE bullets incremental
-# Catalog-2 Requirements
-## Replace Field-Catalog 1
+# Catalog-2 Requirements: Replace Field-Catalog 1
 
 - clone-and-patch workflow
 - each project has its own:
@@ -10,8 +9,7 @@
         - perl **CGI**s
 
 !SLIDE bullets incremental
-# Catalog-2 Requirements
-## Field-Catalog 1: Catalogs
+# Field-Catalog 1: Catalogs
 
     @@@sh
     % ls /net/web/catalog/html/
@@ -43,9 +41,7 @@
 
 !SLIDE bullets incremental
 
-# Catalog-2 Requirements
-
-## Field-Catalog 1: DC3 Catalog
+# Field-Catalog 1: DC3 Catalog
 
     @@@sh
     % ls dc3_2012/
