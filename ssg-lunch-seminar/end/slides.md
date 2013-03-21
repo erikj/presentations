@@ -12,3 +12,5 @@ by Mark Otto (@mdo)](http://alistapart.com/article/building-twitter-bootstrap)
 # Thanks!
 
 *Questions?*
+
+**[erikj.github.com/ssg-lunch-seminar](http://erikj.github.com/ssg-lunch-seminar)**
