@@ -13,8 +13,10 @@
 - Easy to make things look nice by default
 
 
-!SLIDE bullets incremental
+!SLIDE center smaller bullets incremental
 # Bootstrap Development
+
+![bird](twitter-logo.png)
 
 - Developed by employees, @mdo and @fat, @ Twitter for internal tools and Open-Sourced for users beyond Twitter
 
