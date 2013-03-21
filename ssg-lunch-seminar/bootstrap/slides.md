@@ -48,7 +48,7 @@
 # Bootstrap: Components
 
 - dropdown menus
-- button groups and dropdown menus
+- button groups and button-based dropdown menus
 - navigation and navbar elements
 - breadcrumbs
 - pagination links
