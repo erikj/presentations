@@ -10,9 +10,17 @@
 
 ### ShowOff
 
-<https://github.com/schacon/showoff>
+This presentation is made w/ [ShowOff](https://github.com/schacon/showoff):
+
+install gems: `% bundle install --path vendor`
+
+serve app: `% ./serve`
+
+open: <http://localhost:9090>
+
+generate static site: `% bundle exec showoff static`
+
+`% open static/index.html`
 
 Example: [**Postgres: The Bits You Haven't Found**](https://postgres-bits.herokuapp.com/#1) / [src](https://github.com/pvh/postgres-bits)
 
-
-**IN PROGRESS:** `~/Dropbox/NCAR/ssg-lunch-seminar`
