@@ -8,7 +8,7 @@
         - static **HTML**
         - perl **CGI**s
 
-!SLIDE bullets incremental
+!SLIDE
 # Field-Catalog 1: Catalogs
 
     @@@sh
@@ -39,7 +39,7 @@
     cases99/                epic/                  index.html.20091029   post/                test/
     catalog-admin-scripts/  eventlog@              index.html.20110913   predict/             test1/
 
-!SLIDE bullets incremental
+!SLIDE
 
 # Field-Catalog 1: DC3 Catalog
 
