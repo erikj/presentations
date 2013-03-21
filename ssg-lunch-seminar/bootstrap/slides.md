@@ -1,5 +1,7 @@
-!SLIDE bullets incremental
+!SLIDE center
 # Bootstrap
+
+![B](bootstrap-logo.png)
 
 *Sleek, intuitive, and powerful front-end framework for faster and easier web development.* - <http://twitter.github.com/bootstrap/>
 
