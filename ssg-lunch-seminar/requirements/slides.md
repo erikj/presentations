@@ -63,16 +63,14 @@
 
 !SLIDE incremental
 # Catalog 2 Requirements
-## per-project customization:
+## per-project customization views (**HTML**):
 
-- views (**HTML**)
-
-    - banners
-    - footers
-    - sub-pages:
-        - home page
-        - tools & links
-        - etc.
+- banners
+- footers
+- sub-pages:
+    - home page
+    - tools & links
+    - etc.
 
 !SLIDE incremental
 # Catalog 2 Requirements
@@ -82,20 +80,18 @@
 
 !SLIDE incremental
 # Catalog 2 Requirements
-## browser support
+## browser support: desktop
 
-- modern desktop browsers:
-    - Chrome
-    - Firefox
-    - Safari
-    - etc.
+- Chrome
+- Firefox
+- Safari
+- etc.
 
 !SLIDE incremental
 # Catalog 2 Requirements
-## browser support
+## browser support: mobile
 
-- mobile browsers:
-    - Android
-    - iOS / Mobile Safari
-    - phone **and** tablet form factors
-    - not just *works ok*, but *works well*
+- Android
+- iOS / Mobile Safari
+- phone **and** tablet form factors
+- not just *works ok*, but *works well*
