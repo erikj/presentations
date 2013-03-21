@@ -53,22 +53,22 @@
 
 !SLIDE bullets incremental
 # HTML5 New Features
+## media elements:
 
-- media elements:
-    - `<video>`
-    - `<audio>`
-    - `<canvas>`
-    - SVG
-    - MathML
+- `<video>`
+- `<audio>`
+- `<canvas>`
+- SVG
+- MathML
 
 !SLIDE bullets incremental
 # HTML5 New Features
+## semantic content identifiers
 
-- semantic content identifiers:
-    - `<section>`
-    - `<article>`
-    - `<header>`
-    - `<nav>`
+- `<section>`
+- `<article>`
+- `<header>`
+- `<nav>`
 
 - **DOM** now part of HTML spec
 
