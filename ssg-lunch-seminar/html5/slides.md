@@ -25,7 +25,7 @@
 !SLIDE bullets incremental
 # HTML5 Background: Living Standard
 
-- *The concept of a living standard is that it is never complete and is always being updated and improved*
+- *The concept of a living standard is that it is never complete and is always being updated and improved* - <http://en.wikipedia.org/wiki/HTML5#Standardization_process>
 - "moving target"
 
 !SLIDE bullets incremental
