@@ -22,5 +22,7 @@ generate static site: `% bundle exec showoff static`
 
 `% open static/index.html`
 
+<http://erikj.github.com/ssg-lunch-seminar>
+
 Example: [**Postgres: The Bits You Haven't Found**](https://postgres-bits.herokuapp.com/#1) / [src](https://github.com/pvh/postgres-bits)
 
