@@ -72,6 +72,25 @@
 
 - **DOM** now part of HTML spec
 
+!SLIDE small incremental
+# HTML5 New Features
+## data- attributes
+
+embed key-value data within **HTML** `<tags>`
+
+    @@@html
+    <a href="http://www.google.com"
+       class="button"
+       data-info="popular search engine"
+    >Google</a>
+
+    <a data-toggle='collapse'>Layer Controls</a>
+    <div data-toggle='buttons-checkbox'>
+
+
+
+
+
 !SLIDE center
 # HTML5 New Features
 ## That's Not All, Folks...
