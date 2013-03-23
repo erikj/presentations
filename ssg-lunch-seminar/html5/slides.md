@@ -30,7 +30,7 @@
 - 
 
         @@@html
-        <!doctype html>
+        <!DOCTYPE html>
 
 - "moving target"
 
