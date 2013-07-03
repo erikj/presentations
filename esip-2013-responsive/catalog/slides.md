@@ -1,3 +1,3 @@
 !SLIDE center
-# section header
+# section heading: catalog
 
