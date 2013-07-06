@@ -38,12 +38,18 @@
 - etc.
 - **TODO:** *look-up other display parameters*
 
-!SLIDE incremental
+!SLIDE incremental small bullets
 # Responsive Design
 
 ## requires HTML5 media queries
 
-    @@@css
-    @media (min-width:500px) { /* css */ }
-    @media (max-width:499px) { /* narrow-screen css */ }
-    @media (orientation: portrait) { /* css */ }
+- **TODO**: *downsize HTML5 logo*
+
+  - [html5 logo](500px-HTML5-logo.svg.png)
+
+- 
+
+        @@@css
+        @media (min-width:500px) { /* css */ }
+        @media (max-width:499px) { /* narrow-screen css */ }
+        @media (orientation: portrait) { /* css */ }
