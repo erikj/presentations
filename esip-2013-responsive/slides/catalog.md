@@ -23,16 +23,6 @@
 !SLIDE incremental
 # Field Catalog 2 Goals
 
-## use contemporary technologies and techniques
-
-- Field Catalog shouldn't look old and dated
-- off-load heavy lifting to third-party libraries and frameworks where possible
-  - don't reinvent the wheel
-  - lots of smart and talented folks have done this before and well
-
-!SLIDE incremental
-# Field Catalog 2 Goals
-
 ## DRY: Don't Repeat Yourself
 
 - avoid writing new interface for every device form factor
@@ -42,3 +32,13 @@
 
 - How to achieve this in a web interface?
   - Responsive Design
+
+!SLIDE incremental
+# Field Catalog 2 Goals
+
+## use contemporary technologies and techniques
+
+- Field Catalog shouldn't look old and dated
+- off-load heavy lifting to third-party libraries and frameworks where possible
+  - don't reinvent the wheel
+  - lots of smart and talented folks have done this before and well
