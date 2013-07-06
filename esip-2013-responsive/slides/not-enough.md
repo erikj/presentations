@@ -7,6 +7,8 @@
 
 3MB image displayed on home pages
 
+**TODO:** *display nexrad mosaic image*
+
 - sourced from third party
 - NEXRAD mosaic
 - project owner *insisted* on it, without modification
