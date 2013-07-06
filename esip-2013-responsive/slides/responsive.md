@@ -1,12 +1,13 @@
-!SLIDE
+!SLIDE center
 
 # Responsive Design
 
-  > *Responsive web design is a web design approach aimed at crafting
-  sites to provide an optimal viewing experience—- easy reading and navigation
-  with a minimum of resizing, panning, and scrolling—- across a wide range of
-  devices (from desktop computer monitors to mobile phones).*
-  \- <http://en.wikipedia.org/wiki/Responsive_web_design>
+*Responsive web design is a web design approach aimed at crafting sites to
+provide an optimal viewing experience— easy reading and navigation with a
+minimum of resizing, panning, and scrolling— across a wide range of devices
+(from desktop computer monitors to mobile phones).*
+
+<http://en.wikipedia.org/wiki/Responsive_web_design>
 
 !SLIDE incremental
 # Responsive Design
