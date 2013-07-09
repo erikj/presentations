@@ -4,7 +4,7 @@
 - offload the heavy-lifting to a robust, supported framework, *e.g.*
   - Bootstrap
   - Foundation
-- test test test
+- no silver bullet
 - keep it simple
 - progressively enhance
 - use emulators and simulators when available
