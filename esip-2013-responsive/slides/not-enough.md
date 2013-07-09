@@ -58,7 +58,7 @@ User-Agent inspection
       if mobile_device?
         # mobile-specific stuff
       end
- - *Screenshot CatalogMaps interfaces*
+
  - allow user to select other interface, store interface selection as cookie
  - not immune to User-Agent spoofing
 
