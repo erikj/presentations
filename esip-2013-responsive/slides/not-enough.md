@@ -1,5 +1,30 @@
 !SLIDE incremental small
 # When responsive isn't enough:
+## Viewport
+
+- By default, mobile browsers try to mimic desktop display
+- this results in pages scaled down to fix full web page onto a small mobile display
+- Apple implemented hooks to a `viewport` meta tag
+- Allows assignment of page width, based on pixels, device width, scaling, etc.
+
+!SLIDE smaller incremental center
+# When responsive isn't enough:
+## Viewport Disabled
+
+![catalog-ui-no-viewport.png](catalog-ui-no-viewport.png)
+
+!SLIDE smaller incremental center
+# When responsive isn't enough:
+## Viewport Enabled
+
+    @@@html
+    <meta content='width=device-width, initial-scale=1'
+     name='viewport'>
+
+![catalog-ui-viewport.png](catalog-ui-viewport.png)
+
+!SLIDE incremental small
+# When responsive isn't enough:
 
 ## form-factor-specific interfaces required
 
