@@ -54,6 +54,32 @@ Open-Sourced for users beyond Twitter
 - alerts
 - progress bars
 
+!SLIDE
+# Bootstrap
+
+## Responsive
+
+    @@@ html
+    <link href="bootstrap.css"
+          rel="stylesheet"
+          type="text/css" />
+    <link href="boostrap-responsive.css"
+          rel="stylesheet"
+          type="text/css" />
+
+!SLIDE incremental
+# Bootstrap
+
+## Fluid-Grid Layout
+
+    @@@ html
+    <div class='row-fluid'>
+      <span6>alpha</span6>
+      <span6>beta</span6>
+    </div>
+
+- spans entire page or collapses, depending on device's display width
+
 !SLIDE incremental
 # Bootstrap
 
@@ -73,7 +99,6 @@ Open-Sourced for users beyond Twitter
 
 ## Responsive NavBar
 
-**TODO:**
+- almost every site displays navigation on every page
+- Bootstrap's responsive navbar collapses to dropdown menu on smaller screens
 
-- describe
-- screenshots

@@ -37,16 +37,13 @@ minimum of resizing, panning, and scrolling— across a wide range of devices
 - color / black & white
 - text-only
 - etc.
-- **TODO:** *look-up other display parameters*
 
-!SLIDE incremental small bullets
+!SLIDE incremental smaller bullets
 # Responsive Design
 
 ## requires HTML5 media queries
 
-- **TODO**: *downsize HTML5 logo*
-
-  - [html5 logo](500px-HTML5-logo.svg.png)
+- ![html5 logo](165px-HTML5-logo.svg.png)
 
 - 
 
