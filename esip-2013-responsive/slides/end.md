@@ -14,6 +14,7 @@
 # `</presentation>`
 
 - `ej@ucar.edu`
+- <https://github.com/erikj>
 - <http://erikj.github.io/esip-2013-responsive>
 - *thanks!*
 - *questions?*
