@@ -12,7 +12,7 @@
 - project owner *insisted* on it, without modification
 - limit for mobile devices:
 
-    - ??? MB
+    - 2-3 megapixels
     - mobile browsers want to conserve RAM
 
 !SLIDE incremental
@@ -58,7 +58,7 @@ User-Agent inspection
       if mobile_device?
         # mobile-specific stuff
       end
- - *Screenshot CatalogMaps interfaces*
+
  - allow user to select other interface, store interface selection as cookie
  - not immune to User-Agent spoofing
 
