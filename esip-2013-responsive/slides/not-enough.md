@@ -12,7 +12,7 @@
 - project owner *insisted* on it, without modification
 - limit for mobile devices:
 
-    - ??? MB
+    - 2-3 megapixels
     - mobile browsers want to conserve RAM
 
 !SLIDE incremental
