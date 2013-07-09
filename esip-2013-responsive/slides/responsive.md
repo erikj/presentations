@@ -37,7 +37,6 @@ minimum of resizing, panning, and scrolling— across a wide range of devices
 - color / black & white
 - text-only
 - etc.
-- **TODO:** *look-up other display parameters*
 
 !SLIDE incremental smaller bullets
 # Responsive Design
