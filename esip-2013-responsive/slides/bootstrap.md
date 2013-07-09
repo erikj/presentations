@@ -97,6 +97,13 @@ Open-Sourced for users beyond Twitter
 !SLIDE incremental
 # Bootstrap
 
+## Responsive Hooks Demo
+
+[Demo](http://erikj.github.io/responsive-demo/)
+
+!SLIDE incremental
+# Bootstrap
+
 ## Responsive NavBar
 
 - almost every site displays navigation on every page
