@@ -4,6 +4,9 @@
 - offload the heavy-lifting to a robust, supported framework, *e.g.*
   - Bootstrap
   - Foundation
+- it's easy to make override styles so that you application does not look like
+Just Another Bootstrap App
+  - you may or may not want to do this
 - no silver bullet
 - keep it simple
 - progressively enhance
