@@ -99,7 +99,7 @@ Open-Sourced for users beyond Twitter
 
 ## Responsive Hooks Demo
 
-[Demo](http://erikj.github.io/responsive-demo/)
+[Demo](http://erikj.github.io/responsive-demo)
 
 !SLIDE incremental
 # Bootstrap
@@ -109,3 +109,9 @@ Open-Sourced for users beyond Twitter
 - almost every site displays navigation on every page
 - Bootstrap's responsive navbar collapses to dropdown menu on smaller screens
 
+!SLIDE
+# Bootstrap
+
+## Responsive Demo
+
+[Bootstrap Documentation Site](http://twitter.github.io/bootstrap/)
