@@ -63,7 +63,7 @@ Open-Sourced for users beyond Twitter
     <link href="bootstrap.css"
           rel="stylesheet"
           type="text/css" />
-    <link href="boostrap-responsive.css"
+    <link href="bootstrap-responsive.css"
           rel="stylesheet"
           type="text/css" />
 
