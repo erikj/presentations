@@ -39,3 +39,7 @@ Serve the slides as a Sinatra app:
     % git push origin gh-pages
     % open http://username.github.io/esip-2013-responsive
 
+## License
+
+This work is licensed under the
+[Creative Commons — Attribution 3.0](http://creativecommons.org/licenses/by/3.0/us/) license.
