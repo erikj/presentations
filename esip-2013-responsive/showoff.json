@@ -1,7 +1,7 @@
 {
   "name": "ESIP 2013 Responsive",
   "sections": [
-    "# NCAR EOL's Experience Using Twitter Bootstrap and Responsive Web Design For Field Catalog 2.0\n## Erik Johnson, UCAR\n### ESIP 2013 Summmer Conference, 2013/07/09",
+    "# NCAR EOL's Experience Using Twitter Bootstrap and Responsive Web Design For Field Catalog 2.0\n## Erik Johnson, UCAR\n### ESIP 2013 Summer Meeting, 2013/07/09",
     {"section":"slides/intro.md"},
     {"section":"slides/catalog.md"},
     {"section":"slides/responsive.md"},
