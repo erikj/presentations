@@ -65,14 +65,26 @@ https://github.com/blog/831-issues-2-0-the-next-generation
 
 !SLIDE
 
-# GitHub auto-hot-linking
+# GitHub Magic!
 
 `#`'ed issues, commits and `@`'ed usernames are hot-linked:
 
-- #1337 => issues/1337
+- \#1337 => issues/1337
 - 047decc => commit/047decc
 - @erikj => http://github.com/erikj
 
+!SLIDE
+
+# GitHub Magic!
+
+checklists:
+
+```
+- [x] this is a completed item
+- [ ] this is a TODO item
+```
+
+![checklist-screenshot](img/checklist-screenshot.png)
 
 !SLIDE
 
@@ -90,3 +102,7 @@ when a developer is ready to work on an issue, they add the **CHECKED OUT** labe
 
 and assign the issue to themselves.
 
+
+**TODO**
+
+step through issue creation w/ example
