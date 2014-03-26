@@ -28,9 +28,9 @@ caveat emptor!
 
 !SLIDE
 
-# NCAR
+### NCAR Earth Observing Laboratory
 
-## Earth Observing Laboratory (EOL)
+### (EOL)
 
 <img src='img/eollogo_transparent.png' height=400 width=400 />
 
