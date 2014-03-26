@@ -65,6 +65,8 @@ caveat emptor!
   - Catalog Maps web application
   - Catalog Nagios monitoring utility
 
+- 2-6 active Software Engineers @ any time
+
 !SLIDE
 
 # Git
@@ -73,12 +75,12 @@ caveat emptor!
 $ man git
 
 NAME
-    git - the stupid content tracker
+  git - the stupid content tracker
 
 DESCRIPTION
-   Git is a fast, scalable, distributed revision control system with an
-   unusually rich command set that provides both high-level operations and
-   full access to internals.
+  Git is a fast, scalable, distributed revision control system with an
+  unusually rich command set that provides both high-level operations and
+  full access to internals.
 ```
 
 - DVCS <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -92,4 +94,13 @@ DESCRIPTION
 
 <!-- - *TODO: GitHub description* -->
 
-> a web-based hosting service for software development projects that use the Git revision control system. - http://en.wikipedia.org/wiki/GitHub
+> a web-based hosting service for software development projects that use the Git revision control system.
+
+- most popular host of Open-Source projects
+
+<!-- - *TODO: GitHub stats* -->
+
+- 3.5 million users
+- 10 million repositories
+
+http://en.wikipedia.org/wiki/GitHub
