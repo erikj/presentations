@@ -7,7 +7,7 @@
 <img src='img/octocat-original.png' height=150 width=150/>
 
 
-#### Erik Johnson, UCAR EOL
+#### Erik Johnson, NCAR EOL
 
 #### EOL-Prog Lunch Seminar, 2014/03/27
 
