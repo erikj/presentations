@@ -1,11 +1,10 @@
 
 ## `git@github.com:ncareol`
 
-### we &#10084; git, we &#10084; github
+### We <span style="color:#f00;">&#10084;</span> Git, We <span style="color:#f00;">&#10084;</span> GitHub
 
 <img src='img/eollogo_transparent.png' height=150 width=150/>
 <img src='img/octocat-original.png' height=150 width=150/>
-
 
 #### Erik Johnson, NCAR EOL
 
