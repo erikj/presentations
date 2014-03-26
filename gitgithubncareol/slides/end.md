@@ -11,7 +11,7 @@
 
 !SLIDE
 
-# end
+# `</content>`
 
 - thanks!
 - comments, questions?
