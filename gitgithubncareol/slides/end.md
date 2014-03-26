@@ -1,6 +1,3 @@
-# end
-
-!SLIDE
 
 # References
 
@@ -12,7 +9,12 @@
 - http://martinfowler.com/bliki/TwoHardThings.html
 - https://github.com/torvalds/linux/pull/17#issuecomment-5654674
 
+!SLIDE
+
 # end
 
 - thanks!
 - comments, questions?
+
+- `ej@ucar.edu`
+- http://github.com/erikj
