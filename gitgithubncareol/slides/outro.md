@@ -1,4 +1,14 @@
 
+# Future
+
+- Faster, smarter Easy Deploys
+- Continuous Integration
+- Vagrant
+- DevOps
+- Open Source
+
+!SLIDE
+
 # References
 
 - https://github.com/blog/1470-five-years
