@@ -115,3 +115,22 @@ DESCRIPTION
 - 10 million repositories
 
 http://en.wikipedia.org/wiki/GitHub
+
+!SLIDE
+
+# GitHub Organizations
+
+- unlimited collaborators (associated users)
+- unlimited public repositories
+- pay for private repositories
+
+https://github.com/pricing
+
+!SLIDE
+
+# GitHub Orgs: `ncareol`
+
+- initially: Bronze, 10 private repositories, $25 / month
+- later: Silver, 20 private repositories, $50 / month
+
+https://github.com/pricing
