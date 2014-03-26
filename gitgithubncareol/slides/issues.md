@@ -67,7 +67,7 @@ https://github.com/blog/831-issues-2-0-the-next-generation
 
 # GitHub Magic!
 
-`#`'ed issues, commits and `@`'ed usernames are hot-linked:
+`#`issues, commits and `@`usernames are hot-linked:
 
 - \#1337 => issues/1337
 - 047decc => commit/047decc
