@@ -12,6 +12,22 @@
 
 !SLIDE
 
+# `0.1.0` alpha release
+
+preparation for presentation of same name at SEA Conf 2014
+
+https://sea.ucar.edu/event/gitgithubcomncareol
+
+bleeding edge!
+
+may contain sharp edges!
+
+may be superceded by breaking changes!
+
+caveat emptor!
+
+!SLIDE
+
 # NCAR
 
 ## Earth Observing Laboratory (EOL)
