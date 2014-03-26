@@ -115,13 +115,40 @@ https://github.com/blog/831-issues-2-0-the-next-generation
 
 !SLIDE
 
-issues can be assigned to a milestone
+# Milestones
+
+- title
+- description (optional)
+- due date
+- set of issues
 
 !SLIDE
 
-issues can be assigned one or more tags
+# Milestones
+
+![milestone-screenshot](img/milestone-screenshot.png)
 
 !SLIDE
+
+# Milestones
+
+We generally assign significant, planned versions to their own milestones, *e.g.*
+
+- **Catalog Maps 2.0**
+- **Catalog Maps 2.1**
+- **Catalog Maps 2.2**
+
+!SLIDE
+
+# Labels
+
+Issues can be assigned one or more labels
+
+Create / edit / delete labels as needed
+
+!SLIDE
+
+# CHECKED OUT
 
 ![CHECKED OUT](img/checked-out-screenshot.png)
 
