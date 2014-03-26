@@ -1,14 +1,15 @@
+
+## `git@github.com:ncareol`
+
+### we &#10084; git, we &#10084; github
+
 <img src='img/eollogo_transparent.png' height=150 width=150/>
 <img src='img/octocat-original.png' height=150 width=150/>
 
 
-`git@github.com:ncareol`
-
-### we &#10084; git, we &#10084; github
-
 #### Erik Johnson, UCAR EOL
 
-#### SE Seminar, 2014/03/27
+#### EOL-Prog Lunch Seminar, 2014/03/27
 
 !SLIDE
 
