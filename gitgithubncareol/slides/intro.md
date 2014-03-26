@@ -71,6 +71,12 @@ caveat emptor!
 
 # Git
 
+- created by Linus Torvalds to manage development of Linux kernel
+
+!SLIDE
+
+# Git
+
 ```
 $ man git
 
@@ -83,8 +89,13 @@ DESCRIPTION
   full access to internals.
 ```
 
-- DVCS <!-- .element: class="fragment" data-fragment-index="4" -->
-- created by Linus Torvalds to manage development of Linux <!-- .element: class="fragment" data-fragment-index="4" -->
+!SLIDE
+
+# Git
+
+- DVCS, *cf.* **Hg**, **GNU Bazaar**, **BitKeeper**
+- every repository / check out is a complete, free-standing repository
+- developers have a complete VCS w/o need to interact w/ central / other repositories
 
 !SLIDE
 
