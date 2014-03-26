@@ -48,6 +48,8 @@ http://nvie.com/posts/a-successful-git-branching-model/
 - `fix-314-pi-miscalculation`
 - `hotfix-all-the-bugs`
 
+!SLIDE
+
 # workflow in action, contrived example, part 1
 
 ```
@@ -58,3 +60,34 @@ $ vi db/migrate/022_add_columns_to_project.rb # make and save changes
 $ git commit -m "add columns to table project; #99"
 $ git push -u origin feature-99-add-columns-to-project # push to origin
 ```
+
+!SLIDE
+
+# GitHub Issues: Issue Number
+
+including the issue number, prefixed w/ `#` will associate w/ the issue and cause the commit to be displayed on and linked from the issue's page
+
+- **TODO** include example(s)
+
+!SLIDE
+
+# GitHub Issues: Issue Number
+
+
+- issues can also be closed from commit messages, w/ `fixes` `closes`, *etc.* before commit number:
+
+  - `fixes`
+  - `fixed`
+  - `fix`
+  - `closes`
+  - `close`
+  - `closed`
+
+!SLIDE
+
+# GitHub Issues: Issue Number
+
+- good to separate issue identifier from message w/ some delimiter
+  - want to avoid "apply required CSS fix #99" from closing `#99`
+  - "apply required CSS fix; #99" doesn't close `#99`
+  - but if we did intend close the issue: "apply required CSS; fix #99"
