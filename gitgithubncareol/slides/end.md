@@ -1,6 +1,9 @@
 
 # References
 
+- https://github.com/blog/1470-five-years
+- https://github.com/blog/1724-10-million-repositories
+- https://github.com/pricing
 - https://daringfireball.net/projects/markdown/basics
 - https://help.github.com/articles/github-flavored-markdown
 - https://github.com/blog/831-issues-2-0-the-next-generation

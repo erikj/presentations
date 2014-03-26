@@ -110,10 +110,11 @@ DESCRIPTION
 
 <!-- - *TODO: GitHub stats* -->
 
-- 3.5 million users
-- 10 million repositories
+- 3.5 million users, April 2013 [1]
+- 10 million repositories, December 2013 [2]
 
-http://en.wikipedia.org/wiki/GitHub
+[1] https://github.com/blog/1470-five-years
+[2] https://github.com/blog/1724-10-million-repositories
 
 !SLIDE
 
