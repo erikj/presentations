@@ -73,7 +73,6 @@ including the issue number, prefixed w/ `#` will associate w/ the issue and caus
 
 # GitHub Issues: Issue Number
 
-
 - issues can also be closed from commit messages, w/ `fixes` `closes`, *etc.* before commit number:
 
   - `fixes`
@@ -87,7 +86,7 @@ including the issue number, prefixed w/ `#` will associate w/ the issue and caus
 
 # GitHub Issues: Issue Number
 
-- good to separate issue identifier from message w/ some delimiter
+- good to separate issue ID from message w/ a safe delimiter
   - want to avoid "apply required CSS fix #99" from closing `#99`
-  - "apply required CSS fix; #99" doesn't close `#99`
+  - semicolon delimiter: "apply required CSS fix; #99" doesn't close `#99`
   - but if we did intend close the issue: "apply required CSS; fix #99"
