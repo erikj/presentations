@@ -15,7 +15,7 @@ Issues generally fall into one of two categories:
 
 !SLIDE
 
-issue description:
+# Issue Description
 
 composed in plain text and / or markdown / GFM
 
@@ -23,7 +23,7 @@ composed in plain text and / or markdown / GFM
 
 # Markdown
 
-syntax for authoring that compiles to HTML
+plain-text syntax for authoring that compiles to HTML
 
 designed to be written quickly w/ rich-text formatting provided by HTML
 
@@ -57,11 +57,34 @@ https://daringfireball.net/projects/markdown/basics
 
 # GitHub-Flavored Markdown
 
-- language-specific syntax highlighting
+Misc enhancements to plain-old Markdown
+
+- auto-link URLs
+- strikethrough: `~~struck~~` => ~~struck~~
 
 https://help.github.com/articles/github-flavored-markdown
 
-https://github.com/blog/831-issues-2-0-the-next-generation
+!SLIDE
+
+# GitHub-Flavored Markdown
+
+Misc enhancements to plain-old Markdown
+
+- language-specific syntax highlighting
+
+  <pre><code data-ignore>```javascript
+  function alertHello() {
+    alert("Hello World!");
+  }
+  ```</code></pre>
+
+  ```javascript
+  function alertHello() {
+    alert("Hello World!");
+  }
+  ```
+
+https://help.github.com/articles/github-flavored-markdown
 
 !SLIDE
 
@@ -72,6 +95,8 @@ https://github.com/blog/831-issues-2-0-the-next-generation
 - \#1337 => issues/1337
 - 047decc => commit/047decc
 - @erikj => http://github.com/erikj
+
+https://github.com/blog/831-issues-2-0-the-next-generation
 
 !SLIDE
 
@@ -85,6 +110,8 @@ checklists:
 ```
 
 ![checklist-screenshot](img/checklist-screenshot.png)
+
+https://github.com/blog/831-issues-2-0-the-next-generation
 
 !SLIDE
 
