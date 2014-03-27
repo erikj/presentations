@@ -60,15 +60,15 @@ http://nvie.com/posts/a-successful-git-branching-model/
 ```
 $ git checkout develop
 $ git pull # update w/ latest from origin: github
-$ git checkout -b feature-99-add-columns-to-project
-$ vi db/migrate/022_add_columns_to_project.rb # make and save changes
+$ git checkout -b feature-99-add-project-columns
+$ vi db/migrate/022_add_project_columns.rb # make and save changes
 $ git commit -m "add columns to table project; #99"
-$ git push -u origin feature-99-add-columns-to-project # push to origin
+$ git push -u origin feature-99-add-project-columns # push to origin
 ```
 
 !SLIDE
 
-# GitHub Issues: Issue Number
+# Commit Messages: Issue Number
 
 including the issue number, prefixed w/ `#` will associate w/ the issue and cause the commit to be displayed on and linked from the issue's page
 
@@ -76,7 +76,7 @@ including the issue number, prefixed w/ `#` will associate w/ the issue and caus
 
 !SLIDE
 
-# GitHub Issues: Issue Number
+# Commit Messages: Issue Number
 
 - issues can also be closed from commit messages, w/ `fixes` `closes`, *etc.* before commit number:
 
@@ -89,7 +89,7 @@ including the issue number, prefixed w/ `#` will associate w/ the issue and caus
 
 !SLIDE
 
-# GitHub Issues: Issue Number
+# Commit Messages: Issue Number
 
 - good to separate issue ID from message w/ a safe delimiter
   - want to avoid "apply required CSS fix #99" from closing `#99`
