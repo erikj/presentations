@@ -1,4 +1,4 @@
-# github-pull-requests
+# github pull-requests
 
 **TODO**
 
