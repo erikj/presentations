@@ -11,6 +11,8 @@
 
 # References
 
+- http://en.wikipedia.org/wiki/Git_(software)
+- http://en.wikipedia.org/wiki/GitHub
 - https://github.com/blog/1470-five-years
 - https://github.com/blog/1724-10-million-repositories
 - https://github.com/pricing
