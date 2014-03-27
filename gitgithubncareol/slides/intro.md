@@ -34,17 +34,11 @@ caveat emptor!
 
 <img src='img/eollogo_transparent.png' height=400 width=400 />
 
-
-- *TODO: EOL description*?
-
 !SLIDE
 
 # NCAR EOL: Field Projects
 
 - campaigns to conduct atmospheric research
-
-- **TODO:**
-  - Field-Project logos
 
 - *e.g.*
   - DC3 (2012)
@@ -57,7 +51,9 @@ caveat emptor!
 # NCAR EOL: Field Catalog
 
 - serves and archives field-project data
-- 2-6 active Software Engineers @ any time
+- used during and after project
+- developed by 2-6 active Software Engineers @ any time
+- administered by ~ one Software Engineer / active project
 
 !SLIDE
 

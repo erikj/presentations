@@ -37,20 +37,52 @@ Add `[receive]` section to `.git/config`
 
 Automatically trigger actions that are required so that service is aware and updated w/ `push`ed source code
 
-git hooks
+`.git/hooks/post-receive`:
 
-- `.git/hooks/post-receive`
+```
+echo "bundle'ing"
+bundle install --local --path=vendor --deployment --without development test
 
-git remotes
+echo "precompile'ing assets"
+rake RAILS_ENV=production assets:precompile
+
+echo "reloading"
+/usr/local/catalog/etc/catalog-ui-reload
+```
+
+!SLIDE
+
+# Easy Deploys w/ Git: Remotes
+
+```
+[ej@kepler] git remote -v
+dev ssh://ej@ctm-dev.eol.ucar.edu/usr/local/catalog/catalog_ui (fetch)
+dev ssh://ej@ctm-dev.eol.ucar.edu/usr/local/catalog/catalog_ui (push)
+ops ssh://ej@sferic.eol.ucar.edu:23/usr/local/catalog/catalog_ui (fetch)
+ops ssh://ej@sferic.eol.ucar.edu:23/usr/local/catalog/catalog_ui (push)
+staging ssh://ej@sferic-dev.eol.ucar.edu/usr/local/catalog/catalog_ui (push)
+staging ssh://ej@sferic-dev.eol.ucar.edu/usr/local/catalog/catalog_ui (fetch)
+```
 
 !SLIDE
 
 # Merge, Easily Deploy
 
-command line
-
 - merge to `develop`
-- deploy local `develop` branch to dev
+- deploy local `develop` branch to `dev`
+  ```
+  $ git push dev develop
+  ```
+- test changes on `dev` environment
 - merge to `master`
 - deploy local `master` to staging
+  ```
+  $ git push staging master
+  ```
+- test changes on `staging` environment
+- `tag` release
 - deploy local `master` to ops
+  ```
+  $ git push ops master
+  ```
+- test changes on `staging` environment
