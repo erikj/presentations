@@ -4,8 +4,8 @@
 - use `aliases`
   ```
 [alias]
-    ss  = status
-    s   = status -sb
+    ss = status
+    s  = status -sb
     cl = config --list
     a  = add
     ci = commit
@@ -14,6 +14,7 @@
     ds = diff --cached # diff staged changes
     p  = push
     b  = branch
+    undo    = reset --soft HEAD^
 ```
 
 https://github.com/erikj/dotfiles/blob/master/kepler/.gitconfig
