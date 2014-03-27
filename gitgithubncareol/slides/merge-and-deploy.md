@@ -29,7 +29,6 @@ git remotes
 
 # Merge, Easily Deploy
 
-
 command line
 
 - merge to `develop`
@@ -37,4 +36,3 @@ command line
 - merge to `master`
 - deploy local `master` to staging
 - deploy local `master` to ops
-
