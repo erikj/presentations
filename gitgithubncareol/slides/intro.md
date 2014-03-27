@@ -76,11 +76,14 @@ caveat emptor!
 
 # Git
 
-- created by Linus Torvalds to manage development of Linux kernel
+- created by Linus Torvalds for development of Linux kernel
+- initially released in 2005
+
+http://en.wikipedia.org/wiki/Git_(software)
 
 !SLIDE
 
-# Git
+# `$ man git`
 
 ```
 $ man git
@@ -98,8 +101,8 @@ DESCRIPTION
 
 # Git
 
-- DVCS, *cf.* **Hg**, **GNU Bazaar**, **BitKeeper**
-- every repository / check out is a complete, free-standing repository
+- DVCS, *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
+- every check out is a complete, free-standing repository
 - developers have a complete VCS w/o need to interact w/ central / other repositories
 
 !SLIDE
