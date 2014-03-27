@@ -44,7 +44,7 @@ http://nvie.com/posts/a-successful-git-branching-model/
 > There are two hard problems in computer science: cache invalidation, naming things and off-by-one errors. Phil Karlton + [Martin Fowler](http://martinfowler.com/bliki/TwoHardThings.html)
 
 1. Prefix the branch name w/ the branch category: *e.g.* `feature`, `fix`
-1. If the branch is associated w/ an issue, include the issue number
+1. If the branch is associated w/ an issue, include the issue number-- easy point of reference for which issue the branch applies
 1. Finish the branch name w/ short-but-informative description
 
 *e.g.*
