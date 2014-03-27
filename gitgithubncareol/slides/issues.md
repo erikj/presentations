@@ -90,7 +90,7 @@ https://help.github.com/articles/github-flavored-markdown
 
 # GitHub Magic!
 
-`#`issues, commits and `@`usernames are hot-linked:
+`#`issues, `@`usernames and commit hashes are hot-linked:
 
 - \#1337 => issues/1337
 - 047decc => commit/047decc

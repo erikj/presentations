@@ -95,3 +95,9 @@ including the issue number, prefixed w/ `#` will associate w/ the issue and caus
   - want to avoid "apply required CSS fix #99" from closing `#99`
   - semicolon delimiter: "apply required CSS fix; #99" doesn't close `#99`
   - but if we did intend close the issue: "apply required CSS; fix #99"
+
+!SLIDE
+
+# Commit Message: GitHub Magic
+
+Like Issue content, `#`issue IDs, `@`usernames and commit hashes will be autolinked in GitHub's web interface.
