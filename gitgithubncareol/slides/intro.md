@@ -109,20 +109,25 @@ DESCRIPTION
 
 # GitHub
 
-<img src='img/octocat-original.png' height=400 width=400 />
-
-<!-- - *TODO: GitHub description* -->
+<img src='img/octocat-original.png' height=200 width=200 />
 
 > a web-based hosting service for software development projects that use the Git revision control system.
 
-- most popular host of Open-Source projects
+http://en.wikipedia.org/wiki/GitHub
 
-<!-- - *TODO: GitHub stats* -->
+!SLIDE
+
+# GitHub
+
+<img src='img/octocat-original.png' height=200 width=200 />
+
+- most popular host of Open-Source projects
 
 - 3.5 million users, April 2013 [1]
 - 10 million repositories, December 2013 [2]
 
 [1] https://github.com/blog/1470-five-years
+
 [2] https://github.com/blog/1724-10-million-repositories
 
 !SLIDE
