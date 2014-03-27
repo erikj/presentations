@@ -59,10 +59,12 @@ caveat emptor!
 - serves and archives field-project data
 
 - suite of web and database applications
-  - zith9 mysql database schema
-  - Field Catalog web application
-  - Catalog Maps web application
-  - Catalog Nagios monitoring utility
+  - *zith9* mysql database schema
+  - *Catalog Ingest* application
+  - *Field Catalog* web application
+  - *Catalog Maps* web application
+  - *Catalog Nagios* monitoring utility
+  - *Catalog Stats* command-line application
 
 - 2-6 active Software Engineers @ any time
 
