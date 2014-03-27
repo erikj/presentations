@@ -1,4 +1,35 @@
 
+# Lessons Learned
+
+- Use the tools you have / that are available:
+  - Git is awesome
+  - GitHub is awesome
+  - Markdown is awesome
+  - packaging libraries offer many features
+
+- GitHub is reliable and simple but powerful
+
+- Issue discovery can be difficult when there are many Issues
+  - => Easy to create duplicates
+
+- Use Labels for organization
+
+- Use Git `tag`s for releases
+
+- Minimize third-party dependencies
+
+!SLIDE
+
+# Summary
+
+- Development starts w/ an Issue
+- Markdown / GFM and auto-linking features
+- Git-Branching Workflow
+- GitHub Pull Requests: code review and discussion
+- Git-Based Easy Deploys
+
+!SLIDE
+
 # Future
 
 - Faster, smarter Easy Deploys
