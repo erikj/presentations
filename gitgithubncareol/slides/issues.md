@@ -150,6 +150,18 @@ Useful for categorizing issues
 
 !SLIDE
 
+# Labels
+
+![bug label](img/label-bug.png)
+
+![feature label](img/label-feature.png)
+
+![security label](img/label-security.png)
+
+![high-priority label](img/label-high-priority.png)
+
+!SLIDE
+
 # CHECKED OUT
 
 ![CHECKED OUT](img/checked-out-screenshot.png)
