@@ -104,6 +104,8 @@ https://github.com/erikj/dotfiles/blob/master/.gitignore-global
 - http://nvie.com/posts/a-successful-git-branching-model/
 - http://martinfowler.com/bliki/TwoHardThings.html
 - https://github.com/torvalds/linux/pull/17#issuecomment-5654674
+- https://devcenter.heroku.com/articles/git
+- https://github.com/erikj/dotfiles
 
 !SLIDE
 
