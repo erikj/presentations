@@ -180,7 +180,7 @@ Issues can be observed and commented upon as they progress
 
 - Comments can be in-line w/ Issue
 
-- Comments can be made to specific commits of lines of commits
+- Comments can be made to specific commits or lines of commits
 
 - Comments are in Markdown / GFM w/ auto-linking features described previously
 
