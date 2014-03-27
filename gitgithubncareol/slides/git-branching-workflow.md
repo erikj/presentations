@@ -1,29 +1,34 @@
-# git-branching-workflow
 
-!SLIDE
+# Branches
 
-# branches
-
-branches are a fundamental part of Git
+Branches are a fundamental part of Git
 
 **TODO** branches clip art / photo
 
 !SLIDE
 
+# Git-Branching Workflow
 
 - *"Never commit to your `master`"*
   - https://c9.io/site/blog/2011/11/never-commit-to-your-master/
 - everything is branched from `develop`
 - changes are made in dedicated branches
-- branches are merged back in to `develop` when they are ready
-- `master` is updated via merge from `develop`
+- branches are `merge`d back in to `develop` when they are ready
+- `master` is updated via `merge` from `develop`
 - `master` is always deployable
-
-![git branching diagram](img/git-branching.png)
 
 !SLIDE
 
-# branch categories
+<span style="font-size:0.6em;">
+  http://nvie.com/posts/a-successful-git-branching-model/
+</span>
+
+![git branching diagram](img/git-branching.png)
+
+
+!SLIDE
+
+# Branch Categories
 
 - features: `feature-...`
 - fixes: `fix-...`
@@ -34,11 +39,11 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 !SLIDE
 
-# branch names
+# Branch Names
 
 > There are two hard problems in computer science: cache invalidation, naming things and off-by-one errors. Phil Karlton + [Martin Fowler](http://martinfowler.com/bliki/TwoHardThings.html)
 
-1. Prefix the branch name w/ the branch category: *e.g.* `feature`, `fix`, etc.
+1. Prefix the branch name w/ the branch category: *e.g.* `feature`, `fix`
 1. If the branch is associated w/ an issue, include the issue number
 1. Finish the branch name w/ short-but-informative description
 
