@@ -1,20 +1,34 @@
-# merge-and-deploy
+# Easy Deploys w/ Git
 
+Git-based workflow that allows us to deploy to various environments by using `git push`
 
-**TODO**
+!SLIDE
 
-config
+# Easy Deploys w/ Git: Config
 
-Add [receive] section to .git/config
+Server / deployment target repository:
+
+Add `[receive]` section to `.git/config`
 
     [receive]
         denyCurrentBranch = ignore
+
+!SLIDE
+
+# Easy Deploys w/ Git: Hooks
+
+Automatically trigger actions that are required so that service is aware and updated w/ `push`ed source code
 
 git hooks
 
 - `.git/hooks/post-receive`
 
 git remotes
+
+!SLIDE
+
+# Merge, Easily Deploy
+
 
 command line
 
