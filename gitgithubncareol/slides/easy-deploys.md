@@ -86,3 +86,4 @@ staging ssh://ej@sferic-dev.eol.ucar.edu/usr/local/catalog/catalog_ui (fetch)
   $ git push ops master
   ```
 - test changes on `staging` environment
+- push `develop` and `master` to `origin`

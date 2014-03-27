@@ -57,6 +57,8 @@ https://github.com/erikj/dotfiles/blob/master/.gitignore-global
 
 - GitHub is reliable and simple but powerful
 
+- GitHub can be a great tool for communication between developers and stakeholders
+
 - Issue discovery can be difficult when there are many Issues
   - => Easy to create duplicates
 
@@ -102,6 +104,8 @@ https://github.com/erikj/dotfiles/blob/master/.gitignore-global
 - http://nvie.com/posts/a-successful-git-branching-model/
 - http://martinfowler.com/bliki/TwoHardThings.html
 - https://github.com/torvalds/linux/pull/17#issuecomment-5654674
+- https://devcenter.heroku.com/articles/git
+- https://github.com/erikj/dotfiles
 
 !SLIDE
 
