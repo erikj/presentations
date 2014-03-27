@@ -166,11 +166,22 @@ Useful for categorizing issues
 
 ![CHECKED OUT](img/checked-out-screenshot.png)
 
-when a developer is ready to work on an issue, they add the **CHECKED OUT** label to the issue
+when a developer is ready to work on an issue:
 
-and assign the issue to themselves.
+- assign the issue to themselves
+
+- add the **CHECKED OUT** label to the issue
+
+!SLIDE
+
+# Issues
+
+Issues can be observed and commented upon as they progress
+
+- Comments can be in-line w/ Issue
+
+- Comments can be made to specific commits of lines of commits
+
+- Comments are in Markdown / GFM w/ auto-linking features described previously
 
 
-**TODO**
-
-step through issue creation w/ example
