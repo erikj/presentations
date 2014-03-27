@@ -146,6 +146,8 @@ Issues can be assigned one or more labels
 
 Create / edit / delete labels as needed
 
+Useful for categorizing issues
+
 !SLIDE
 
 # CHECKED OUT
