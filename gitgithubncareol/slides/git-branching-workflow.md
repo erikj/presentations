@@ -20,10 +20,10 @@ Branches are a fundamental part of Git
 !SLIDE
 
 <span style="font-size:0.6em;">
-  http://nvie.com/posts/a-successful-git-branching-model/
+  adapted from http://nvie.com/posts/a-successful-git-branching-model/
 </span>
 
-![git branching diagram](img/git-branching.png)
+![gitflow model](img/gitflow-model.jpg)
 
 
 !SLIDE
