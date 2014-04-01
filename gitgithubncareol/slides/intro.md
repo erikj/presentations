@@ -99,7 +99,16 @@ https://github.com/pricing
 
 !SLIDE
 
-# GitHub Orgs: `ncareol`
+# `github.com/ncareol`
+
+- 15 private repositories
+- 4 public repositories
+- 8 teams
+- 13 members (users)
+
+!SLIDE
+
+# `github.com/ncareol`
 
 - initially: Bronze, 10 private repositories, $25 / month
 - later: Silver, 20 private repositories, $50 / month
