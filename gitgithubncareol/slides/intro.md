@@ -52,36 +52,13 @@
   - *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
   - *Catalog Stats* command-line application (Ruby, ActiveRecord)
 
-!SLIDE
-
-# Git
-
-- created by Linus Torvalds for development of Linux kernel
-- initially released in 2005
-
-http://en.wikipedia.org/wiki/Git_(software)
-
-!SLIDE
-
-# `$ man git`
-
-```
-$ man git
-
-NAME
-  git - the stupid content tracker
-
-DESCRIPTION
-  Git is a fast, scalable, distributed revision control system with an
-  unusually rich command set that provides both high-level operations and
-  full access to internals.
-```
 
 !SLIDE
 
 # Git
 
-- DVCS, *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
+- Distributed revision-control system
+  - *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
 - every check out is a complete, free-standing repository
 - developers have a complete VCS w/o need to interact w/ central / other repositories
 
