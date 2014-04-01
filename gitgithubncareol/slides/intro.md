@@ -8,7 +8,7 @@
 
 #### Erik Johnson, NCAR EOL
 
-#### EOL-Prog Lunch Seminar, 2014/03/27
+#### SEA Conference, 2014/04/07
 
 !SLIDE
 
