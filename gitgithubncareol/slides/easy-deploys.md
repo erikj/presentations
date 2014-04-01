@@ -2,7 +2,7 @@
 
 - Git-based workflow that allows us to deploy to various environments by using `git push`
 
-- Inspired by **Heroku**
+- Inspired by **Heroku** PaaS
 
 ```
 $ git push heroku master
@@ -24,28 +24,32 @@ https://devcenter.heroku.com/articles/git
 
 # Easy Deploys w/ Git: Config
 
-Server / deployment target repository:
+On Server / deployment target, enable `push` to non-`bare` repository:
 
-Add `[receive]` section to `.git/config`
-
-    [receive]
-        denyCurrentBranch = ignore
+```bash
+[receive]
+    denyCurrentBranch = ignore
+```
 
 !SLIDE
 
 # Easy Deploys w/ Git: Hooks
 
-Automatically trigger actions that are required so that service is aware and updated w/ `push`ed source code
+`.git/hooks/post-receive`
 
-`.git/hooks/post-receive`:
+```bash
+#!/bin/sh
 
-```
-echo "bundle'ing"
+# git stuff
+cd ..
+GIT_DIR='.git'
+umask 002 && /usr/bin/git reset --hard
+
+# on-update actions
+echo "bundling"
 bundle install --local --path=vendor --deployment --without development test
-
-echo "precompile'ing assets"
+echo "precompiling assets"
 rake RAILS_ENV=production assets:precompile
-
 echo "reloading"
 /usr/local/catalog/etc/catalog-ui-reload
 ```
