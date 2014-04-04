@@ -36,22 +36,27 @@
 
 - serves and archives field-project data
 - used during and after project
-- developed by 2-6 active Software Engineers @ any time
-- administered by ~ one Software Engineer / active project
 
 !SLIDE
 
 # NCAR EOL: Field Catalog
 
-- suite of web and database applications
+- suite of applications
   - *zith9* database schema (MySQL)
-  - *Catalog Models* application (Ruby, ActiveRecord)
-  - *Catalog Ingest* application (Ruby, ActiveRecord, inotify, EventMachine)
+  - *Catalog Models* library (Ruby, ActiveRecord)
+  - *Catalog Ingest* application (Ruby, ActiveRecord, Inotify, EventMachine)
   - *Field Catalog* web application (Ruby on Rails, CoffeeScript, Bootstrap)
   - *Catalog Maps* web application (Ruby on Rails, CoffeeScript, OpenLayers, Bootstrap)
   - *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
   - *Catalog Stats* command-line application (Ruby, ActiveRecord)
 
+!SLIDE
+
+# NCAR EOL: Field Catalog
+
+- developed by 2-6 active Software Engineers @ any time
+- administered by ~ one Software Engineer / active project
+- scrum: three times / week
 
 !SLIDE
 
