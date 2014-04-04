@@ -70,24 +70,22 @@ staging ssh://ej@sferic-dev.eol.ucar.edu/usr/local/catalog/catalog_ui (fetch)
 
 !SLIDE
 
-# Merge, Easily Deploy
+# Easy-Deploy Example
 
-- merge to `develop`
-- deploy local `develop` branch to `dev`
-  ```
-  $ git push dev develop
-  ```
-- test changes on `dev` environment
-- merge to `master`
-- deploy local `master` to staging
-  ```
-  $ git push staging master
-  ```
-- test changes on `staging` environment
-- `tag` release
-- deploy local `master` to ops
-  ```
-  $ git push ops master
-  ```
-- test changes on `staging` environment
-- push `develop` and `master` to `origin`
+```bash
+$ git checkout develop && git pull
+$ git merge --no-ff feature-42-awesomeness
+$ git push dev develop deploy local develop branch to dev
+# test changes on dev environment
+$ git checkout master && git pull
+$ git merge --no-ff develop
+$ git push staging master # deploy local master to staging
+# test changes on staging environment
+# tag release:
+$ git tag -a v1.4.2 -m "add awesomeness"
+$ git push ops master # deploy local master to ops
+# test changes on ops environment
+# push merged branches and tag to origin:
+$ git push origin develop && git push origin master
+$ git push --tags
+```
