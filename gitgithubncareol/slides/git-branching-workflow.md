@@ -25,7 +25,6 @@
 
 ![gitflow model](img/gitflow-model.jpg)
 
-
 !SLIDE
 
 # Branch Categories
@@ -42,6 +41,10 @@ http://nvie.com/posts/a-successful-git-branching-model/
 # Branch Names
 
 > There are two hard problems in computer science: cache invalidation, naming things and off-by-one errors. Phil Karlton + [Martin Fowler](http://martinfowler.com/bliki/TwoHardThings.html)
+
+!SLIDE
+
+# Branch Names
 
 1. Prefix the branch name w/ the branch category: *e.g.* `feature`, `fix`
 1. If the branch is associated w/ an issue, include the issue number-- easy point of reference for which issue the branch applies
