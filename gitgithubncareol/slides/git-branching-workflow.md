@@ -58,7 +58,7 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 !SLIDE
 
-# Workflow Example
+# Branching-Workflow Example
 
 ```bash
 $ git checkout develop
@@ -74,8 +74,6 @@ $ git push -u origin feature-99-add-project-columns # push to origin
 # Commit Messages: Issue Number
 
 including the issue number, prefixed w/ `#` will associate w/ the issue and cause the commit to be displayed on and linked from the issue's page
-
-- **TODO** include example(s)
 
 !SLIDE
 
