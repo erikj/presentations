@@ -83,6 +83,17 @@ http://en.wikipedia.org/wiki/GitHub
 
 <img src='img/octocat-original.png' height=200 width=200 />
 
+- *Social Coding*
+- hosts git repositories
+- project-management platform
+  - similar to JIRA, Beanstalk, Fog Creek, Bugzilla, etc.
+
+!SLIDE
+
+# GitHub
+
+<img src='img/octocat-original.png' height=200 width=200 />
+
 - most popular host of Open-Source projects
 
 - 3.5 million users, April 2013 [1]
