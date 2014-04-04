@@ -118,6 +118,7 @@ https://github.com/erikj/dotfiles/blob/master/.gitignore-global
 - https://c9.io/site/blog/2011/11/never-commit-to-your-master/
 - http://nvie.com/posts/a-successful-git-branching-model/
 - http://martinfowler.com/bliki/TwoHardThings.html
+- https://help.github.com/articles/using-pull-requests
 - https://devcenter.heroku.com/articles/git
 - https://github.com/erikj/dotfiles
 
