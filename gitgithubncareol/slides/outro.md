@@ -65,24 +65,17 @@ https://github.com/erikj/dotfiles/blob/master/.gitignore-global
 
 # Lessons Learned
 
-- Use the tools you have / that are available:
-  - Git is awesome
-  - GitHub is awesome
-  - Markdown is awesome
-  - packaging libraries offer many features
-
+- Use the tools that you have / are available: Git, Markdown, packaging utilities, etc.
+- Git can enhance your workflow
 - GitHub is reliable and simple but powerful
-
 - GitHub can be a great tool for communication between developers and stakeholders
-
+- Subscribe to GitHub's blog for updates on features
+- Use http://status.github.com as needed
 - Issue discovery can be difficult when there are many Issues
   - => Easy to create duplicates
-
 - Use Labels for organization
-
 - Use Git `tag`s for releases
-
-- Minimize third-party dependencies
+- Minimize / eliminate third-party dependencies
 
 !SLIDE
 
