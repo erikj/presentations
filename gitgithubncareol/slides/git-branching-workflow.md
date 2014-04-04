@@ -58,9 +58,9 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 !SLIDE
 
-# workflow in action, contrived example, part 1
+# Workflow Example
 
-```
+```bash
 $ git checkout develop
 $ git pull # update w/ latest from origin: github
 $ git checkout -b feature-99-add-project-columns
