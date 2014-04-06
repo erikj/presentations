@@ -7,6 +7,9 @@
 - Subversion branches are complete copies of their parent branch
 - Git branches are only the commits that diverge from their parent branch
 
+!NOTE
+so fundamental that they're represented in Git's logo
+
 !SLIDE
 
 # Git-Branching Workflow
@@ -27,6 +30,9 @@
 
 ![gitflow model](img/gitflow-model.jpg)
 
+!NOTE
+graphic representation of branching workflow
+
 !SLIDE
 
 # Branch Categories
@@ -44,6 +50,9 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 > There are two hard problems in computer science: cache invalidation, naming things and off-by-one errors. Phil Karlton + [Martin Fowler](http://martinfowler.com/bliki/TwoHardThings.html)
 
+!NOTE
+branch names are a form of communication to other humans, so it's important to use a good branch name to communicate clearly
+
 !SLIDE
 
 # Branch Names
@@ -56,31 +65,11 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 - `feature-42-the-answer`
 - `fix-314-pi-miscalculation`
-- `hotfix-all-the-bugs`
+- `hotfix-all-bugs`
 
-!SLIDE
-
-# Commit Messages: Issue Number
-
-- issue number, prefixed w/ `#` will associate commit w/ issue and cause the commit to be displayed on and linked from the issue's page
-
-- issues can also be closed from commit messages, w/ `fixes` `closes`, *etc.* before commit number:
-
-  - `fixes`
-  - `fixed`
-  - `fix`
-  - `closes`
-  - `close`
-  - `closed`
-
-!SLIDE
-
-# Commit Messages: Issue Number
-
-- good to separate issue ID from message w/ a safe delimiter
-  - want to avoid "apply required CSS fix #99" from closing `#99`
-  - semicolon delimiter: "apply required CSS fix; #99" doesn't close `#99`
-  - but if we did intend close the issue: "apply required CSS; fix #99"
+!NOTE
+branch naming conventions that we've adopted.
+I'm soliciting pull requests that fix all of the bugs!
 
 !SLIDE
 
