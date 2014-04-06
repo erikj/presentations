@@ -51,6 +51,17 @@
 
 !SLIDE
 
+# Acknowledgements
+
+## NCAR EOL:
+
+- John Allison
+- Mike Dye
+- Charlie Martin
+- Greg Stossmeister
+
+!SLIDE
+
 # References
 
 - http://en.wikipedia.org/wiki/GitHub
