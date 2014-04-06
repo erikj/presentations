@@ -97,7 +97,7 @@ launched in 2008
 - *Social Coding*
 - hosts git repositories
 - project-management platform
-  - similar to JIRA, Beanstalk, Fog Creek, Bugzilla, etc.
+  - similar to Gitorious, GitLab, JIRA, Beanstalk, Fog Creek, Bugzilla, etc.
 - most popular host of Open-Source projects
   - 3.5 million users, April 2013 [1]
   - 10 million repositories, December 2013 [2]
