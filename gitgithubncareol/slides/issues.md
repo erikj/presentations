@@ -84,18 +84,6 @@ Useful for categorizing issues
 
 !SLIDE
 
-# Labels
-
-![bug label](img/label-bug.png)
-
-![feature label](img/label-feature.png)
-
-![security label](img/label-security.png)
-
-![high-priority label](img/label-high-priority.png)
-
-!SLIDE
-
 # CHECKED OUT
 
 ![CHECKED OUT](img/checked-out-screenshot.png)
@@ -110,16 +98,12 @@ when a developer is ready to work on an issue:
 
 # Milestones
 
+A Milestone is composed of:
+
 - title
 - description (optional)
 - due date
 - set of issues
-
-!SLIDE
-
-# Milestones
-
-![milestone-screenshot](img/milestone-screenshot.png)
 
 !SLIDE
 
