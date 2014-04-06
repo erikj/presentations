@@ -88,6 +88,12 @@ Useful for categorizing issues
 
 !SLIDE
 
+# Labels Example
+
+![img/github-labels.png](img/github-labels.png)
+
+!SLIDE
+
 # CHECKED OUT
 
 ![CHECKED OUT](img/checked-out-screenshot.png)
