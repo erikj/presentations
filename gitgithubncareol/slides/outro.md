@@ -73,9 +73,10 @@
 
 - thanks!
 - comments, questions?
-
 - `ej@ucar.edu`
 - http://github.com/erikj
+- slides: http://erikj.github.io/git-at-github-ncareol
+- source: http://github.com/erikj/git-at-github-ncareol
 
 !SLIDE
 
