@@ -60,26 +60,9 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 !SLIDE
 
-# Branching-Workflow Example
-
-```bash
-$ git checkout develop
-$ git pull # update w/ latest from origin: github
-$ git checkout -b feature-99-add-project-columns
-$ vi db/migrate/022_add_project_columns.rb # make and save changes
-$ git commit -m "add columns to table project; #99"
-$ git push -u origin feature-99-add-project-columns # push to origin
-```
-
-!SLIDE
-
 # Commit Messages: Issue Number
 
-including the issue number, prefixed w/ `#` will associate w/ the issue and cause the commit to be displayed on and linked from the issue's page
-
-!SLIDE
-
-# Commit Messages: Issue Number
+- issue number, prefixed w/ `#` will associate commit w/ issue and cause the commit to be displayed on and linked from the issue's page
 
 - issues can also be closed from commit messages, w/ `fixes` `closes`, *etc.* before commit number:
 
@@ -101,6 +84,6 @@ including the issue number, prefixed w/ `#` will associate w/ the issue and caus
 
 !SLIDE
 
-# Commit Message: GitHub Magic
+# Commit Messages: GitHub Hotlinking
 
-Like Issue content, `#`issue IDs, `@`usernames and commit hashes will be autolinked in GitHub's web interface.
+Like Issue content and comments, `#`issue IDs, `@`usernames and commit hashes will be autolinked in GitHub's web interface.
