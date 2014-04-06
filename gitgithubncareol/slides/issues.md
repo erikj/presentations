@@ -17,7 +17,7 @@ Issues generally fall into one of two categories:
 
 # Issue Description
 
-composed in plain text and / or markdown / GFM
+composed in plain text and / or markdown / GFM + GitHub Hotlinking
 
 !SLIDE
 
@@ -31,112 +31,46 @@ designed to be written quickly w/ rich-text formatting provided by HTML
 
 !SLIDE
 
-# Markdown Basics
+# GitHub-Flavored Markdown + Hotlinking
 
-```
-# heading 1
-## heading 2
-### heading 3
-
-**bold**
-
-*italics*
-
-- unordered
-- list
-
-1. ordered
-1. list
-
-[link](http://some/url)
-```
-
-https://daringfireball.net/projects/markdown/basics
-
-!SLIDE
-
-# GitHub-Flavored Markdown
-
-Misc enhancements to plain-old Markdown
-
-- auto-link URLs
-- strikethrough: `~~struck~~` => ~~struck~~
+- Misc formatting enhancements to plain-old Markdown
+- language-specific syntax highlighting and code fencing via ```
+- `#`issues, `@`usernames and commit hashes are hot-linked
+- checklists
 
 https://help.github.com/articles/github-flavored-markdown
 
-!SLIDE
-
-# GitHub-Flavored Markdown
-
-Misc enhancements to plain-old Markdown
-
-- language-specific syntax highlighting
-
-  <pre><code data-ignore>```javascript
-  function alertHello() {
-    alert("Hello World!");
-  }
-  ```</code></pre>
-
-  ```javascript
-  function alertHello() {
-    alert("Hello World!");
-  }
-  ```
-
-https://help.github.com/articles/github-flavored-markdown
-
-!SLIDE
-
-# GitHub Magic!
-
-`#`issues, `@`usernames and commit hashes are hot-linked:
-
-- \#1337 => issues/1337
-- 047decc => commit/047decc
-- @erikj => http://github.com/erikj
-
 https://github.com/blog/831-issues-2-0-the-next-generation
 
-!SLIDE
-
-# GitHub Magic!
-
-checklists:
-
-```
-- [x] this is a completed item
-- [ ] this is a TODO item
-```
-
-![checklist-screenshot](img/checklist-screenshot.png)
-
-https://github.com/blog/831-issues-2-0-the-next-generation
+https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments
 
 !SLIDE
 
-# Milestones
+# Issue Example
 
-- title
-- description (optional)
-- due date
-- set of issues
+    # Issue Heading
+
+    A **good idea** for a *new feature* from @erikj that relates to #60:
+
+    ```ruby
+    puts 'Hello SEA'
+    ```
+
+![img/github-issue-rendered.png](img/github-issue-rendered.png)
 
 !SLIDE
 
-# Milestones
+# Issues
 
-![milestone-screenshot](img/milestone-screenshot.png)
+Issues can be observed and commented upon as they progress
 
-!SLIDE
+- Comments can be in-line w/ Issue
 
-# Milestones
+- Comments can be made to specific commits or lines of commits
 
-We generally assign significant, planned versions to their own milestones, *e.g.*
+- Comments are in Markdown / GFM w/ auto-linking features described previously
 
-- **Catalog Maps 2.0**
-- **Catalog Maps 2.1**
-- **Catalog Maps 2.2**
+- Users receive notifications when their username is mentioned or comments are added to issues to which they subscribe or to commits they've made
 
 !SLIDE
 
@@ -174,14 +108,25 @@ when a developer is ready to work on an issue:
 
 !SLIDE
 
-# Issues
+# Milestones
 
-Issues can be observed and commented upon as they progress
+- title
+- description (optional)
+- due date
+- set of issues
 
-- Comments can be in-line w/ Issue
+!SLIDE
 
-- Comments can be made to specific commits or lines of commits
+# Milestones
 
-- Comments are in Markdown / GFM w/ auto-linking features described previously
+![milestone-screenshot](img/milestone-screenshot.png)
 
+!SLIDE
 
+# Milestones
+
+We generally assign significant, planned versions to their own milestones, *e.g.*
+
+- **Catalog Maps 2.0**
+- **Catalog Maps 2.1**
+- **Catalog Maps 2.2**
