@@ -1,18 +1,18 @@
-# Github Pull Requests
+# GitHub Pull Requests
 
-- not a normal Git pull request
-  - may not be suitable for Linux-kernel development
-    - Linus doesn't accept pull requests on GitHub
-    - https://github.com/torvalds/linux/pull/17#issuecomment-5654674
-
+- request to merge one branch into another
+- can be from separate branch in same repository or a branch in a separate repository
 
 !SLIDE
-# Github Pull Requests: Demo
 
-- New: https://github.com/erikj/git-at-github-ncareol
-- Existing: https://github.com/ncareol/catalog-maps/pull/213
+# Github Pull Requests: Features
 
-!SLIDE
-# Github Pull Requests
+- description
+- commits to be merged
+- code diff
+- comments
+  - in line
+  - specific code lines
+- can be merged locally and request will be closed when merge is pushed to `origin`
 
-- automatically closed when requested merge is performed and pushed to `origin`
+https://help.github.com/articles/using-pull-requests
