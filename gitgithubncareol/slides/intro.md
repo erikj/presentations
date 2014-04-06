@@ -10,8 +10,12 @@
 
 #### SEA Conference, 2014/04/07
 
+http://erikj.github.io/gitgithubncareol
+
 !NOTE
-here to discuss how we've used Git and GitHub to enhance our development workflow
+Erik Johnson, Software Engineer w/ NCAR EOL.
+here to discuss how we've used Git and GitHub to enhance our development workflow.
+I've published these slides to erikj.github.io/gitgithubncareol, so you can open the URL in your browser if you'd like to follow along or skip ahead or back
 
 !SLIDE
 
