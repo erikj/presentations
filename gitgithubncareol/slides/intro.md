@@ -34,7 +34,10 @@
 
 # NCAR EOL: Field Catalog
 
-- serves and archives field-project data
+- ingests, serves and archives field-project data:
+  - operational
+  - research
+  - model
 - used during and after project
 
 !SLIDE
@@ -54,7 +57,7 @@
 
 # NCAR EOL: Field Catalog
 
-- developed by 2-6 active Software Engineers @ any time
+- developed by 2-6 active Software Engineers @ any time: **CTM** team & others
 - administered by ~ one Software Engineer / active project
 - scrum: three times / week
 
@@ -69,9 +72,8 @@
 
 !SLIDE
 
-# GitHub
+# <img src='img/octocat-original.png' height=180 width=180 /> GitHub
 
-<img src='img/octocat-original.png' height=200 width=200 />
 
 > a web-based hosting service for software development projects that use the Git revision control system.
 
@@ -79,25 +81,15 @@ http://en.wikipedia.org/wiki/GitHub
 
 !SLIDE
 
-# GitHub
-
-<img src='img/octocat-original.png' height=200 width=200 />
+# <img src='img/octocat-original.png' height=180 width=180 /> GitHub
 
 - *Social Coding*
 - hosts git repositories
 - project-management platform
   - similar to JIRA, Beanstalk, Fog Creek, Bugzilla, etc.
-
-!SLIDE
-
-# GitHub
-
-<img src='img/octocat-original.png' height=200 width=200 />
-
 - most popular host of Open-Source projects
-
-- 3.5 million users, April 2013 [1]
-- 10 million repositories, December 2013 [2]
+  - 3.5 million users, April 2013 [1]
+  - 10 million repositories, December 2013 [2]
 
 [1] https://github.com/blog/1470-five-years
 
@@ -121,12 +113,7 @@ https://github.com/pricing
 - 4 public repositories
 - 8 teams
 - 13 members (users)
-
-!SLIDE
-
-# `github.com/ncareol`
-
-- initially: Bronze, 10 private repositories, $25 / month
+- initial plan: Bronze, 10 private repositories, $25 / month
 - later: Silver, 20 private repositories, $50 / month
 
 https://github.com/pricing
