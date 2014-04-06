@@ -10,6 +10,9 @@
 
 #### SEA Conference, 2014/04/07
 
+!NOTE
+here to discuss how we've used Git and GitHub to enhance our development workflow
+
 !SLIDE
 
 ### NCAR Earth Observing Laboratory
@@ -17,6 +20,10 @@
 ### (EOL)
 
 <img src='img/eollogo_transparent.png' height=400 width=400 />
+
+!NOTE
+we provide instruments, infrastructure, logistics for atmospheric research
+upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instruments aboard NASA Globalhawke UAV
 
 !SLIDE
 
@@ -68,16 +75,20 @@
 - Distributed revision-control system
   - *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
 - every check out is a complete, free-standing repository
-- developers have a complete VCS w/o need to interact w/ central / other repositories
+
+!NOTE:
+developers have a complete VCS w/o need to interact w/ central / other repositories
 
 !SLIDE
 
 # <img src='img/octocat-original.png' height=180 width=180 /> GitHub
 
-
 > a web-based hosting service for software development projects that use the Git revision control system.
 
 http://en.wikipedia.org/wiki/GitHub
+
+!NOTE
+launched in 2008
 
 !SLIDE
 
@@ -117,3 +128,6 @@ https://github.com/pricing
 - later: Silver, 20 private repositories, $50 / month
 
 https://github.com/pricing
+
+!NOTE
+this is much cheaper than paying staff developers and / or system administrators to maintain similar functionality
