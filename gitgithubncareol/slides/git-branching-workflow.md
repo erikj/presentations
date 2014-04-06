@@ -1,6 +1,8 @@
 
 # Git Branches
 
+<img src='img/git-logo.png' alt='git-logo' height=180 width=180 />
+
 - Branches are a fundamental part of Git
 - Subversion branches are complete copies of their parent branch
 - Git branches are only the commits that diverge from their parent branch
