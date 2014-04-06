@@ -17,12 +17,11 @@
 
 # Lessons Learned
 
-- Use the tools that you have / are available: Git, Markdown, packaging utilities, etc.
+- Learn and use the tools that you have / are available: Git, Markdown, languages' preferred packaging utilities, etc.
 - Git can enhance your workflow
 - GitHub is reliable and simple but powerful
 - GitHub can be a great tool for communication between developers and stakeholders
 - Subscribe to GitHub's blog for updates on features
-- Use http://status.github.com as needed
 - Issue discovery can be difficult when there are many Issues
   - => Easy to create duplicates
 - Use Labels for organization
