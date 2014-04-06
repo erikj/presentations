@@ -8,6 +8,8 @@ There is an issue:
 
 !SLIDE
 
+# GitHub Issues
+
 Issues generally fall into one of two categories:
 
 - features: make something / make something better
@@ -17,7 +19,7 @@ Issues generally fall into one of two categories:
 
 # Issue Description
 
-composed in plain text and / or markdown / GFM + GitHub Hotlinking
+composed in plain text and / or Markdown / GFM + GitHub Hotlinking
 
 !SLIDE
 
@@ -46,15 +48,17 @@ https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments
 
 !SLIDE
 
-# Issue Example
+# Issue Description
 
-    # Issue Heading
+<pre>
+# Issue Heading
 
-    A **good idea** for a *new feature* from @erikj that relates to #60:
+A **good idea** for a *new feature* from @erikj that relates to #60:
 
-    ```ruby
-    puts 'Hello SEA'
-    ```
+```ruby
+puts 'Hello SEA'
+```
+</pre>
 
 ![img/github-issue-rendered.png](img/github-issue-rendered.png)
 
