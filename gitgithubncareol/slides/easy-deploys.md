@@ -2,7 +2,7 @@
 
 - Git-based workflow that allows us to deploy to various environments by using `git push`
 
-- Inspired by **Heroku**
+- Inspired by **Heroku** PaaS
 
 ```
 $ git push heroku master
@@ -24,28 +24,32 @@ https://devcenter.heroku.com/articles/git
 
 # Easy Deploys w/ Git: Config
 
-Server / deployment target repository:
+On Server / deployment target, enable `push` to non-`bare` repository:
 
-Add `[receive]` section to `.git/config`
-
-    [receive]
-        denyCurrentBranch = ignore
+```bash
+[receive]
+    denyCurrentBranch = ignore
+```
 
 !SLIDE
 
 # Easy Deploys w/ Git: Hooks
 
-Automatically trigger actions that are required so that service is aware and updated w/ `push`ed source code
+`.git/hooks/post-receive`
 
-`.git/hooks/post-receive`:
+```bash
+#!/bin/sh
 
-```
-echo "bundle'ing"
+# git stuff
+cd ..
+GIT_DIR='.git'
+umask 002 && /usr/bin/git reset --hard
+
+# on-update actions
+echo "bundling"
 bundle install --local --path=vendor --deployment --without development test
-
-echo "precompile'ing assets"
+echo "precompiling assets"
 rake RAILS_ENV=production assets:precompile
-
 echo "reloading"
 /usr/local/catalog/etc/catalog-ui-reload
 ```
@@ -66,24 +70,22 @@ staging ssh://ej@sferic-dev.eol.ucar.edu/usr/local/catalog/catalog_ui (fetch)
 
 !SLIDE
 
-# Merge, Easily Deploy
+# Easy-Deploy Example
 
-- merge to `develop`
-- deploy local `develop` branch to `dev`
-  ```
-  $ git push dev develop
-  ```
-- test changes on `dev` environment
-- merge to `master`
-- deploy local `master` to staging
-  ```
-  $ git push staging master
-  ```
-- test changes on `staging` environment
-- `tag` release
-- deploy local `master` to ops
-  ```
-  $ git push ops master
-  ```
-- test changes on `staging` environment
-- push `develop` and `master` to `origin`
+```bash
+$ git checkout develop && git pull
+$ git merge --no-ff feature-42-awesomeness
+$ git push dev develop deploy local develop branch to dev
+# test changes on dev environment
+$ git checkout master && git pull
+$ git merge --no-ff develop
+$ git push staging master # deploy local master to staging
+# test changes on staging environment
+# tag release:
+$ git tag -a v1.4.2 -m "add awesomeness"
+$ git push ops master # deploy local master to ops
+# test changes on ops environment
+# push merged branches and tag to origin:
+$ git push origin develop && git push origin master
+$ git push --tags
+```

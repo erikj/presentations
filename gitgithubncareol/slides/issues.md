@@ -8,6 +8,8 @@ There is an issue:
 
 !SLIDE
 
+# GitHub Issues
+
 Issues generally fall into one of two categories:
 
 - features: make something / make something better
@@ -17,7 +19,10 @@ Issues generally fall into one of two categories:
 
 # Issue Description
 
-composed in plain text and / or markdown / GFM
+composed in plain text and / or Markdown / GFM + GitHub Hotlinking
+
+!NOTE
+which I'll get into...
 
 !SLIDE
 
@@ -31,102 +36,103 @@ designed to be written quickly w/ rich-text formatting provided by HTML
 
 !SLIDE
 
-# Markdown Basics
+# GitHub-Flavored Markdown + Hotlinking
 
-```
-# heading 1
-## heading 2
-### heading 3
-
-**bold**
-
-*italics*
-
-- unordered
-- list
-
-1. ordered
-1. list
-
-[link](http://some/url)
-```
-
-https://daringfireball.net/projects/markdown/basics
-
-!SLIDE
-
-# GitHub-Flavored Markdown
-
-Misc enhancements to plain-old Markdown
-
-- auto-link URLs
-- strikethrough: `~~struck~~` => ~~struck~~
+- hadny formatting enhancements to plain-old Markdown
+- language-specific syntax highlighting and code fencing via ``` / ```language
+- `#`issues, `@`usernames and commit hashes are hot-linked
+- checklists
 
 https://help.github.com/articles/github-flavored-markdown
 
-!SLIDE
-
-# GitHub-Flavored Markdown
-
-Misc enhancements to plain-old Markdown
-
-- language-specific syntax highlighting
-
-  <pre><code data-ignore>```javascript
-  function alertHello() {
-    alert("Hello World!");
-  }
-  ```</code></pre>
-
-  ```javascript
-  function alertHello() {
-    alert("Hello World!");
-  }
-  ```
-
-https://help.github.com/articles/github-flavored-markdown
-
-!SLIDE
-
-# GitHub Magic!
-
-`#`issues, `@`usernames and commit hashes are hot-linked:
-
-- \#1337 => issues/1337
-- 047decc => commit/047decc
-- @erikj => http://github.com/erikj
-
 https://github.com/blog/831-issues-2-0-the-next-generation
 
+https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments
+
 !SLIDE
 
-# GitHub Magic!
+# Issue Description
 
-checklists:
+<pre>
+# Issue Heading
 
+A **good idea** for a *new feature* from @erikj that relates to #60:
+
+```ruby
+puts 'Hello SEA'
 ```
-- [x] this is a completed item
-- [ ] this is a TODO item
-```
+</pre>
 
-![checklist-screenshot](img/checklist-screenshot.png)
+![img/github-issue-rendered.png](img/github-issue-rendered.png)
 
-https://github.com/blog/831-issues-2-0-the-next-generation
+!NOTE
+heading gets h1 tag, bold text, italics, username and issue ID are hotlinked.
+hovering over issue ID displays issue title.
+text formatting enhances communication w/ fellow humans, which is valuable in online interactions
+
+!SLIDE
+
+# Issues
+
+Issues can be observed and commented upon as they progress
+
+- Comments
+  - in-line w/ Issue
+  - specific commits or lines of commits
+  - Markdown / GFM w/ hotlinking
+
+- Users receive notifications when their username is mentioned or comments are added to issues to which they subscribe or to commits they've made
+
+!NOTE
+Users can also unsubscribe from Issues if they're not interested
+
+!SLIDE
+
+# Labels
+
+- Issues can be assigned one or more labels
+
+- Create / edit / delete labels as needed
+
+- Useful for categorizing issues
+
+!SLIDE
+
+# Labels Example
+
+![img/github-labels.png](img/github-labels.png)
+
+!NOTE
+These are the labels we use for CatalogMaps
+
+!SLIDE
+
+# CHECKED OUT
+
+![CHECKED OUT](img/checked-out-screenshot.png)
+
+When a developer is ready to work on an issue:
+
+- assign Issue to themselves
+
+- add the **CHECKED OUT** label to the issue
+
+!NOTE
+good for using the Issues interface to determine who is working on what: MANAGER FRIENDLY!
 
 !SLIDE
 
 # Milestones
+
+A Milestone is composed of:
 
 - title
 - description (optional)
 - due date
 - set of issues
 
-!SLIDE
-
-# Milestones
-
-![milestone-screenshot](img/milestone-screenshot.png)
+!NOTE
+an issue can be assigned to only on milestone
 
 !SLIDE
 
@@ -137,51 +143,3 @@ We generally assign significant, planned versions to their own milestones, *e.g.
 - **Catalog Maps 2.0**
 - **Catalog Maps 2.1**
 - **Catalog Maps 2.2**
-
-!SLIDE
-
-# Labels
-
-Issues can be assigned one or more labels
-
-Create / edit / delete labels as needed
-
-Useful for categorizing issues
-
-!SLIDE
-
-# Labels
-
-![bug label](img/label-bug.png)
-
-![feature label](img/label-feature.png)
-
-![security label](img/label-security.png)
-
-![high-priority label](img/label-high-priority.png)
-
-!SLIDE
-
-# CHECKED OUT
-
-![CHECKED OUT](img/checked-out-screenshot.png)
-
-when a developer is ready to work on an issue:
-
-- assign the issue to themselves
-
-- add the **CHECKED OUT** label to the issue
-
-!SLIDE
-
-# Issues
-
-Issues can be observed and commented upon as they progress
-
-- Comments can be in-line w/ Issue
-
-- Comments can be made to specific commits or lines of commits
-
-- Comments are in Markdown / GFM w/ auto-linking features described previously
-
-

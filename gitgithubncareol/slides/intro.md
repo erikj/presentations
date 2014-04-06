@@ -8,23 +8,14 @@
 
 #### Erik Johnson, NCAR EOL
 
-#### EOL-Prog Lunch Seminar, 2014/03/27
+#### SEA Conference, 2014/04/07
 
-!SLIDE
+http://erikj.github.io/gitgithubncareol
 
-# `0.1.0` alpha release
-
-preparation for presentation of same name at SEA Conf 2014
-
-https://sea.ucar.edu/event/gitgithubcomncareol
-
-bleeding edge!
-
-may contain sharp edges!
-
-may be superceded by breaking changes!
-
-caveat emptor!
+!NOTE
+Erik Johnson, Software Engineer w/ NCAR EOL.
+here to discuss how we've used Git and GitHub to enhance our development workflow.
+I've published these slides to erikj.github.io/gitgithubncareol, so you can open the URL in your browser if you'd like to follow along or skip ahead or back
 
 !SLIDE
 
@@ -33,6 +24,10 @@ caveat emptor!
 ### (EOL)
 
 <img src='img/eollogo_transparent.png' height=400 width=400 />
+
+!NOTE
+we provide instruments, infrastructure, logistics for atmospheric research
+upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instruments aboard NASA Globalhawke UAV
 
 !SLIDE
 
@@ -50,19 +45,20 @@ caveat emptor!
 
 # NCAR EOL: Field Catalog
 
-- serves and archives field-project data
+- ingests, serves and archives field-project data:
+  - operational
+  - research
+  - model
 - used during and after project
-- developed by 2-6 active Software Engineers @ any time
-- administered by ~ one Software Engineer / active project
 
 !SLIDE
 
 # NCAR EOL: Field Catalog
 
-- suite of web and database applications
+- suite of applications
   - *zith9* database schema (MySQL)
-  - *Catalog Models* application (Ruby, ActiveRecord)
-  - *Catalog Ingest* application (Ruby, ActiveRecord, inotify, EventMachine)
+  - *Catalog Models* library (Ruby, ActiveRecord)
+  - *Catalog Ingest* application (Ruby, ActiveRecord, Inotify, EventMachine)
   - *Field Catalog* web application (Ruby on Rails, CoffeeScript, Bootstrap)
   - *Catalog Maps* web application (Ruby on Rails, CoffeeScript, OpenLayers, Bootstrap)
   - *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
@@ -70,57 +66,45 @@ caveat emptor!
 
 !SLIDE
 
-# Git
+# NCAR EOL: Field Catalog
 
-- created by Linus Torvalds for development of Linux kernel
-- initially released in 2005
-
-http://en.wikipedia.org/wiki/Git_(software)
-
-!SLIDE
-
-# `$ man git`
-
-```
-$ man git
-
-NAME
-  git - the stupid content tracker
-
-DESCRIPTION
-  Git is a fast, scalable, distributed revision control system with an
-  unusually rich command set that provides both high-level operations and
-  full access to internals.
-```
+- developed by 2-6 active Software Engineers @ any time: **CTM** team & others
+- administered by ~ one Software Engineer / active project
+- scrum: three times / week
 
 !SLIDE
 
 # Git
 
-- DVCS, *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
+- Distributed revision-control system
+  - *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
 - every check out is a complete, free-standing repository
-- developers have a complete VCS w/o need to interact w/ central / other repositories
+
+!NOTE:
+developers have a complete VCS w/o need to interact w/ central / other repositories
 
 !SLIDE
 
-# GitHub
-
-<img src='img/octocat-original.png' height=200 width=200 />
+# <img src='img/octocat-original.png' height=180 width=180 /> GitHub
 
 > a web-based hosting service for software development projects that use the Git revision control system.
 
 http://en.wikipedia.org/wiki/GitHub
 
+!NOTE
+launched in 2008
+
 !SLIDE
 
-# GitHub
+# <img src='img/octocat-original.png' height=180 width=180 /> GitHub
 
-<img src='img/octocat-original.png' height=200 width=200 />
-
+- *Social Coding*
+- hosts git repositories
+- project-management platform
+  - similar to Gitorious, GitLab, JIRA, Beanstalk, Fog Creek, Bugzilla, etc.
 - most popular host of Open-Source projects
-
-- 3.5 million users, April 2013 [1]
-- 10 million repositories, December 2013 [2]
+  - 3.5 million users, April 2013 [1]
+  - 10 million repositories, December 2013 [2]
 
 [1] https://github.com/blog/1470-five-years
 
@@ -138,9 +122,16 @@ https://github.com/pricing
 
 !SLIDE
 
-# GitHub Orgs: `ncareol`
+# `github.com/ncareol`
 
-- initially: Bronze, 10 private repositories, $25 / month
+- 15 private repositories
+- 4 public repositories
+- 8 teams
+- 13 members (users)
+- initial plan: Bronze, 10 private repositories, $25 / month
 - later: Silver, 20 private repositories, $50 / month
 
 https://github.com/pricing
+
+!NOTE
+this is much cheaper than paying staff developers and / or system administrators to maintain similar functionality
