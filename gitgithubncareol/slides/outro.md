@@ -63,19 +63,21 @@
 
 # References
 
-- http://en.wikipedia.org/wiki/GitHub
-- https://github.com/blog/1470-five-years
-- https://github.com/blog/1724-10-million-repositories
-- https://github.com/pricing
-- https://daringfireball.net/projects/markdown
-- https://help.github.com/articles/github-flavored-markdown
-- https://github.com/blog/831-issues-2-0-the-next-generation
-- https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments
-- https://c9.io/site/blog/2011/11/never-commit-to-your-master/
-- http://nvie.com/posts/a-successful-git-branching-model/
-- http://martinfowler.com/bliki/TwoHardThings.html
-- https://help.github.com/articles/using-pull-requests
-- https://devcenter.heroku.com/articles/git
+<ul style='font-size:0.6em;'>
+  <li>http://en.wikipedia.org/wiki/GitHub</li>
+  <li>https://github.com/blog/1470-five-years</li>
+  <li>https://github.com/blog/1724-10-million-repositories</li>
+  <li>https://github.com/pricing</li>
+  <li>https://daringfireball.net/projects/markdown</li>
+  <li>https://help.github.com/articles/github-flavored-markdown</li>
+  <li>https://github.com/blog/831-issues-2-0-the-next-generation</li>
+  <li>https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments</li>
+  <li>https://c9.io/site/blog/2011/11/never-commit-to-your-master/</li>
+  <li>http://nvie.com/posts/a-successful-git-branching-model/</li>
+  <li>http://martinfowler.com/bliki/TwoHardThings.html</li>
+  <li>https://help.github.com/articles/using-pull-requests</li>
+  <li>https://devcenter.heroku.com/articles/git</li>
+</ul>
 
 !SLIDE
 
