@@ -131,6 +131,9 @@ A Milestone is composed of:
 - due date
 - set of issues
 
+!NOTE
+an issue can be assigned to only on milestone
+
 !SLIDE
 
 # Milestones
