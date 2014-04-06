@@ -3,14 +3,14 @@
 
 1. Scrum
 1. Open issue, assign to developer, label as **CHECKED OUT**
-1. Branch from `develop`
-1. Make and commit changes
-1. Push changes to GitHub
-1. Open pull request
+1. `branch` from `develop`
+1. Make and `commit` changes
+1. `push` changes to GitHub
+1. Open pull request on GitHub
 1. Review pull request
-1. Merge locally
+1. `merge` and `tag` locally
 1. Deploy via `push` from local environment to `dev`, `staging`, `ops` environments
-1. `push` merged branches to github
+1. `push` merged branches and tags to github
 1. Close issue
 
 !SLIDE
