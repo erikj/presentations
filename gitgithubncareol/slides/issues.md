@@ -21,6 +21,9 @@ Issues generally fall into one of two categories:
 
 composed in plain text and / or Markdown / GFM + GitHub Hotlinking
 
+!NOTE
+which I'll get into...
+
 !SLIDE
 
 # Markdown
@@ -35,8 +38,8 @@ designed to be written quickly w/ rich-text formatting provided by HTML
 
 # GitHub-Flavored Markdown + Hotlinking
 
-- Misc formatting enhancements to plain-old Markdown
-- language-specific syntax highlighting and code fencing via ```
+- hadny formatting enhancements to plain-old Markdown
+- language-specific syntax highlighting and code fencing via ``` / ```language
 - `#`issues, `@`usernames and commit hashes are hot-linked
 - checklists
 
@@ -62,29 +65,36 @@ puts 'Hello SEA'
 
 ![img/github-issue-rendered.png](img/github-issue-rendered.png)
 
+!NOTE
+heading gets h1 tag, bold text, italics, username and issue ID are hotlinked.
+hovering over issue ID displays issue title.
+text formatting enhances communication w/ fellow humans, which is valuable in online interactions
+
 !SLIDE
 
 # Issues
 
 Issues can be observed and commented upon as they progress
 
-- Comments can be in-line w/ Issue
-
-- Comments can be made to specific commits or lines of commits
-
-- Comments are in Markdown / GFM w/ auto-linking features described previously
+- Comments
+  - in-line w/ Issue
+  - specific commits or lines of commits
+  - Markdown / GFM w/ hotlinking
 
 - Users receive notifications when their username is mentioned or comments are added to issues to which they subscribe or to commits they've made
+
+!NOTE
+Users can also unsubscribe from Issues if they're not interested
 
 !SLIDE
 
 # Labels
 
-Issues can be assigned one or more labels
+- Issues can be assigned one or more labels
 
-Create / edit / delete labels as needed
+- Create / edit / delete labels as needed
 
-Useful for categorizing issues
+- Useful for categorizing issues
 
 !SLIDE
 
@@ -92,17 +102,23 @@ Useful for categorizing issues
 
 ![img/github-labels.png](img/github-labels.png)
 
+!NOTE
+These are the labels we use for CatalogMaps
+
 !SLIDE
 
 # CHECKED OUT
 
 ![CHECKED OUT](img/checked-out-screenshot.png)
 
-when a developer is ready to work on an issue:
+When a developer is ready to work on an issue:
 
-- assign the issue to themselves
+- assign Issue to themselves
 
 - add the **CHECKED OUT** label to the issue
+
+!NOTE
+good for using the Issues interface to determine who is working on what: MANAGER FRIENDLY!
 
 !SLIDE
 
