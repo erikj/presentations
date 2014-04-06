@@ -68,15 +68,15 @@
 - https://github.com/blog/1470-five-years
 - https://github.com/blog/1724-10-million-repositories
 - https://github.com/pricing
-- https://daringfireball.net/projects/markdown/basics
+- https://daringfireball.net/projects/markdown
 - https://help.github.com/articles/github-flavored-markdown
 - https://github.com/blog/831-issues-2-0-the-next-generation
+- https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments
 - https://c9.io/site/blog/2011/11/never-commit-to-your-master/
 - http://nvie.com/posts/a-successful-git-branching-model/
 - http://martinfowler.com/bliki/TwoHardThings.html
 - https://help.github.com/articles/using-pull-requests
 - https://devcenter.heroku.com/articles/git
-- https://github.com/erikj/dotfiles
 
 !SLIDE
 
