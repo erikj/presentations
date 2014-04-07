@@ -12,7 +12,7 @@ slides are written in markdown and presented w/ the [**reveal.js**](https://gith
 
 ## GitHub Pages
 
-Slides are published to http://erikj.github.io/git-at-github-ncareol using [GitHub Pages](http://pages.github.com/).
+Slides are published to http://erikj.github.io/gitgithubncareol using [GitHub Pages](http://pages.github.com/).
 
 ## Licenses
 
