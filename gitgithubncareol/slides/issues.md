@@ -38,7 +38,7 @@ designed to be written quickly w/ rich-text formatting provided by HTML
 
 # GitHub-Flavored Markdown + Hotlinking
 
-- hadny formatting enhancements to plain-old Markdown
+- handy formatting enhancements to plain-old Markdown
 - language-specific syntax highlighting and code fencing via ``` / ```language
 - `#`issues, `@`usernames and commit hashes are hot-linked
 - checklists
