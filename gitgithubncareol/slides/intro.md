@@ -55,14 +55,18 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
 
 # NCAR EOL: Field Catalog
 
-- suite of applications
-  - *zith9* database schema (MySQL)
-  - *Catalog Models* Rubygem (Ruby, ActiveRecord)
-  - *Catalog Ingest* application (Ruby, ActiveRecord, Inotify, EventMachine)
-  - *Field Catalog* web application (Ruby on Rails, CoffeeScript, Bootstrap)
-  - *Catalog Maps* web application (Ruby on Rails, CoffeeScript, OpenLayers, Bootstrap)
-  - *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
-  - *Catalog Stats* command-line application (Ruby, ActiveRecord)
+Suite of applications:
+
+- *zith9* database schema (MySQL)
+- *Catalog Models* Rubygem (Ruby, ActiveRecord)
+- *Catalog Ingest* application (Ruby, ActiveRecord, Inotify, EventMachine)
+- *Field Catalog* web application (Ruby on Rails, Haml, CoffeeScript, Bootstrap)
+- *Catalog Maps* web application (Ruby on Rails, Haml, CoffeeScript, OpenLayers, Bootstrap)
+- *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
+- *Catalog Stats* command-line application (Ruby, ActiveRecord)
+
+!NOTE
+Applications after Catalog Models all depend on it
 
 !SLIDE
 
