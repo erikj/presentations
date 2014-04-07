@@ -105,7 +105,7 @@ Users can also unsubscribe from Issues if they're not interested
 
 !SLIDE
 
-# Labels Example
+# Labels: CatalogMaps
 
 ![img/github-labels.png](img/github-labels.png)
 
