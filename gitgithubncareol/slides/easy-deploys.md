@@ -75,7 +75,7 @@ staging ssh://ej@sferic-dev.eol.ucar.edu/usr/local/catalog/catalog_ui (fetch)
 ```bash
 $ git checkout develop && git pull
 $ git merge --no-ff feature-42-awesomeness
-$ git push dev develop deploy local develop branch to dev
+$ git push dev develop # deploy local develop branch to dev
 # test changes on dev environment
 $ git checkout master && git pull
 $ git merge --no-ff develop
