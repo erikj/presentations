@@ -77,3 +77,6 @@ I'm soliciting pull requests that fix all of the bugs!
 # Commit Messages: GitHub Hotlinking
 
 Like Issue content and comments, `#`issue IDs, `@`usernames and commit hashes will be autolinked in GitHub's web interface.
+
+!NOTE
+once we have a branch checked out, we're going to make commits to it. via hotlinking, GitHub enhances the value of our commit messages by adding human-friendly features

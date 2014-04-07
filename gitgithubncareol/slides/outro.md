@@ -62,7 +62,7 @@
 - Joe VanAndel
 
 !NOTE
-thanks to John for helping in the development of the workflow and techniques described in this presentation, and thanks to Mike, Charlie, Greg and Joe for valuable feedback on this presentation.
+thanks to John for helping in the development of the workflow and techniques described in this presentation, and thanks to Mike, Charlie, Greg and Joe for valuable feedback on this presentation. Also thanks to Rion Dooley for switching times w/ me so that I was able to present today.
 
 !SLIDE
 
