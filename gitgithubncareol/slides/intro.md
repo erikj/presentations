@@ -3,7 +3,10 @@
 
 ### We <span style="color:#f00;">&#10084;</span> Git, We <span style="color:#f00;">&#10084;</span> GitHub
 
+<img src='img/git-logo.png' height=150 width=150/>
+&nbsp;&nbsp;&nbsp;
 <img src='img/eollogo_transparent.png' height=150 width=150/>
+&nbsp;&nbsp;&nbsp;
 <img src='img/octocat-original.png' height=150 width=150/>
 
 #### Erik Johnson, NCAR EOL
