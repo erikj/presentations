@@ -29,6 +29,9 @@
 - Use Git `tag`s for releases
 - Minimize / eliminate third-party dependencies
 
+!NOTE
+point of this presentation is to tell you that you should use Git and GitHub, but you should, but that you can make the most of your VCS and management software to enhance your workflow and team communication.
+
 !SLIDE
 
 # Summary
