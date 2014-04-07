@@ -67,11 +67,11 @@ thanks to John for helping in the development of the workflow and techniques des
 # `</content>`
 
 - thanks!
-- comments, questions?
 - `ej@ucar.edu`
 - http://github.com/erikj
 - slides: http://erikj.github.io/gitgithubncareol
-- source: http://github.com/erikj/gitgithubncareol
+- source: https://github.com/erikj/gitgithubncareol
+- comments, questions?
 
 !NOTE
 thanks for your attention and thanks to the SEA for welcoming me.
