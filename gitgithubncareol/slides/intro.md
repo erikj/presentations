@@ -18,7 +18,7 @@ http://erikj.github.io/gitgithubncareol
 !NOTE
 Erik Johnson, Software Engineer w/ NCAR EOL.
 here to share out experience using Git and GitHub to enhance our development workflow.
-I've published these slides to erikj.github.io/gitgithubncareol, so you can open the URL in your browser if you'd like to follow along or skip ahead or back
+I've published these slides to erikj.github.io/gitgithubncareol, so you can open the URL in your browser if you'd like to follow along or skip ahead or back. Slides are also a repository on GitHub, so if you find any problems, feel free to submit an issue or pull request.
 
 !SLIDE
 
@@ -117,6 +117,9 @@ launched in 2008
 
 [2] https://github.com/blog/1724-10-million-repositories
 
+!NOTE
+motto: Social Coding. Mascot: Octocat.
+
 !SLIDE
 
 # GitHub Organizations
@@ -126,6 +129,9 @@ launched in 2008
 - pay for private repositories
 
 https://github.com/pricing
+
+!NOTE
+organizations = way to consolidate users and repositories.
 
 !SLIDE
 
