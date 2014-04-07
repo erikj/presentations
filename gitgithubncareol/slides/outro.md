@@ -59,9 +59,10 @@
 - Mike Dye
 - Charlie Martin
 - Greg Stossmeister
+- Joe VanAndel
 
 !NOTE
-thanks to John for helping in the development of the workflow and techniques described in this presentation, and thanks to Mike, Charlie and Greg for valuable feedback.
+thanks to John for helping in the development of the workflow and techniques described in this presentation, and thanks to Mike, Charlie, Greg and Joe for valuable feedback on this presentation.
 
 !SLIDE
 
