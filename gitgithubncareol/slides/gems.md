@@ -4,7 +4,7 @@
 - Rubygems
 - Bundler package manager
 - Our library of shared ActiveRecord models: **CatalogModels** gem
-- Gem loaded by Bundler via Git, specified in `Gemfile`:
+- Gem loaded by Bundler via Git, specified in application's `Gemfile`:
 
 ```ruby
 gem 'catalog_models',
@@ -12,8 +12,10 @@ gem 'catalog_models',
   tag: 'v1.7.3'
 ```
 
+http://bundler.io/v1.5/git.html
+
 !NOTE
-we're already versioning our software w/ Git tags, so this eliminates the dependency on packaging the gem w/ every release.
+we're already versioning our software w/ Git tags, so this eliminates the dependency on packaging the gem w/ every release. Bundler also allows specification of commit or a branch.
 
 !SLIDE
 
