@@ -57,7 +57,7 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
 
 - suite of applications
   - *zith9* database schema (MySQL)
-  - *Catalog Models* library (Ruby, ActiveRecord)
+  - *Catalog Models* Rubygem (Ruby, ActiveRecord)
   - *Catalog Ingest* application (Ruby, ActiveRecord, Inotify, EventMachine)
   - *Field Catalog* web application (Ruby on Rails, CoffeeScript, Bootstrap)
   - *Catalog Maps* web application (Ruby on Rails, CoffeeScript, OpenLayers, Bootstrap)
