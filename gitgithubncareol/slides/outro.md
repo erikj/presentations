@@ -19,12 +19,13 @@
 
 - Learn and use the tools that you have / are available: Git, Markdown, languages' preferred packaging utilities, etc.
 - Git can enhance your workflow
-- GitHub is reliable and simple but powerful
-- GitHub can be a great tool for communication between developers and stakeholders
-- Subscribe to GitHub's blog for updates on features
-- Issue discovery can be difficult when there are many Issues
-  - => Easy to create duplicates
-- Use Labels for organization
+- GitHub
+  - Reliable and simple but powerful
+  - Great tool for communication between developers and stakeholders
+  - Subscribe to GitHub's blog for updates on features
+  - Issue discovery can be difficult when there are many Issues
+    - => Easy to create duplicates
+  - Labels for organization
 - Use Git `tag`s for releases
 - Minimize / eliminate third-party dependencies
 
@@ -67,11 +68,11 @@ thanks to John for helping in the development of the workflow and techniques des
 # `</content>`
 
 - thanks!
-- comments, questions?
 - `ej@ucar.edu`
 - http://github.com/erikj
 - slides: http://erikj.github.io/gitgithubncareol
-- source: http://github.com/erikj/gitgithubncareol
+- source: https://github.com/erikj/gitgithubncareol
+- comments, questions?
 
 !NOTE
 thanks for your attention and thanks to the SEA for welcoming me.
