@@ -59,6 +59,9 @@
 - Charlie Martin
 - Greg Stossmeister
 
+!NOTE
+thanks to John for helping in the development of the workflow and techniques described in this presentation, and thanks to Mike, Charlie and Greg for valuable feedback.
+
 !SLIDE
 
 # `</content>`
@@ -69,3 +72,8 @@
 - http://github.com/erikj
 - slides: http://erikj.github.io/gitgithubncareol
 - source: http://github.com/erikj/gitgithubncareol
+
+!NOTE
+thanks for your attention and thanks to the SEA for welcoming me.
+email address if you'd like to discuss git or github later.
+slides available online w/ source code @ these URLs.
