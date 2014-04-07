@@ -76,6 +76,8 @@
   <li>http://nvie.com/posts/a-successful-git-branching-model/</li>
   <li>http://martinfowler.com/bliki/TwoHardThings.html</li>
   <li>https://help.github.com/articles/using-pull-requests</li>
+  <li>http://errtheblog.com/posts/50-vendor-everything</li>
+  <li>http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/</li>
   <li>https://devcenter.heroku.com/articles/git</li>
 </ul>
 
