@@ -59,25 +59,8 @@
 - Charlie Martin
 - Greg Stossmeister
 
-!SLIDE
-
-# References
-
-<ul style='font-size:0.6em;'>
-  <li>http://en.wikipedia.org/wiki/GitHub</li>
-  <li>https://github.com/blog/1470-five-years</li>
-  <li>https://github.com/blog/1724-10-million-repositories</li>
-  <li>https://github.com/pricing</li>
-  <li>https://daringfireball.net/projects/markdown</li>
-  <li>https://help.github.com/articles/github-flavored-markdown</li>
-  <li>https://github.com/blog/831-issues-2-0-the-next-generation</li>
-  <li>https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments</li>
-  <li>https://c9.io/site/blog/2011/11/never-commit-to-your-master/</li>
-  <li>http://nvie.com/posts/a-successful-git-branching-model/</li>
-  <li>http://martinfowler.com/bliki/TwoHardThings.html</li>
-  <li>https://help.github.com/articles/using-pull-requests</li>
-  <li>https://devcenter.heroku.com/articles/git</li>
-</ul>
+!NOTE
+thanks to John for helping in the development of the workflow and techniques described in this presentation, and thanks to Mike, Charlie and Greg for valuable feedback.
 
 !SLIDE
 
@@ -89,3 +72,8 @@
 - http://github.com/erikj
 - slides: http://erikj.github.io/gitgithubncareol
 - source: http://github.com/erikj/gitgithubncareol
+
+!NOTE
+thanks for your attention and thanks to the SEA for welcoming me.
+email address if you'd like to discuss git or github later.
+slides available online w/ source code @ these URLs.

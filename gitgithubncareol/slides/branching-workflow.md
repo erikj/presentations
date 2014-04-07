@@ -48,7 +48,7 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 # Branch Names
 
-> There are two hard problems in computer science: cache invalidation, naming things and off-by-one errors. Phil Karlton + [Martin Fowler](http://martinfowler.com/bliki/TwoHardThings.html)
+> There are two hard problems in computer science: cache invalidation, naming things and off-by-one errors. \- Phil Karlton + [Martin Fowler](http://martinfowler.com/bliki/TwoHardThings.html)
 
 !NOTE
 branch names are a form of communication to other humans, so it's important to use a good branch name to communicate clearly
@@ -57,9 +57,9 @@ branch names are a form of communication to other humans, so it's important to u
 
 # Branch Names
 
-1. Prefix the branch name w/ the branch category: *e.g.* `feature`, `fix`
-1. If the branch is associated w/ an issue, include the issue number-- easy point of reference for which issue the branch applies
-1. Finish the branch name w/ short-but-informative description
+1. Use branch category as prefix: *e.g.* `feature`, `fix`
+1. Include the issue number-- easy point of reference for which issue the branch applies
+1. Short-but-informative description
 
 *e.g.*
 
@@ -68,7 +68,8 @@ branch names are a form of communication to other humans, so it's important to u
 - `hotfix-all-bugs`
 
 !NOTE
-branch naming conventions that we've adopted.
+Branch naming conventions that we've adopted.
+2 is important and often used.
 I'm soliciting pull requests that fix all of the bugs!
 
 !SLIDE

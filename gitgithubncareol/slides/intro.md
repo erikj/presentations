@@ -14,7 +14,7 @@ http://erikj.github.io/gitgithubncareol
 
 !NOTE
 Erik Johnson, Software Engineer w/ NCAR EOL.
-here to discuss how we've used Git and GitHub to enhance our development workflow.
+here to share out experience using Git and GitHub to enhance our development workflow.
 I've published these slides to erikj.github.io/gitgithubncareol, so you can open the URL in your browser if you'd like to follow along or skip ahead or back
 
 !SLIDE
@@ -55,14 +55,18 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
 
 # NCAR EOL: Field Catalog
 
-- suite of applications
-  - *zith9* database schema (MySQL)
-  - *Catalog Models* library (Ruby, ActiveRecord)
-  - *Catalog Ingest* application (Ruby, ActiveRecord, Inotify, EventMachine)
-  - *Field Catalog* web application (Ruby on Rails, CoffeeScript, Bootstrap)
-  - *Catalog Maps* web application (Ruby on Rails, CoffeeScript, OpenLayers, Bootstrap)
-  - *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
-  - *Catalog Stats* command-line application (Ruby, ActiveRecord)
+Suite of applications:
+
+- *zith9* database schema (MySQL)
+- *Catalog Models* Rubygem (Ruby, ActiveRecord)
+- *Catalog Ingest* application (Ruby, ActiveRecord, Inotify, EventMachine)
+- *Field Catalog* web application (Ruby on Rails, Haml, CoffeeScript, Bootstrap)
+- *Catalog Maps* web application (Ruby on Rails, Haml, CoffeeScript, OpenLayers, Bootstrap)
+- *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
+- *Catalog Stats* command-line application (Ruby, ActiveRecord)
+
+!NOTE
+Applications after Catalog Models all depend on it
 
 !SLIDE
 
