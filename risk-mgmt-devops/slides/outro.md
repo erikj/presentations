@@ -1,14 +1,3 @@
-# Recommendations
-
-- Develop a risk-management plan and actively practice risk management for Field-Catalog components
-- Apply DevOps practices to the Field-Catalog development and operations to mitigate the risks of server compromise
-- Cultivate DevOps culture and expertise within our own staff and actively seek it out in new hires
-- Apply Agile methodologies throughout Division
-- Think of our Division as A Solutions Provider
-- Don't be afraid to discuss risk
-
-!SLIDE
-
 # Next Steps: CTM
 
 ## Actively working to mitigate risk of server compromise before DEEPWAVE
@@ -42,5 +31,22 @@
 
 # `</content>`
 
+- thanks!
 - questions, comments, ideas, thoughts?
 - `ej@ucar.edu`
+
+!SLIDE
+
+# Extras
+
+!SLIDE
+
+# Recommendations
+
+- Develop a risk-management plan and actively practice risk management for Field-Catalog components
+- Apply DevOps practices to the Field-Catalog development and operations to mitigate the risks of server compromise
+- Cultivate DevOps culture and expertise within our own staff and actively seek it out in new hires
+- Apply Agile methodologies throughout Division
+- Think of our Division as A Solutions Provider
+- Don't be afraid to discuss risk
+
