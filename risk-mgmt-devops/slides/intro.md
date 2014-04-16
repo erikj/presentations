@@ -1,6 +1,6 @@
 # Risk Management & DevOps
 
-## CDS Stategic Meeting, 2014/04/16
+## CDS Strategic Meeting, 2014/04/16
 
 ### Erik Johnson
 
@@ -14,7 +14,7 @@ I'll also send out this link after this meeting.
 
 # Or: Don't Write Manifestos!
 
-## CDS Senior-Staff Stategery Meeting Symposium Forum Seminar
+## CDS Senior-Staff Strategery Meeting Symposium Forum Seminar
 
 !NOTE
 Don't write manifestos, or you'll end up like me, giving a presentation to the CDS Senior-Staff Stategery Meeting...

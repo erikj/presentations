@@ -28,7 +28,7 @@
 - [docker.io](https://www.docker.io/)
 - [DevOps-Boulder Meetup](http://www.meetup.com/DevOps-Boulder/)
 - [Docker-Boulder Meetup](http://www.meetup.com/Docker-Boulder/)
-- [This Ship Show (podcast)](http://theshipshow.com/)
+- [The Ship Show (podcast)](http://theshipshow.com/)
 - [How DevOps Is Killing The Developer](http://jeffknupp.com/blog/2014/04/15/how-devops-is-killing-the-developer/)
 - [Confessions of a Full Stack DevOp](http://www.ansible.com/blog/confessions-of-a-full-stack-devop)
 - [Treating Servers As Cattle, Not As Pets](http://www.markhneedham.com/blog/2013/04/07/treating-servers-as-cattle-not-as-pets/)
@@ -55,4 +55,3 @@
 - Apply Agile methodologies throughout Division
 - Think of our Division as A Solutions Provider
 - Don't be afraid to discuss risk
-
