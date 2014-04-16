@@ -98,6 +98,25 @@ https://docs.vagrantup.com/v2/providers/
 
 !SLIDE
 
+# Tools: Docker
+
+- *"chroot on steroids"*
+- *"containerization is the new virtualiztion"*
+- containered processes are executed by the host kernel, but isolated from the remainder of the host via **LXC**
+- require only *delta* between host and container OS => lightweight containers
+- run different operating systems in host and container
+  - *e.g.* CentOS container running on Ubuntu host, or vice versa
+- not yet recommended for production
+- running in production
+
+!SLIDE
+
+# Tools: Docker
+
+![Docker-vs-VM diagram](img/docker_vm.jpg)
+
+!SLIDE
+
 # Results: <=>
 
 - Developers are able to quickly and reliably initialize development environments that mirror operations environments as closely as possible
