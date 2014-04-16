@@ -13,7 +13,7 @@
 
 # Next Steps: CTM
 
-## Identify, Assess and Prioritize Other Risks TO Field-Catalog Services
+## Identify, Assess and Prioritize Other Risks To Field-Catalog Services
 
 !SLIDE
 
