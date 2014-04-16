@@ -1,6 +1,12 @@
-# Risk Management
+# Let's Talk About Risk
 
-Process.
+- Don't be afraid.
+- It's a significant part of operations.
+- Industries that deal w/ risk every day:
+  - Transportation: automobiles, airlines, etc.
+  - Finance
+  - Insurance
+  - Manufacturing
 
 !NOTE
 CDS has done a great job of minimizing and responding to risks to operations, and while this is
