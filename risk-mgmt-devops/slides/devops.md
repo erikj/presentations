@@ -82,6 +82,12 @@ https://docs.vagrantup.com/v2/providers/
 
 !SLIDE
 
+# Tools: Vagrant
+
+## Demo!
+
+!SLIDE
+
 # Tools: Docker
 
 - based on **LXC** (part of Linux kernel)
