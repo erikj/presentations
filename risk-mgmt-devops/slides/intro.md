@@ -4,6 +4,12 @@
 
 ### Erik Johnson
 
+### [erikj.github.io/risk-mgmt-devops](http://erikj.github.io/risk-mgmt-devops)
+
+!NOTE
+slides available @ <URL> if you want to follow along, skup ahead or go back on your own device.
+I'll also send out this link after this meeting.
+
 !SLIDE
 
 # Or: Don't Write Manifestos!
