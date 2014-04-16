@@ -6,7 +6,8 @@
 - applying DevOps techniques to be able to quickly and reliably boot Field-Catalog services on new hosts
   - Puppet manifests
   - Vagrant development VM(s) provisioned by Puppet manifests
-  - Continuous Integration
+  - Continuous Integration (later)
+  - Move or be prepared to move our many eggs from one basket to many baskets w/ minimal eggs / basket
 
 !SLIDE
 
