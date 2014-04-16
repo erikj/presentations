@@ -18,8 +18,6 @@ http://en.wikipedia.org/wiki/File:Devops.svg
   - Sharing
 - [*treat servers as cattle, not pets*](http://www.markhneedham.com/blog/2013/04/07/treating-servers-as-cattle-not-as-pets/)
 
-- established practice
-
 !SLIDE
 
 # Version Control
@@ -37,15 +35,12 @@ http://en.wikipedia.org/wiki/File:Devops.svg
 
 - ensure that system has proper configuration (files, software, software versions, etc.) in automated fashion
 
-!SLIDE
-
-# Tools: Provisioners
-
-- Puppet
-- Chef
-- Salt
-- Ansible
-- Shell scripts (*ad hoc*)
+- Provisioners:
+  - Puppet
+  - Chef
+  - Salt
+  - Ansible
+  - Shell scripts (*ad hoc*)
 
 <!-- developers and operations staff should be equally capable and confident in pushing updates (to dependencies, software, configuration) to operations -->
 
@@ -72,9 +67,24 @@ http://www.vagrantup.com/
 
 !SLIDE
 
+# Tools: Vagrant
+
+Package and manage VMs for many providers
+
+- VirtualBox (from Oracle, for PCs)
+- VMWare VSphere, Fusion, Workstation
+- Hypervisor (MS)
+- Amazon Web Services EC2
+- OpenStack
+- Digital Ocean
+
+https://docs.vagrantup.com/v2/providers/
+
+!SLIDE
+
 # Tools: Docker
 
-- based on **LXC**
+- based on **LXC** (part of Linux kernel)
 
 > Docker is an open-source engine to easily create lightweight, portable, self-sufficient containers from any application. The same container that a developer builds and tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack clusters, or any major infrastructure provider.
 
