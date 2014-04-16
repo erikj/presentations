@@ -22,11 +22,13 @@
 <!-- suggestion from Mike Paxton: resources where people can learn more -->
 
 - [A Catalog-DevOps Manifesto - Erik Johnson](https://gist.github.com/erikj/d448b4e605c0260c2cbd)
-- http://en.wikipedia.org/wiki/Risk_management
-- http://en.wikipedia.org/wiki/DevOps
-- [DevOps Boulder Meetup](http://www.meetup.com/DevOps-Boulder/)
-- http://jeffknupp.com/blog/2014/04/15/how-devops-is-killing-the-developer/
-- http://www.markhneedham.com/blog/2013/04/07/treating-servers-as-cattle-not-as-pets/
+- [wikipedia.org/wiki/Risk_management](http://en.wikipedia.org/wiki/Risk_management)
+- [wikipedia.org/wiki/DevOps](http://en.wikipedia.org/wiki/DevOps)
+- [DevOps-Boulder Meetup](http://www.meetup.com/DevOps-Boulder/)
+- [Docker-Boulder Meetup](http://www.meetup.com/Docker-Boulder/)
+- [This Ship Show (podcast)](http://theshipshow.com/)
+- [How DevOps Is Killing The Developer](http://jeffknupp.com/blog/2014/04/15/how-devops-is-killing-the-developer/)
+- [Treating Servers As Cattle, Not As Pets](http://www.markhneedham.com/blog/2013/04/07/treating-servers-as-cattle-not-as-pets/)
 
 !SLIDE
 
