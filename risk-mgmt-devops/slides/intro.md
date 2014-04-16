@@ -1,8 +1,18 @@
 # Risk Management & DevOps
 
-## CDS Stategery Meeting, 2014/04/16
+## CDS Stategic Meeting, 2014/04/16
 
 ### Erik Johnson
+
+!SLIDE
+
+# Or: Don't Write Manifestos!
+
+## CDS Senior-Staff Stategery Meeting Symposium Forum Seminar
+
+!NOTE
+Don't write manifestos, or you'll end up like me, giving a presentation to the CDS Senior-Staff Stategery Meeting...
+But seriously, I am grateful to Mike Daniels for providing me w/ this platform to discuss some things that I care about
 
 !SLIDE
 
@@ -12,9 +22,12 @@ what if a node of the Field-Catalog cluster were compromised* during a Field Pro
 
 \* intrusion, hardware, operator error, *etc.*
 
-kind of a big deal
+<p class="fragment" data-fragment-index="1">kind of a big deal</p>
 
-~~kind of~~ **a big deal**
+<p class="fragment" data-fragment-index="2"><span style='text-decoration:line-through;'>kind of</span> <b>a big deal</b></p>
+
+!NOTE
+Heartbleed: following best security practices is always enough
 
 !SLIDE
 
@@ -29,7 +42,7 @@ kind of a big deal
 - **DevOps**
   - enthusiast
   - aspiring practitioner
-
+  - attended one-day DevOps conference last month
 
 !SLIDE
 

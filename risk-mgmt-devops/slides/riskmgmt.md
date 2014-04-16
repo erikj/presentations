@@ -1,8 +1,22 @@
-# Risk Management Basics
+# Risk Management
+
+Process.
+
+!NOTE
+CDS has done a great job of minimizing and responding to risks to operations, and while this is
+usually through application of best practices, minimization and response has also been ad-hoc
+and / or reliant upon heroics of staff. And while heroics awesome and look great on a performance
+review, they are not sustainable and shouldn't be depended upon to be reliably and consistently
+reproduced. It's good to have a Process for managing risk, and that is where Risk Management
+comes in.
+
+!SLIDE
+
+# Risk-Management Basics
 
 ## Established Practice
 
-Standards from:
+Standards published by:
 
 - Project Management Institute
 - NIST
@@ -11,7 +25,7 @@ Standards from:
 
 !SLIDE
 
-# Risk Management Basics
+# Risk-Management Basics
 
 ## Process
 
@@ -33,6 +47,11 @@ What are problems or potential sources of problems?
 - Infrastructure: hardware, networking, power, HVAC
 - Staff: sickness, departure
 - Information: loss, disclosure
+
+!NOTE
+Security: Santiago is the lead in actively addressing outside threats.
+Relied Upon Services: we currently minimize third-party dependencies w/ EOL wikis, email servers, web servers, etc.
+Information loss risk is apparent, for us disclosure risk would be of proprietary and export-control info / software, private keys and certificates, etc.
 
 !SLIDE
 
@@ -75,6 +94,14 @@ For each risk:
 - Sharing (transfer -- outsource or insure)
 - Retention (accept and budget)
 
+!NOTE
+Retention example: windshield insurance is expensive based on my assessment of
+the probabilty of windshield damage vs. insurance' cost, so I make sure I have
+$$$ saved up to repair or replace my windshield in event of damage.
+
 !SLIDE
 
 # How can we reduce the cost of many of our risks...?
+
+!NOTE
+segue...

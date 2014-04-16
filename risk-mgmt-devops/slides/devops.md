@@ -9,25 +9,20 @@ http://en.wikipedia.org/wiki/File:Devops.svg
 # DevOps
 
 - portmanteau of *Development* and *Operations*.
-
 - *agile of systems*
-
+- best practices and tools to deal w/ cloud-scale and data-center deployments of servers, *ie.* *thousands* of servers
 - values: **CAMS**
-
   - Culture
   - Automation
   - Metrics
   - Sharing
-
-<!-- http://www.markhneedham.com/blog/2013/04/07/treating-servers-as-cattle-not-as-pets/ -->
-
-- *treat servers as cattle, not pets*
+- [*treat servers as cattle, not pets*](http://www.markhneedham.com/blog/2013/04/07/treating-servers-as-cattle-not-as-pets/)
 
 - established practice
 
 !SLIDE
 
-# Version control
+# Version Control
 
 - safety net that permits rollbacks
 - *everything* is versioned
@@ -53,6 +48,19 @@ http://en.wikipedia.org/wiki/File:Devops.svg
 - Shell scripts (*ad hoc*)
 
 <!-- developers and operations staff should be equally capable and confident in pushing updates (to dependencies, software, configuration) to operations -->
+
+!SLIDE
+
+# Methods: Continuous Integration
+
+QA Automation
+
+> Continuous Integration is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day. Each integration is verified by an automated build (including test) to detect integration errors as quickly as possible.
+
+http://martinfowler.com/articles/continuousIntegration.html
+
+!NOTE
+CTM is not doing this, but would like to. SSG is doing this.
 
 !SLIDE
 
