@@ -101,7 +101,7 @@ https://docs.vagrantup.com/v2/providers/
 # Tools: Docker
 
 - *"chroot on steroids"*
-- *"containerization is the new virtualiztion"*
+- *"containerization is the new virtualization"*
 - containered processes are executed by the host kernel, but isolated from the remainder of the host via **LXC**
 - require only *delta* between host and container OS => lightweight containers
 - run different operating systems in host and container
