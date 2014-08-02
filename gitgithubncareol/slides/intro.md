@@ -11,7 +11,7 @@
 
 #### Erik Johnson, NCAR EOL
 
-#### SEA Conference, 2014/04/07
+#### Boulder Ruby, 2014/08/19
 
 http://erikj.github.io/gitgithubncareol
 
