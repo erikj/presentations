@@ -39,10 +39,13 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
 - campaigns to conduct atmospheric research
 
 - *e.g.*
-  - DC3 (2012)
-  - MPEX (2013)
-  - SAS / NOMADSS / SOAS (2013)
-  - CONTRAST (2014)
+  - [DC3](https://www.eol.ucar.edu/field_projects/dc3) (Kansas, 2012)
+  - [MPEX](https://www.eol.ucar.edu/field_projects/mpex) (US Southwest, 2013)
+  - [SAS / NOMADSS / SOAS](https://www.eol.ucar.edu/field_projects/sas) (US Southeast, 2013)
+  - [CONTRAST](https://www.eol.ucar.edu/field_projects/contrast) (Guam, 2014)
+  - [DEEPWAVE](https://www.eol.ucar.edu/field_projects/deepwave) (New Zealand, 2014)
+  - [FRAPPE](https://www.eol.ucar.edu/field_projects/frappe) (Colorado, 2014)
+
 
 !SLIDE
 
