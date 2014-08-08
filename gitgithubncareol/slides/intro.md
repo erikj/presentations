@@ -1,8 +1,6 @@
 
 ## `git@github.com:ncareol`
 
-### We <span style="color:#f00;">&#10084;</span> Git, We <span style="color:#f00;">&#10084;</span> GitHub
-
 <img src='img/git-logo.png' height=150 width=150/>
 &nbsp;&nbsp;&nbsp;
 <img src='img/eollogo_transparent.png' height=150 width=150/>
@@ -34,9 +32,45 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
 
 !SLIDE
 
-# NCAR EOL: Field Projects
+# NCAR EOL: Facilities
 
-- campaigns to conduct atmospheric research
+<!-- TODO: instruments, platforms from https://drive.google.com/a/ucar.edu/folderview?id=0B0Rci5AHHBhHRkRqYUM0QmJ6MFk -->
+
+!SLIDE
+
+# NCAR EOL CDS
+
+<img src='img/cds-logo_3_white_letters-small.png' alt='CDS logo' />
+
+https://www.eol.ucar.edu/about/our-organization/cds
+
+!NOTE
+IT Infrastructure and support
+
+!SLIDE
+
+# NCAR EOL CDS
+
+## Collaborative Technologies & Metadata (CTM) group
+
+- Databases
+- Web applications
+- MapServer
+- Data ingest
+
+!SLIDE
+
+# Field Projects
+
+- Campaigns to conduct atmospheric research
+  - Weather
+  - Climate
+  - Chemistry
+  - Pollution
+
+!SLIDE
+
+# Field Projects
 
 - *e.g.*
   - [DC3](https://www.eol.ucar.edu/field_projects/dc3) (Kansas, 2012)
@@ -46,10 +80,9 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
   - [DEEPWAVE](https://www.eol.ucar.edu/field_projects/deepwave) (New Zealand, 2014)
   - [FRAPPE](https://www.eol.ucar.edu/field_projects/frappe) (Colorado, 2014)
 
-
 !SLIDE
 
-# NCAR EOL: Field Catalog
+# Field Catalog
 
 - ingests, serves and archives field-project data:
   - operational
@@ -59,7 +92,7 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
 
 !SLIDE
 
-# NCAR EOL: Field Catalog
+# Field Catalog
 
 Suite of applications:
 
@@ -76,7 +109,7 @@ Applications after Catalog Models all depend on it
 
 !SLIDE
 
-# NCAR EOL: Field Catalog
+# Field Catalog
 
 - developed by 2-6 active Software Engineers @ any time: **CTM** team & others
 - administered by ~ one Software Engineer / active project
