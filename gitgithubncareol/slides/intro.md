@@ -112,6 +112,7 @@ Applications after Catalog Models all depend on it
 
 # Field Catalog
 
+- Group lead is Product Owner
 - developed by 2-6 active Software Engineers @ any time: **CTM** team & others
 - administered by ~ one Software Engineer / active project
 - scrum: three times / week
