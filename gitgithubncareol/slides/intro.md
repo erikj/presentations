@@ -103,6 +103,7 @@ Suite of applications:
 - *Catalog Maps* web application (Ruby on Rails, Haml, CoffeeScript, OpenLayers, Bootstrap)
 - *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
 - *Catalog Stats* command-line application (Ruby, ActiveRecord)
+- *IRCBot* Bot-provided IRC utilities (Ruby, Cinch)
 
 !NOTE
 Applications after Catalog Models all depend on it
