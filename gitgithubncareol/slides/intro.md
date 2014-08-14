@@ -106,7 +106,7 @@ Suite of applications:
 - *IRCBot* Bot-provided IRC utilities (Ruby, Cinch)
 
 !NOTE
-Applications after Catalog Models all depend on it
+Most applications after Catalog Models all depend on it
 
 !SLIDE
 
