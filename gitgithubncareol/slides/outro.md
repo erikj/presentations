@@ -46,9 +46,7 @@ point of this presentation is to tell you that you should use Git and GitHub, bu
 
 # Future
 
-- Faster, smarter Easy Deploys
 - Continuous Integration
-- Vagrant
 - DevOps
 - Open Source
 
