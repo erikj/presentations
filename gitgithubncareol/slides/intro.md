@@ -108,6 +108,11 @@ Suite of applications:
 !NOTE
 Most applications after Catalog Models all depend on it
 
+
+
+<!-- TODO: screenshots of CatalogUi and CatalogMaps -->
+
+
 !SLIDE
 
 # Field Catalog
@@ -135,41 +140,6 @@ developers have a complete VCS w/o need to interact w/ central / other repositor
 > a web-based hosting service for software development projects that use the Git revision control system.
 
 http://en.wikipedia.org/wiki/GitHub
-
-!NOTE
-launched in 2008
-
-!SLIDE
-
-# <img src='img/octocat-original.png' height=180 width=180 /> GitHub
-
-- *Social Coding*
-- hosts git repositories
-- project-management platform
-  - similar to Gitorious, GitLab, JIRA, Beanstalk, Fog Creek, Bugzilla, etc.
-- most popular host of Open-Source projects
-  - 3.5 million users, April 2013 [1]
-  - 10 million repositories, December 2013 [2]
-
-[1] https://github.com/blog/1470-five-years
-
-[2] https://github.com/blog/1724-10-million-repositories
-
-!NOTE
-motto: Social Coding. Mascot: Octocat.
-
-!SLIDE
-
-# GitHub Organizations
-
-- unlimited collaborators (associated users)
-- unlimited public repositories
-- pay for private repositories
-
-https://github.com/pricing
-
-!NOTE
-organizations = way to consolidate users and repositories.
 
 !SLIDE
 
