@@ -44,12 +44,16 @@ On Server / deployment target, enable `push` to non-`bare` repository:
 cd ..
 GIT_DIR='.git'
 umask 002 && /usr/bin/git reset --hard
+read oldcommit newcommit refname
 
 # on-update actions
 echo "bundling"
 bundle install --local --path=vendor --deployment --without development test
-echo "precompiling assets"
-rake RAILS_ENV=production assets:precompile
+if git diff-tree --name-status -r $newcommit $oldcommit \
+  app/assets vendor/assets > /dev/null ; then
+  echo "precompiling assets"
+  rake RAILS_ENV=production assets:precompile
+fi
 echo "reloading"
 /usr/local/catalog/etc/catalog-ui-reload
 ```
