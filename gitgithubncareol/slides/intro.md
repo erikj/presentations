@@ -112,6 +112,50 @@ Most applications after Catalog Models all depend on it
 
 <!-- TODO: screenshots of CatalogUi and CatalogMaps -->
 
+!SLIDE
+
+# `/`
+
+<img src='img/screenshot-projects-list.png' />
+
+!NOTE
+root route, `Projects#list`
+
+!SLIDE
+
+# FRAPPE project homepage, `/frappe`
+
+<img src='img/screenshot-frappe-home.png' />
+
+!NOTE
+`Projects#show`
+
+!SLIDE
+
+# PDF Report
+
+<img src='img/screenshot-frappe-report.png' />
+
+!NOTE
+`Pdfs#show`
+
+!SLIDE
+
+# Product Navigation
+
+<img src='img/screenshot-frappe-satellite-products.png' />
+
+!NOTE
+`Categories#date`
+
+!SLIDE
+
+# Satellite Product
+
+<img src='img/screenshot-frappe-goes13-product.png' />
+
+!NOTE
+`Files#show`
 
 !SLIDE
 
