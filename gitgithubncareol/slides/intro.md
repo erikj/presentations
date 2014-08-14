@@ -99,7 +99,7 @@ Suite of applications:
 - *zith9* database schema (MySQL)
 - *Catalog Models* Rubygem (Ruby, ActiveRecord)
 - *Catalog Ingest* application (Ruby, ActiveRecord, Inotify, EventMachine)
-- *Field Catalog* web application (Ruby on Rails, Haml, CoffeeScript, Bootstrap)
+- *Field Catalog* web application (Ruby on Rails, Haml, CoffeeScript, Bootstrap, PDF.js, CKEditor)
 - *Catalog Maps* web application (Ruby on Rails, Haml, CoffeeScript, OpenLayers, Bootstrap)
 - *Catalog Nagios* monitoring utility (Ruby, ActiveRecord, Nagios)
 - *Catalog Stats* command-line application (Ruby, ActiveRecord)
