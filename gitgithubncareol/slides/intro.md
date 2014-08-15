@@ -116,7 +116,7 @@ Most applications after Catalog Models all depend on it
 
 !SLIDE
 
-# `/`
+[catalog.eol.ucar.edu](http://catalog.eol.ucar.edu)
 
 <img src='img/screenshot-projects-list.png' />
 
@@ -125,16 +125,18 @@ root route, `Projects#list`
 
 !SLIDE
 
-# FRAPPE project homepage, `/frappe`
+[catalog.eol.ucar.edu/frappe](http://catalog.eol.ucar.edu/frappe)
+
 
 <img src='img/screenshot-frappe-home.png' />
 
 !NOTE
-`Projects#show`
+`Projects#show`, FRAPPE project homepage, `/frappe`
+
 
 !SLIDE
 
-# PDF Report
+PDF Report
 
 <img src='img/screenshot-frappe-report.png' />
 
@@ -143,7 +145,7 @@ root route, `Projects#list`
 
 !SLIDE
 
-# Product Navigation
+Product Navigation
 
 <img src='img/screenshot-frappe-satellite-products.png' />
 
@@ -152,7 +154,7 @@ root route, `Projects#list`
 
 !SLIDE
 
-# Satellite Product
+Satellite Product
 
 <img src='img/screenshot-frappe-goes13-product.png' />
 
@@ -164,6 +166,8 @@ root route, `Projects#list`
 # Catalog Maps
 
 <img src='img/screenshot-catalog-maps-deepwave.png' />
+
+[catalog.eol.ucar.edu/maps/deepwave](http://catalog.eol.ucar.edu/maps/deepwave)
 
 !NOTE
 Geo interface
@@ -185,7 +189,7 @@ Geo interface
   - *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
 - every check out is a complete, free-standing repository
 
-!NOTE:
+!NOTE
 developers have a complete VCS w/o need to interact w/ central / other repositories
 
 !SLIDE
