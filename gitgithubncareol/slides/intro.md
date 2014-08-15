@@ -161,6 +161,15 @@ root route, `Projects#list`
 
 !SLIDE
 
+# Catalog Maps
+
+<img src='img/screenshot-catalog-maps-deepwave.png' />
+
+!NOTE
+Geo interface
+
+!SLIDE
+
 # Field Catalog
 
 - Group lead is Product Owner
