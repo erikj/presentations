@@ -57,6 +57,7 @@ IT Infrastructure and support
 - Web applications
 - MapServer
 - Data ingest
+- IRC
 
 !SLIDE
 
@@ -88,6 +89,7 @@ IT Infrastructure and support
   - operational
   - research
   - model
+  - primarily images, text, HTML, PDF and KML
 - used during and after project
 
 !SLIDE
