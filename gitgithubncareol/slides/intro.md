@@ -176,7 +176,7 @@ jQuery UI.
 
 !SLIDE
 
-# Field Catalog
+# Field-Catalog Development
 
 - Group lead is Product Owner
 - developed by 2-6 active Software Engineers @ any time: **CTM** team & others
