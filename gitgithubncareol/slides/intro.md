@@ -170,7 +170,9 @@ Satellite Product
 [catalog.eol.ucar.edu/maps/deepwave](http://catalog.eol.ucar.edu/maps/deepwave)
 
 !NOTE
-Geo interface
+Geo interface. Features: geolocated imagery, KMLs of satellite data and aircraft
+flight tracks, temporal navigation. Made w/ OpenLayers, OpenStreet Maps, Bootstrap,
+jQuery UI.
 
 !SLIDE
 
