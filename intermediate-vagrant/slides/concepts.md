@@ -57,6 +57,7 @@
   - `$ vagrant ssh`
   - `$ vagrant halt`
   - `$ vagrant destroy`
+  - `$ vagrant package`
 
 <!-- vagrant manage boxes, package base boxes, ssh to box -->
 
