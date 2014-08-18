@@ -1,5 +1,10 @@
 # Intermediate Vagrant
 
-### NCAR EOL Prog Lunch Seminar, August 21, 2014
+### CTM's Experience Using Vagrant For Field-Catalog Development
 
-### Erik Johnson, NCAR EOL
+#### Erik Johnson, NCAR EOL
+
+#### NCAR EOL Prog Seminar
+
+#### August 21, 2014
+
