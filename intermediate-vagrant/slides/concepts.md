@@ -13,7 +13,7 @@
 
 # Vagrant Concepts
 
-## Host
+## *Host*
 
 - System running virualization software
 
@@ -21,7 +21,7 @@
 
 # Vagrant Concepts
 
-## Guest
+## *Guest*
 
 - System that is virtualized
 - 'VM'
@@ -30,7 +30,7 @@
 
 # Vagrant Concepts
 
-## Base Box
+##* Base Box*
 
 - VM configured and packaged for Vagrant
 - Intended for sharing w/ others and / or as template from which to create development VMs / boxes
@@ -40,7 +40,7 @@
 
 # Vagrant Concepts
 
-## Box
+## *Box*
 
 - VM loaded into Vagrant
 - can be initiallized, managed, accessed via Vagrant
@@ -49,7 +49,7 @@
 
 # Vagrant Concepts
 
-## Command-line interface
+## *Command-line interface*
 
 - `vagrant`:
   - `$ vagrant init`
@@ -87,7 +87,7 @@ end
 
 # Vagrant Concepts
 
-## Synced Folders
+## *Synced Folders*
 
 - Shared filesystem(s) between host system and guest VM
 - Coordinates host- and guest-system file-based activities
