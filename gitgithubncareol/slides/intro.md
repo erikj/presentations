@@ -27,7 +27,8 @@ have stickers to give out afterwards.
 <img src='img/eollogo_transparent.png' height=400 width=400 />
 
 !NOTE
-we provide instruments, infrastructure, logistics for atmospheric research
+NCAR is the US National Science Foundation's National Center for Atmospheric Research.
+EOL provides instruments, infrastructure, logistics for atmospheric research
 upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instruments aboard NASA Globalhawke UAV
 
 !SLIDE
