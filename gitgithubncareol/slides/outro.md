@@ -34,6 +34,24 @@ you can make the most of your VCS and management software to enhance your workfl
 
 !SLIDE
 
+# Room For Improvement
+
+- cross-repo issues: where do they issues belong?
+- deployment collision-- surprise!
+user friendly, can be surprising, in violation of PLOS, surprises in `ops` are bad
+- application and assets out of sync while precompiling on deployment
+- Scrum, less useful when staff are working on isolated tasks
+
+!NOTE
+
+- cross-repo issues: duplicate issues across repos, sacrifice private-repo
+slot as meta repo for cross-repo issues?
+- deployment collision: hasn't happened, handled gracefully by `git`, but not
+user friendly, can be surprising, in violation of PLOS, surprises in `ops` are bad
+- Scrum: isolated tasks, historically how our organization operates
+
+!SLIDE
+
 # Summary
 
 - Development starts w/ an Issue
