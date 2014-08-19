@@ -212,7 +212,7 @@ developers have a complete VCS w/o need to interact w/ central / other repositor
 <img src='img/octocat-original.png'  />
 
 !NOTE
-Github: "a web-based hosting service for software development projects that use the Git revision control system." http://en.wikipedia.org/wiki/GitHub
+CTM has been using GitHub for most of our development for ~ 3 years
 
 !SLIDE
 
