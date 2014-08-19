@@ -59,14 +59,18 @@ user friendly, can be surprising, in violation of PLOS, surprises in `ops` are b
 - Markdown / GFM and auto-linking features
 - Git-Branching Workflow
 - GitHub Pull Requests: code review and discussion
+- Bundle / w/ Git, Vendor Everything
 - Git-Based Easy Deploys
 
 !SLIDE
 
-# Future
+# Future / Wish List
 
+- More Features
+- Ruby 2.1, Rails 4.1, Bootstrap 3
 - Continuous Integration
 - DevOps
+- Docker
 - Open Source
 
 !SLIDE
