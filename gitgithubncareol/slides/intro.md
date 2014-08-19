@@ -40,12 +40,28 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
 
 # NCAR EOL CDS
 
-<img src='img/cds-logo_3_white_letters-small.png' alt='CDS logo' />
+## <img src='img/cds-logo_3_white_letters-small.png' alt=' Computing, Data and Software (CDS)' />
 
 https://www.eol.ucar.edu/about/our-organization/cds
 
 !NOTE
-IT Infrastructure and support
+IT Infrastructure and support facility
+
+!SLIDE
+
+<img src='img/cds-logo_3_white_letters-small.png' alt=' Computing, Data and Software (CDS)' />
+
+- EOL computing & IT infrastructure
+- Data-management services
+  - real-time & post-facto access
+- Field-project support
+  - IT
+  - collaborative tools
+
+!NOTE
+CDS supports everything from EOL networking, printers, workstations and laptops,
+to ingest, access and archival of research data from satellites, radar, aircraft,
+weather stations, etc.
 
 !SLIDE
 
