@@ -1,3 +1,9 @@
+!SLIDE
+
+# Putting Things Together: Bundler
+
+!NOTE
+transition slide
 
 # Bundle w/ Git
 
