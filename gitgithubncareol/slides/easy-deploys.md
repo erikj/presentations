@@ -1,3 +1,10 @@
+
+# Deployment
+
+<!-- TODO: transition / seque -->
+
+!SLIDE
+
 # Easy Deploys w/ Git
 
 - Git-based workflow that allows us to deploy to various environments by using `git push`
@@ -22,7 +29,9 @@ https://devcenter.heroku.com/articles/git
 
 !SLIDE
 
-# Easy Deploys w/ Git: Config
+# Easy Deploys w/ Git
+
+### `.git/config`
 
 On Server / deployment target, enable `push` to non-`bare` repository:
 
@@ -33,19 +42,17 @@ On Server / deployment target, enable `push` to non-`bare` repository:
 
 !SLIDE
 
-# Easy Deploys w/ Git: Hooks
+# Easy Deploys w/ Git
 
-`.git/hooks/post-receive`
+### `.git/hooks/post-receive`
 
 ```bash
 #!/bin/sh
-
 # git stuff
 cd ..
 GIT_DIR='.git'
 umask 002 && /usr/bin/git reset --hard
 read oldcommit newcommit refname
-
 # on-update actions
 echo "bundling"
 bundle install --local --path=vendor --deployment --without development test

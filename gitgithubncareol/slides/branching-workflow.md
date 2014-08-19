@@ -58,7 +58,7 @@ branch names are a form of communication to other humans, so it's important to u
 # Branch Names
 
 1. Use branch category as prefix: *e.g.* `feature`, `fix`
-1. Include the issue number-- easy point of reference for which issue the branch applies
+1. Include the issue number-- easy point of reference to which issue the branch applies
 1. Short-but-informative description
 
 *e.g.*
@@ -70,7 +70,6 @@ branch names are a form of communication to other humans, so it's important to u
 !NOTE
 Branch naming conventions that we've adopted.
 2 is important and often used.
-I'm soliciting pull requests that fix all of the bugs!
 
 !SLIDE
 

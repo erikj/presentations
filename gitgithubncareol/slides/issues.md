@@ -139,7 +139,7 @@ A Milestone is composed of:
 - set of issues
 
 !NOTE
-an issue can be assigned to only on milestone
+an issue can be assigned to only one milestone
 
 !SLIDE
 

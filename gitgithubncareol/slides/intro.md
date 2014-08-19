@@ -14,9 +14,9 @@
 http://erikj.github.io/gitgithubncareol
 
 !NOTE
-Erik Johnson, Software Engineer w/ NCAR EOL.
-here to share our experience using Git and GitHub to enhance our development workflow.
-I've published these slides to erikj.github.io/gitgithubncareol, so you can open the URL in your browser if you'd like to follow along or skip ahead or back. Slides are also a repository on GitHub, so if you find any problems, feel free to submit an issue or pull request.
+Erik, Software Engineer w/ NCAR EOL here in Boulder. Here to share our experience
+using Git and GitHub to enhance our development and deployment workflows. Also, I
+have stickers to give out afterwards.
 
 !SLIDE
 
@@ -27,25 +27,84 @@ I've published these slides to erikj.github.io/gitgithubncareol, so you can open
 <img src='img/eollogo_transparent.png' height=400 width=400 />
 
 !NOTE
-we provide instruments, infrastructure, logistics for atmospheric research
+NCAR is the US National Science Foundation's National Center for Atmospheric Research.
+EOL provides instruments, infrastructure, logistics for atmospheric research
 upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instruments aboard NASA Globalhawke UAV
 
 !SLIDE
 
-# NCAR EOL: Facilities
+# NCAR EOL Facilities
 
-<!-- TODO: instruments, platforms from https://drive.google.com/a/ucar.edu/folderview?id=0B0Rci5AHHBhHRkRqYUM0QmJ6MFk -->
+<img src='img/gv.jpg' alt='GV' />
+
+!NOTE
+NSF/NCAR Gulfstream V
+
+<!-- via https://drive.google.com/a/ucar.edu/folderview?id=0B0Rci5AHHBhHRkRqYUM0QmJ6MFk -->
+
+!SLIDE
+
+# NCAR EOL Facilities
+
+<img src='img/anvil-cloud.jpg' alt='anvil cloud' />
+
+!NOTE
+Anvil cloud from G-V
+
+!SLIDE
+
+# NCAR EOL Facilities
+
+<img src='img/c130.jpg' alt='C-130' />
+
+!NOTE
+NSF/NCAR Gulfstream C-130
+
+
+!SLIDE
+
+# NCAR EOL Facilities
+
+<img src='img/radar.jpg' alt='Radar' />
+
+!NOTE
+S-POL Radar
+
+!SLIDE
+
+# NCAR EOL Facilities
+
+<img src='img/radar-ops.jpg' alt='radar ops' />
+
+!NOTE
+S-POL Radar Ops
 
 !SLIDE
 
 # NCAR EOL CDS
 
-<img src='img/cds-logo_3_white_letters-small.png' alt='CDS logo' />
+## <img src='img/cds-logo_3_white_letters-small.png' alt=' Computing, Data and Software (CDS)' />
 
 https://www.eol.ucar.edu/about/our-organization/cds
 
 !NOTE
-IT Infrastructure and support
+IT Infrastructure and support facility
+
+!SLIDE
+
+<img src='img/cds-logo_3_white_letters-small.png' alt=' Computing, Data and Software (CDS)' />
+
+- EOL computing & IT infrastructure
+- Data-management services
+  - real-time & post-facto access
+- Field-project support
+  - IT
+  - collaborative tools
+
+!NOTE
+CDS supports everything from EOL networking, printers, workstations and laptops,
+to ingest, access and archival of research data from satellites, radar, aircraft,
+weather stations, research instruments, etc.
 
 !SLIDE
 
@@ -53,7 +112,7 @@ IT Infrastructure and support
 
 ## Collaborative Technologies & Metadata (CTM) group
 
-- Databases
+- Databases of metadata
 - Web applications
 - MapServer
 - Data ingest
@@ -108,9 +167,8 @@ Suite of applications:
 - *IRCBot* Bot-provided IRC utilities (Ruby, Cinch)
 
 !NOTE
-Most applications after Catalog Models all depend on it
-
-
+Most applications after Catalog Models all depend on it.
+We're currently using: Ruby 1.9.3, Rails 3.2 and Bootstrap 2.3
 
 <!-- TODO: screenshots of CatalogUi and CatalogMaps -->
 
@@ -132,7 +190,6 @@ root route, `Projects#list`
 
 !NOTE
 `Projects#show`, FRAPPE project homepage, `/frappe`
-
 
 !SLIDE
 
@@ -171,8 +228,8 @@ Satellite Product
 
 !NOTE
 Geo interface. Features: geolocated imagery, KMLs of satellite data and aircraft
-flight tracks, temporal navigation. Made w/ OpenLayers, OpenStreet Maps, Bootstrap,
-jQuery UI.
+flight tracks, realtime and playback / temporal navigation. Made w/ OpenLayers,
+OpenStreet Maps, Bootstrap, jQuery UI.
 
 !SLIDE
 
@@ -185,10 +242,9 @@ jQuery UI.
 
 !SLIDE
 
-# Git
+# Git <img src='img/git-logo.png' alt='' style="width:100px;height:100px;vertical-align:middle" />
 
 - Distributed revision-control system
-  - *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
 - every check out is a complete, free-standing repository
 
 !NOTE
@@ -199,13 +255,13 @@ developers have a complete VCS w/o need to interact w/ central / other repositor
 <img src='img/octocat-original.png'  />
 
 !NOTE
-Github: "a web-based hosting service for software development projects that use the Git revision control system." http://en.wikipedia.org/wiki/GitHub
+CTM has been using GitHub for most of our development for ~ 3 years
 
 !SLIDE
 
 # `github.com/ncareol`
 
-- 16 private repositories
+- 17 private repositories
 - 9 public repositories
 - 13 teams
 - 16 members
@@ -215,4 +271,6 @@ Github: "a web-based hosting service for software development projects that use 
 https://github.com/pricing
 
 !NOTE
-this is much cheaper than paying staff developers and / or system administrators to maintain similar functionality
+this is much cheaper than paying staff developers and / or system administrators to maintain similar functionality. mention Gitosis?
+teams: we have many that have a team of contributors, and a team-admins for those
+who are to administer the team's repositories
