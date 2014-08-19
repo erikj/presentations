@@ -1,3 +1,10 @@
+
+# Deployment
+
+<!-- TODO: transition / seque -->
+
+!SLIDE
+
 # Easy Deploys w/ Git
 
 - Git-based workflow that allows us to deploy to various environments by using `git push`
