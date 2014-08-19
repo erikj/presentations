@@ -124,9 +124,8 @@ Suite of applications:
 - *IRCBot* Bot-provided IRC utilities (Ruby, Cinch)
 
 !NOTE
-Most applications after Catalog Models all depend on it
-
-
+Most applications after Catalog Models all depend on it.
+We're currently using: Ruby 1.9.3, Rails 3.2 and Bootstrap 2.3
 
 <!-- TODO: screenshots of CatalogUi and CatalogMaps -->
 
@@ -148,7 +147,6 @@ root route, `Projects#list`
 
 !NOTE
 `Projects#show`, FRAPPE project homepage, `/frappe`
-
 
 !SLIDE
 
