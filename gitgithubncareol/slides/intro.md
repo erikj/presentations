@@ -33,9 +33,51 @@ upsondes, dropsondes, radar, Gulfstream V and C-130 research aircraft, instrumen
 
 !SLIDE
 
-# NCAR EOL: Facilities
+# NCAR EOL Facilities
 
-<!-- TODO: instruments, platforms from https://drive.google.com/a/ucar.edu/folderview?id=0B0Rci5AHHBhHRkRqYUM0QmJ6MFk -->
+<img src='img/gv.jpg' alt='GV' />
+
+!NOTE
+NSF/NCAR Gulfstream V
+
+<!-- via https://drive.google.com/a/ucar.edu/folderview?id=0B0Rci5AHHBhHRkRqYUM0QmJ6MFk -->
+
+!SLIDE
+
+# NCAR EOL Facilities
+
+<img src='img/anvil-cloud.jpg' alt='anvil cloud' />
+
+!NOTE
+Anvil cloud from G-V
+
+!SLIDE
+
+# NCAR EOL Facilities
+
+<img src='img/c130.jpg' alt='C-130' />
+
+!NOTE
+NSF/NCAR Gulfstream C-130
+
+
+!SLIDE
+
+# NCAR EOL Facilities
+
+<img src='img/radar.jpg' alt='Radar' />
+
+!NOTE
+Radar
+
+!SLIDE
+
+# NCAR EOL Facilities
+
+<img src='img/radar-ops.jpg' alt='radar ops' />
+
+!NOTE
+Radar Ops
 
 !SLIDE
 
