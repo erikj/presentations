@@ -30,3 +30,15 @@ What is Vagrant?
 > help maximize the productivity and flexibility of you and your team.
 
 http://docs.vagrantup.com/v2/why-vagrant/index.html
+
+!SLIDE
+
+# Why Vagrant?
+
+Vagrant handles VMs':
+
+- user
+- networking
+  - IP address and domain name
+  - SSH access
+  - port forwarning
