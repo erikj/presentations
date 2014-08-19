@@ -199,10 +199,9 @@ jQuery UI.
 
 !SLIDE
 
-# Git
+# Git <img src='img/git-logo.png' alt='' style="width:100px;height:100px;vertical-align:middle" />
 
 - Distributed revision-control system
-  - *cf.* **Hg (Mercurial)**, **GNU Bazaar**, **BitKeeper**
 - every check out is a complete, free-standing repository
 
 !NOTE
@@ -219,7 +218,7 @@ Github: "a web-based hosting service for software development projects that use 
 
 # `github.com/ncareol`
 
-- 16 private repositories
+- 17 private repositories
 - 9 public repositories
 - 13 teams
 - 16 members
@@ -229,4 +228,6 @@ Github: "a web-based hosting service for software development projects that use 
 https://github.com/pricing
 
 !NOTE
-this is much cheaper than paying staff developers and / or system administrators to maintain similar functionality
+this is much cheaper than paying staff developers and / or system administrators to maintain similar functionality.
+teams: we have many that have a team of contributors, and a team-admins for those
+who are to administer the team's repositories
