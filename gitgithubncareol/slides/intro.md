@@ -15,7 +15,8 @@ http://erikj.github.io/gitgithubncareol
 
 !NOTE
 Erik, Software Engineer w/ NCAR EOL here in Boulder. Here to share our experience
-using Git and GitHub to enhance our development and deployment workflows
+using Git and GitHub to enhance our development and deployment workflows. Also, I
+have stickers to give out afterwards.
 
 !SLIDE
 

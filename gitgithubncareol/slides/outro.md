@@ -77,6 +77,7 @@ user friendly, can be surprising, in violation of PLOS, surprises in `ops` are b
 - http://github.com/erikj
 - slides: http://erikj.github.io/gitgithubncareol
 - source: https://github.com/erikj/gitgithubncareol
+- stickers!
 - comments, questions?
 
 !NOTE
