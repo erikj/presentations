@@ -68,7 +68,7 @@ NSF/NCAR Gulfstream C-130
 <img src='img/radar.jpg' alt='Radar' />
 
 !NOTE
-Radar
+S-POL Radar
 
 !SLIDE
 
@@ -77,7 +77,7 @@ Radar
 <img src='img/radar-ops.jpg' alt='radar ops' />
 
 !NOTE
-Radar Ops
+S-POL Radar Ops
 
 !SLIDE
 
@@ -104,7 +104,7 @@ IT Infrastructure and support facility
 !NOTE
 CDS supports everything from EOL networking, printers, workstations and laptops,
 to ingest, access and archival of research data from satellites, radar, aircraft,
-weather stations, etc.
+weather stations, research instruments, etc.
 
 !SLIDE
 
@@ -112,7 +112,7 @@ weather stations, etc.
 
 ## Collaborative Technologies & Metadata (CTM) group
 
-- Databases
+- Databases of metadata
 - Web applications
 - MapServer
 - Data ingest
@@ -228,8 +228,8 @@ Satellite Product
 
 !NOTE
 Geo interface. Features: geolocated imagery, KMLs of satellite data and aircraft
-flight tracks, temporal navigation. Made w/ OpenLayers, OpenStreet Maps, Bootstrap,
-jQuery UI.
+flight tracks, realtime and playback / temporal navigation. Made w/ OpenLayers,
+OpenStreet Maps, Bootstrap, jQuery UI.
 
 !SLIDE
 
@@ -271,6 +271,6 @@ CTM has been using GitHub for most of our development for ~ 3 years
 https://github.com/pricing
 
 !NOTE
-this is much cheaper than paying staff developers and / or system administrators to maintain similar functionality.
+this is much cheaper than paying staff developers and / or system administrators to maintain similar functionality. mention Gitosis?
 teams: we have many that have a team of contributors, and a team-admins for those
 who are to administer the team's repositories
