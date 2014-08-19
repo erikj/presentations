@@ -70,7 +70,6 @@ branch names are a form of communication to other humans, so it's important to u
 !NOTE
 Branch naming conventions that we've adopted.
 2 is important and often used.
-I'm soliciting pull requests that fix all of the bugs!
 
 !SLIDE
 
