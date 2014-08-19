@@ -1,5 +1,5 @@
 
-# Workflow Summary:
+# Workflow Summary
 
 1. Scrum
 1. Open issue, assign to developer, label as **CHECKED OUT**
@@ -36,12 +36,12 @@ you can make the most of your VCS and management software to enhance your workfl
 
 # Room For Improvement
 
-- cross-repo issues: where do they issues belong?
-- deployment collision-- surprise!
+- Cross-repo issues: where do they issues belong?
+- Deployment collision-- surprise!
 user friendly, can be surprising, in violation of PLOS, surprises in `ops` are bad
-- application and assets out of sync while precompiling on deployment
+- Application and assets out of sync while precompiling on deployment
 - Scrum, less useful when staff are working on isolated tasks
-- schema scattered across two repositories as Rails migrations and SQL files
+- Schema scattered across two repositories as Rails migrations and SQL files
 
 !NOTE
 
