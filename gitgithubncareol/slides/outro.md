@@ -17,7 +17,7 @@
 
 # Lessons Learned
 
-- Learn and use the tools that you have / are available: Git, Markdown, languages' preferred packaging utilities, etc.
+- Learn and use the tools that we have / are available: Git, Markdown, languages' preferred packaging utilities, etc.
 - Git can enhance your workflow
 - GitHub
   - Reliable and simple but powerful
@@ -25,7 +25,7 @@
   - Subscribe to GitHub's blog for updates on features
   - Issue discovery can be difficult when there are many Issues
     - => Easy to create duplicates
-  - Labels for organization
+  - Organize w/ labels
 - Use Git `tag`s for releases
 - Minimize / eliminate third-party dependencies
 
