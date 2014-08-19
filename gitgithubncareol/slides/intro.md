@@ -259,7 +259,7 @@ CTM has been using GitHub for most of our development for ~ 3 years
 
 !SLIDE
 
-# `github.com/ncareol`
+# `github.com:ncareol`
 
 - 17 private repositories
 - 9 public repositories
