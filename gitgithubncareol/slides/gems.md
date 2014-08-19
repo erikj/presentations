@@ -1,9 +1,10 @@
-!SLIDE
 
 # Putting Things Together: Bundler
 
 !NOTE
 transition slide
+
+!SLIDE
 
 # Bundle w/ Git
 
