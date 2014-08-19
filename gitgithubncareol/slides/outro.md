@@ -41,6 +41,7 @@ you can make the most of your VCS and management software to enhance your workfl
 user friendly, can be surprising, in violation of PLOS, surprises in `ops` are bad
 - application and assets out of sync while precompiling on deployment
 - Scrum, less useful when staff are working on isolated tasks
+- schema scattered across two repositories as Rails migrations and SQL files
 
 !NOTE
 
