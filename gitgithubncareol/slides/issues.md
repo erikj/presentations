@@ -66,7 +66,7 @@ https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments
 A **good idea** for a *new feature* from @erikj that relates to #60:
 
 ```ruby
-puts 'Hello SEA'
+puts 'Hello Boulder Ruby'
 ```
 </pre>
 

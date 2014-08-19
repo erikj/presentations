@@ -30,7 +30,7 @@
 - Minimize / eliminate third-party dependencies
 
 !NOTE
-point of this presentation is to tell you that you should use Git and GitHub, but you should, but that you can make the most of your VCS and management software to enhance your workflow and team communication.
+you can make the most of your VCS and management software to enhance your workflow and team communication.
 
 !SLIDE
 
@@ -46,26 +46,9 @@ point of this presentation is to tell you that you should use Git and GitHub, bu
 
 # Future
 
-- Faster, smarter Easy Deploys
 - Continuous Integration
-- Vagrant
 - DevOps
 - Open Source
-
-!SLIDE
-
-# Acknowledgements
-
-## NCAR EOL:
-
-- John Allison
-- Mike Dye
-- Charlie Martin
-- Greg Stossmeister
-- Joe VanAndel
-
-!NOTE
-thanks to John for helping in the development of the workflow and techniques described in this presentation, and thanks to Mike, Charlie, Greg and Joe for valuable feedback on this presentation. Also thanks to Rion Dooley for switching times w/ me so that I was able to present today.
 
 !SLIDE
 
