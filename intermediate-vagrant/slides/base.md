@@ -68,6 +68,82 @@ end
 
 !SLIDE
 
+`Vagrantfile`
+
+```ruby
+config.vm.provision "shell", path: "bin/provision.sh"
+```
+
+`bin/provision.sh`
+
+```bash
+if [ "`rpm -qa puppet`" ]
+  then echo 'puppet already installed'
+  else # install puppet
+    echo 'installing puppet'
+    rpm -ivh https://yum.puppetlabs.com/el/6/products/x86_64/puppetlabs-release-6-10.noarch.rpm
+    yum install -y puppet
+fi
+
+modules=('puppetlabs-mysql' 'maestrodev-rvm' 'puppetlabs-apache')
+for module in "${modules[@]}"; do
+  if [ "`puppet module list | grep $module`" ]
+    then echo $module already installed
+    else # install module
+      echo install puppet module $module
+      puppet module install $module
+  fi
+done
+```
+
+!SLIDE
+
+`Vagrantfile`
+
+```ruby
+config.vm.provision "puppet" do |puppet|
+  puppet.manifests_path = "puppet"
+  puppet.manifest_file  = "default.pp"
+end
+```
+
+`puppet/default.pp`
+
+```puppet
+import 'mysql.pp'
+import 'rvm-ruby.pp'
+import 'unicorn.pp'
+import 'apache.pp'
+```
+
+!SLIDE
+
+`puppet/mysql.pp`
+
+```puppet
+class { '::mysql::server':
+  root_password    => 'xxxxxxxxx',
+  override_options => { 'mysqld' => {
+    'max_connections'   => '1024',
+    'default-time-zone' => '+00:00'
+  } }
+}
+
+mysql::db { 'catalog_dev':
+  user     => 'vagrant',
+  password => 'xxxxxx',
+  host     => 'localhost',
+  grant    => 'all',
+  charset  => 'utf8',
+  sql      => '/vagrant/sql/sferic.zith9.20140520.sql'
+}
+```
+
+!NOTE
+one example of the Puppet manifests...
+
+!SLIDE
+
 # Base Boxes
 
 ## CTM (Summary)
