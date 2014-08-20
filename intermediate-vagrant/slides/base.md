@@ -1,6 +1,4 @@
-# Base Boxes
-
-## Requirements
+# Base-Box Requirements
 
 - VM that runs on target provider
 - `vagrant` user w/ passwordless `sudo`
@@ -15,9 +13,7 @@
 
 !SLIDE
 
-# Base Boxes
-
-## Community Built
+# Base Boxes: Community
 
 Base boxes built, configured and packaged by Vagrant community
 
@@ -30,32 +26,32 @@ Base boxes built, configured and packaged by Vagrant community
 
 !SLIDE
 
-# Base Boxes
+# `catalog-vagrant`
 
-## CTM (Summary)
+https://github.com/ncareol/catalog-vagrant
 
-- `git` repo `catalog-vagrant`
-  - versioned
-  - nearly everything is configured via versioned shell scripts and Puppet manifests
+- `git` repository
+- configuration files
+- documentation
+- versioned
+- nearly everything is configured via versioned shell scripts and Puppet manifests
 
 !SLIDE
 
-# Base Boxes
-
-## CTM (Summary)
+# Minimal SL6.5 Base Box
 
 - maintainer creates minimal base box:
   - `sl65-minimal.vb.{DATESTAMP}.box`
+- fresh install of SciLinux 6.5 + Vagrant requirements
 
 !SLIDE
 
-# Base Boxes
-
-## CTM (Summary)
+# `catalog-dev` Base Box
 
 - maintainer provisions catalog-dev base box
+  - `sl65-catalog-dev.vb.{DATESTAMP}.box`
   - based on `sl65-minimal.vb.{DATESTAMP}.box`
-  - Vagrant calls shell script and puppet manifest from `catalog-vagrant/Vagrantfile`:
+  - Vagrant calls shell script and Puppet manifest from `catalog-vagrant/Vagrantfile`:
 
 ```ruby
 config.vm.provision "shell", path: "bin/provision.sh"
@@ -144,29 +140,11 @@ one example of the Puppet manifests...
 
 !SLIDE
 
-# Base Boxes
-
-## CTM (Summary)
-
-  - shell script installs puppet and required modules
-  - puppet manifests install catalog-dev requirements:
-    - rvm + ruby
-    - mysql
-      - user
-      - database
-      - schema
-      - base data
-    - apache
-    - unicorn (rails daemon)
-  - minimizes and packages box
-
-!SLIDE
-
-# Base Boxes
-
-## CTM (Summary)
+# Base-Box Documentation
 
 - maintainer documents changes and md5
-- maintainer shares box and documentation in
+  - `sl65-catalog-dev.vb.{DATESTAMP}.box.md`
+  - `sl65-catalog-dev.vb.{DATESTAMP}.box.md5`
+- maintainer shares box and documentation via NFS
   - SL65 minimal: `/net/vagrant/shared`
   - SL65 catalog-dev: `/net/vagrant/ctm`
