@@ -30,7 +30,7 @@
 
 # Vagrant Concepts
 
-##* Base Box*
+## *Base Box*
 
 - VM configured and packaged for Vagrant
 - Intended for sharing w/ others and / or as template from which to create development VMs / boxes
@@ -43,7 +43,7 @@
 ## *Box*
 
 - VM loaded into Vagrant
-- can be initiallized, managed, accessed via Vagrant
+- initialized, managed, accessed via Vagrant
 
 !SLIDE
 
