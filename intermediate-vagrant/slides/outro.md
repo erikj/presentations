@@ -1,7 +1,7 @@
 # Summary
 
 - Vagrant Concepts
-- Building Base Boxes
+- Base-Box Construction
 - Workflow: General and CTM-specific
 - Demo
 
