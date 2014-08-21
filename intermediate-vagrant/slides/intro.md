@@ -61,3 +61,9 @@ Vagrant handles VMs':
 - 2 applications
   - **Field Catalog**
   - **Catalog Maps**
+
+!NOTE
+Mike Dye contributed to Field-Catalog development this spring and didn't have to
+install all of the database and Ruby dependencies that traditionally go along w/
+that-- he just installed VirtualBox, installed Vagrant, cloned our git
+repository and started developing, which is The Way It Should Be.
