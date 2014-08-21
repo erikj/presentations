@@ -27,6 +27,8 @@ Base boxes built, configured and packaged by Vagrant community
 - https://vagrantcloud.com/
   - accessible in Vagrant via `user-name/box-name`
   - *e.g.* `hashicorp/precise32`, 32-bit Ubuntu Precise from Hashicorp
+- good for initial experimentation
+- not recommended for serious use
 
 !SLIDE
 
