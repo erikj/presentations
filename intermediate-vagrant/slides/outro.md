@@ -82,13 +82,6 @@ Features in which others may be interested
 
 !SLIDE
 
-# Room For Improvement
-
-- NFS lag
-- automation of base-box creation
-
-!SLIDE
-
 # `</content>`
 
 - thanks!
