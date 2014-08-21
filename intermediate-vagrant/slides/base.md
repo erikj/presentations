@@ -29,6 +29,11 @@ Base boxes built, configured and packaged by Vagrant community
   - *e.g.* `hashicorp/precise32`, 32-bit Ubuntu Precise from Hashicorp
 - good for initial experimentation
 - not recommended for serious use
+  - unknown background, security
+
+!NOTE
+
+open and show links
 
 !SLIDE
 
