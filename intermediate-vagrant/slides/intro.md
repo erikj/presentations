@@ -48,7 +48,7 @@ Vagrant handles VMs':
 - networking
   - IP address and domain name
   - SSH access
-  - port forwarning
+  - port forwarding
 - directory sharing
 
 !SLIDE
