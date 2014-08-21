@@ -42,3 +42,14 @@ Vagrant handles VMs':
   - IP address and domain name
   - SSH access
   - port forwarning
+
+!SLIDE
+
+# Vagrant @ CTM
+
+- 4 months
+- 1 maintainer
+- 3 users
+- 2 applications
+  - **Field Catalog**
+  - **Catalog Maps**
