@@ -12,7 +12,7 @@
 - Incredibly easy to use, works as advertised
 - Developer onboarding / setting up new development environments is now trivial
 - Small learning curve for users, but important to educate on Vagrant concept and workflow
-- Initially setting up base box(es) can be a bit laborious, but it pays
+- Initially setting up base box(es) is an investment-- can be a bit laborious, but it pays
 off when using and developing w/ Vagrant
 
 !SLIDE
