@@ -41,3 +41,20 @@ guest $ cd /vagrant && bundle && sudo service unicorn start
 
 !NOTE
 CTM catalog-dev specific
+
+!SLIDE
+
+# CTM Workflow
+
+1. `host $ cd catalog-maps/`
+1. `host $ vagrant up`
+1. edit files in preferred text editor / IDE on host
+1. evaluate changes over HTTP via port forwarded to guest VM running application code from shared directory
+  - http://localhost:3000
+1. iterate upon edit and evaluation as needed
+1. commit changes via `git` on host
+  - `host $ git add changed/file.rb`
+  - `host $ git commit -m "made some changes" `
+
+!NOTE
+cd to project directory, start Vagrant box, make changes, evaluate changes, iterate, commit changes to version-control system
