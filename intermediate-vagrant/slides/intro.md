@@ -8,6 +8,13 @@
 
 #### August 21, 2014
 
+!NOTE
+Many of you were @ the CDS Strategic Meeting in April when I provided and
+introducetion to Vagrant , and CTM has been trying out Vagrant in our Field-
+Catalog-development workflow since then. So, aside from some basics, I'll try
+not to repeat too much of what I covered back in April and will share what we
+have learned and our experience since then.
+
 !SLIDE
 
 # Vagrant

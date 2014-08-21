@@ -1,3 +1,7 @@
+# Vagrant Usage
+
+!SLIDE
+
 # Vagrant Dependencies
 
 - install VirtualBox
@@ -58,3 +62,7 @@ CTM catalog-dev specific
 
 !NOTE
 cd to project directory, start Vagrant box, make changes, evaluate changes, iterate, commit changes to version-control system
+
+!SLIDE
+
+# Demo

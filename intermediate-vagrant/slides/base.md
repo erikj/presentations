@@ -1,3 +1,7 @@
+# Base Boxes
+
+!SLIDE
+
 # Base-Box Requirements
 
 - VM that runs on target provider

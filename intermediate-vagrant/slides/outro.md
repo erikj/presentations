@@ -22,11 +22,12 @@
 # Caveats
 
 - VirtualBox APIs required by Vagrant can break on Mavericks
-- new way of doing things requires educating users (developers)
+- New way of doing things requires educating users (developers)
+- Maintainer(s) must be able to install and configure project dependencies from fresh install of target system
 
 !SLIDE
 
-# Future / wishlist
+# Future / Wishlist
 
 - Automated base-box construction: packager.io + kickstarter files
   - *automate all the things*
