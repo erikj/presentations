@@ -15,6 +15,12 @@
 - Initially setting up base box(es) is an investment-- can be a bit laborious, but it pays
 off when using and developing w/ Vagrant
 
+!NOTE
+new laptop, only computer that I took to New Zealand for Deepwave. this computer
+doesn't have any Catalog dependencies installed, but I was able to perform
+Catalog development and support on this computer via Vagrant and catalog-dev
+boxes.
+
 !SLIDE
 
 # Lessons Learned
