@@ -42,7 +42,7 @@ fresh Linux system totally exposed
 
 # Future / Wishlist
 
-- Automated base-box construction: packager.io + kickstarter files
+- Automated base-box construction: [packer.io](http://www.packer.io/) + kickstarter files
 
   - <img alt='automate all the things' src='img/automate-all-the-things.jpg' height=150 width=200 />
 
