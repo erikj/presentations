@@ -23,10 +23,11 @@ $ sudo rpm -ivh epel-release-6-8.noarch.rpm
   ```shell
 $ sudo yum install docker-io
 ```
-!NOTE
-EPEL: Extra Packages for Enterprise Linux
 
 <https://docs.docker.com/installation/rhel/>
+
+!NOTE
+EPEL: Extra Packages for Enterprise Linux
 
 !SLIDE
 
@@ -49,6 +50,8 @@ $ sudo yum install docker
 
 ## Docker Installation: OSX
 
-- Docker client and virtual Linux machine running Docker
+- Docker client and Linux VM running Docker
 
-`$ brew install docker boot2docker`
+  ```
+$ brew install docker boot2docker
+```
