@@ -21,7 +21,7 @@
 
 !SLIDE
 
-## Concepts: Docker
+## Docker
 
 Engine and interface to containers
 
@@ -31,7 +31,7 @@ Engine and interface to containers
 
 !SLIDE
 
-## Concepts: Docker Images
+## Docker Images
 
 - Filesystems containing a (usually) minimal Linux OS
 - Copy-on-write filesystems
@@ -42,7 +42,21 @@ Engine and interface to containers
 
 !SLIDE
 
-## Concepts: Docker Registry
+## Dockerfiles
+
+plain-text files w/ directives for building Docker images
+
+!SLIDE
+
+## Dockerfile Example
+
+![example Dockerfile](img/example-dockerfile.png)
+
+<http://www.dockerbook.com/code/4/apache2/Dockerfile>
+
+!SLIDE
+
+## Docker Registry
 
 - Centralized repository of Docker images
 - <https://github.com/docker/docker-registry>
@@ -51,7 +65,7 @@ Engine and interface to containers
 
 !SLIDE
 
-## Concepts: Docker Containers
+## Docker Containers
 
 - running instance of an image
 - image + config + invocation = container
