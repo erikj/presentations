@@ -7,6 +7,6 @@
 [submodule "risk-mgmt-devops/reveal.js"]
 	path = risk-mgmt-devops/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
-[submodule "docker-fig/reveal.js"]
-	path = docker-fig/reveal.js
+[submodule "docker-compose/reveal.js"]
+	path = docker-compose/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
