@@ -1,4 +1,4 @@
-## Concepts: Containerization
+## Containerization
 
 - isolated execution environments
 - *"chroot on steroids"*
@@ -8,13 +8,13 @@
 
 !SLIDE
 
-## Concepts: Containerization vs. Virtualization
+## Containerization vs. Virtualization
 
 ![vm-vs-container stacks](img/docker_vm.jpg)
 
 !SLIDE
 
-## Concepts: Docker
+## Docker
 
 - Docker, Inc., formerly dotCloud
 - Docker Open-Source Project
