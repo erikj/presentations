@@ -1,11 +1,13 @@
 class Joshua
   def call env
 
-    content = ["<h1 style='text-align:center;'>Greetings Professor Falken.</h1>"]
+    content = ["<div style='text-align:center;'>"]
+    content << "<h1>Greetings Professor Falken.</h1>"
 
-    content << "<h2 style='text-align:center;'>Shall we play a game?</h2>"
+    # content << "<h2>Shall we play a game?</h2>"
+    # content << "<h3>How about a nice game of chess?</h3>"
 
-    content << "<h3 style='text-align:center;'>How about a nice game of chess?</h3>"
+    content << '</div>'
 
     [ 200, {"Content-Type" => "text/html  "}, content ]
   end
