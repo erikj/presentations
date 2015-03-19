@@ -69,3 +69,11 @@ Plain-text files w/ directives for building Docker images
 
 - Running instance of an image
 - Image + Config + Invocation = Container
+
+!SLIDE
+
+## Docker
+
+- **Images**: packaging system
+- **Registry**: package distribution
+- **Containers**: fast, isolated, package execution
