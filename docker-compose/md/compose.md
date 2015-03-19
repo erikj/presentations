@@ -33,5 +33,7 @@ Docker, Inc. liked Fig so much that they bought the company that wrote it: Orcha
 
 ## Demo!
 
+<https://github.com/erikj/slides/tree/gh-pages/docker-compose/demo>
+
 !NOTE
 ~/Dropbox/projects/slides/docker-compose/demo`
