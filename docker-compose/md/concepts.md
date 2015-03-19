@@ -1,10 +1,10 @@
 ## Containerization
 
-- isolated execution environments
+- Isolated execution environments
 - *"chroot on steroids"*
 - *"Containerization is the new virtualization"*
 - Linux Control Groups (cgroups) <http://en.wikipedia.org/wiki/Cgroups>
-- resource limits
+- Resource limits
 
 !SLIDE
 
@@ -44,7 +44,7 @@ Engine and interface to containers
 
 ## Dockerfiles
 
-plain-text files w/ directives for building Docker images
+Plain-text files w/ directives for building Docker images
 
 !SLIDE
 
@@ -67,5 +67,5 @@ plain-text files w/ directives for building Docker images
 
 ## Docker Containers
 
-- running instance of an image
-- image + config + invocation = container
+- Running instance of an image
+- Image + Config + Invocation = Container

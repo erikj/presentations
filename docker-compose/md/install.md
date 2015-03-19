@@ -7,7 +7,6 @@
   - or RHEL 2.6.32-431+
     - required features backported by RedHat
 
-
 !SLIDE
 
 ## Docker Installation: RHEL 6.5+
@@ -20,7 +19,7 @@ $ sudo rpm -ivh epel-release-6-8.noarch.rpm
 ```
 - Install `docker-io` package
 
-  ```shell
+  ```
 $ sudo yum install docker-io
 ```
 
@@ -39,7 +38,7 @@ EPEL: Extra Packages for Enterprise Linux
 $ sudo subscription-manager repos --enable=rhel-7-server-extras-rpms
 ```
 
-- Install `docker-io` package
+- Install `docker` package
 
   ```
 $ sudo yum install docker
