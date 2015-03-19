@@ -29,3 +29,9 @@ $ docker run -d -p 4444 ubuntu:12.10 /bin/nc -l 4444
 !NOTE
 Docker, Inc. liked Fig so much that they bought the company that wrote it: Orchard, Inc. In the time since I scheduled this presentation w/ Charlie, Fig has been integrated into Docker as Docker Compose.
 
+!SLIDE
+
+## Demo!
+
+!NOTE
+~/Dropbox/projects/slides/docker-compose/demo`
