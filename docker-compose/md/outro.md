@@ -1,3 +1,14 @@
+## Where might Docker be useful?
+
+- Continuous Integration
+  - Test w/ many distributions w/o overhead of many VMs
+- Service-Oriented Architecture (SOA)
+  - Applications composed of many microservices
+- Shared applications w/ complex configuration and / or complex dependencies
+- Securely isolating multiple tenants on shared hardware
+
+!SLIDE
+
 ## Summary
 
 - **Docker**: convenient, fast, secure way to package, share and run **Linux** applications
@@ -22,4 +33,8 @@
 
 !SLIDE
 
-# Thanks!
+## Thanks!
+
+Comments, questions?
+
+[ej@ucar.edu](mailto:ej@ucar.edu)
