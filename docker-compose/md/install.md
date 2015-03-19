@@ -1,6 +1,4 @@
-## Docker Installation
-
-### Requirements
+## Docker: Requirements
 
 - 64-bit Linux kernel
   - 3.10+
