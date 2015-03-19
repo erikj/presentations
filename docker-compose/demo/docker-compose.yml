@@ -6,9 +6,9 @@ app:
   ports:
     - "9292:9292"
 
-web:
-  build: web
-  links:
-    - app
-  ports:
-    - '8080:80'
+# web:
+#   build: web
+#   links:
+#     - app
+#   ports:
+#     - '8080:80'
