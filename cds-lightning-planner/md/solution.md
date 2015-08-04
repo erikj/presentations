@@ -32,7 +32,7 @@
 
 !SLIDE
 
-# Twilio SMS
+# <img src='img/twilio-logo.png' style='height:1.0em;width:1.0em;vertical-align:bottom;'/> Twilio SMS
 
 ```ruby
 account_sid, auth_token = "abc", "123"
