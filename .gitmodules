@@ -10,3 +10,6 @@
 [submodule "docker-compose/reveal.js"]
 	path = docker-compose/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
+[submodule "cds-lightning-planner/reveal.js"]
+	path = cds-lightning-planner/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
