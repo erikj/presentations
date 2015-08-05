@@ -12,6 +12,7 @@
 
 - OpenLayers GIS JavaScript library
 - OpenStreetMap base layer
+- Google Streetview and Satellite imagery
 - Ruby-on-Rails, MySQL backend
 - Devise Ruby authentication library
 - Bootstrap, jQuery, Backbone, Dust.js CSS and JS libraries
