@@ -14,11 +14,11 @@
 
 ## Mobile ground assets
 
-- Where are they now?
-- Where are they going to?
-- Where are now / going to they in relation to:
+- Where are they now / going?
+- ...in relation to:
   - fixed assets: S-PoL, F-PISAs
   - airborne assets: U-Wyoming King Air, NOAA P-3, NASA DC-8
+  - surveyed locations
   - current weather
   - forecast weather
 
