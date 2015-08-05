@@ -31,6 +31,8 @@
 
 <img src='img/inreach-outbound.png' />
 
+[files.delorme.com/support/inreachwebdocs/IPC_Outbound.pdf](http://files.delorme.com/support/inreachwebdocs/IPC_Outbound.pdf)
+
 !SLIDE
 
 # <img src='img/twilio-logo.png' style='height:1.0em;width:1.0em;vertical-align:bottom;'/> Twilio SMS
@@ -51,3 +53,5 @@ friends.each do |key, value|
   )
 end
 ```
+
+[www.twilio.com/docs/quickstart/ruby/sms/sending-via-rest](https://www.twilio.com/docs/quickstart/ruby/sms/sending-via-rest)
