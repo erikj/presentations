@@ -38,8 +38,9 @@
 # <img src='img/twilio-logo.png' style='height:1.0em;width:1.0em;vertical-align:bottom;'/> Twilio SMS
 
 ```ruby
-account_sid, auth_token = "abc", "123"
-client = Twilio::REST::Client.new account_sid, auth_token
+require 'rubygems'; require 'twilio-ruby'
+
+client = Twilio::REST::Client.new 'my_account_sid', 'my_auth_token'
 
 from = "+14159998888" # Your Twilio number
 
