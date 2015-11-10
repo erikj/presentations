@@ -13,3 +13,6 @@
 [submodule "cds-mission-planner/reveal.js"]
 	path = cds-mission-planner/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
+[submodule "redis-eolprog/reveal.js"]
+	path = redis-eolprog/reveal.js
+	url = https://github.com:hakimel/reveal.js.git
