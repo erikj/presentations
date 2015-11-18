@@ -1,11 +1,11 @@
-
 # Redis
-
-<!--What is Redis-->
 
 - Advanced, in-memory, key-value store
 - like **Memcached**, but w/ optional data persistence
 - like **ZeroMQ**, but not just a messaging queue
+
+!NOTE
+What is Redis
 
 !SLIDE
 
@@ -17,7 +17,13 @@
 - currently sponsored by **Redis Labs**, previously **Pivotal Labs** and **VMWare**
 - written in **C**
 - **BSD** license
-<!--About-->
+
+!NOTE
+About
+
+stands for REmote DIctionary Server
+
+been around for six years
 
 !SLIDE
 
@@ -52,6 +58,8 @@ Features
 !NOTE
 Benefits
 
+Well-designed: does One Thing Well
+
 !SLIDE
 
 # Redis
@@ -59,6 +67,9 @@ Benefits
 - Data is stored in memory-- volatile!
   - typically most expensive component
   - can be persisted to disk, as backup, if needed
+    - persisence modes:
+      - append-only file (faster)
+      - ...
 - Single threaded
   - long-running command / query blocks others
 - Maximum of 16 databases per **Redis** instance
