@@ -78,8 +78,9 @@ Costs
 - Cache
   - [redis-rails](https://github.com/redis-store/redis-rails) *"provides a full set of stores (Cache, Session, HTTP Cache) for Ruby on Rails."*
 - Message queue
-  - [resque](https://github.com/resque/resque), *"a Redis-backed library for creating background jobs, placing those jobs on multiple queues, and processing them later."*
-- Data store for high-data-rate instruments' data
+  - [Resque](https://github.com/resque/resque), *"a Redis-backed library for creating background jobs, placing those jobs on multiple queues, and processing them later."*
+  - [Sidekiq](http://sidekiq.org/), *Simple, efficient background processing for Ruby.*
+- Data store for high-data-rate instruments
 
 !SLIDE
 
