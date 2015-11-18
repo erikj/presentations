@@ -3,46 +3,45 @@
 
 <!--What is Redis-->
 
-- Advanced, in-memory key-value store
-
+- Advanced, in-memory, key-value store
 - like **Memcached**, but w/ optional data persistence
-
 - like **ZeroMQ**, but not just a messaging queue
 
 !SLIDE
 
 # Redis
 
-<!--Features-->
-
-- [Partionable](http://redis.io/topics/partitioning)
+- [Partioning](http://redis.io/topics/partitioning)
   - distribute data among multiple Redis instances
-- Replicatable
+- [Replication](http://redis.io/topics/replication)
   - master / slave(s)
-- Clusterable
+- [Clustering](http://redis.io/topics/cluster-tutorial)
 - [Clients](http://redis.io/clients) available for all popular languages
 
+!NOTE
+Features
 
 !SLIDE
 
 # Redis
-
-<!--Benefits-->
 
 - Advanced
   - many useful [commands](http://redis.io/commands) and [data types](http://redis.io/topics/data-types)
   - [Publish/Subscribe (Pub/Sub)](http://redis.io/topics/pubsub) messaging system
   - Lua scripting
 - Fast!
+  - data stored and accessed in memory
+  - written in **C**
 - Well designed
 - Well documented
   - all queries documented w/ `Big O()` notation
 
+!NOTE
+Benefits
+
 !SLIDE
 
 # Redis
-
-<!--Costs-->
 
 - Data is stored in memory-- volatile!
   - typically most expensive component
@@ -51,9 +50,12 @@
   - long-running command / query blocks others
 - Security not strictly included
   - single password, transmitted in plain text
-  - assumed that Redis is run in a protected environment
-  - easily added on via firewalls, SSL or SSH tunnels
-- Maximum of 16 databases per Redis instance
+  - assumed that **Redis** is run in a protected environment
+  - easily added on via firewalls, **SSL** or **SSH** tunnels
+- Maximum of 16 databases per **Redis** instance
+
+!NOTE
+Costs
 
 !SLIDE
 
