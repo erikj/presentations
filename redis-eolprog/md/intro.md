@@ -67,15 +67,17 @@ Well-designed: does One Thing Well
 - Data is stored in memory-- volatile!
   - typically most expensive component
   - can be persisted to disk, as backup, if needed
-    - persisence modes:
-      - append-only file (faster)
-      - ...
+    - persistence modes:
+      - append-only file, logs every write operation
+      - **RDB** file, point-in-time snapshots @ specified intervals
 - Single threaded
   - long-running command / query blocks others
 - Maximum of 16 databases per **Redis** instance
 
 !NOTE
 Costs / limitations
+
+append-only file is most durable, RDB file has potential for data loss if Redis goes down between snapshot intervals
 
 !SLIDE
 
