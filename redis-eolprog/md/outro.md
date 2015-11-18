@@ -17,7 +17,9 @@ Advanced, popular, well-maintained, actively developed, well-documented, Open-So
 
 # Further Reading
 
+- [try.redis.io](http://try.redis.io/)
 - <http://redis.io/documentation>
+- [`<antirez>` blog](http://antirez.com/latest/0)
 - [The Little Redis Book](http://openmymind.net/2012/1/23/The-Little-Redis-Book/)
 - [A few things about Redis security - antirez](http://www.antirez.com/news/96)
 - [Some Architectural Design Concepts For Redis | A Developer's Side Notes](http://www.yzuzun.com/2015/04/some-architectural-design-concepts-for-redis/)
