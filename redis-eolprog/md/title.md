@@ -6,4 +6,4 @@
 
 ### Erik Johnson, 2015/11/19
 
-<!-- !SLIDE -->
+[erikj.github.io/slides/redis-eolprog](http://erikj.github.io/slides/redis-eolprog)
