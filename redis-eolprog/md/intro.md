@@ -68,7 +68,6 @@ Costs
   - [resque](https://github.com/resque/resque), *"a Redis-backed library for creating background jobs, placing those jobs on multiple queues, and processing them later."*
 - Data store for high-data-rate instruments' data
 
-
 !SLIDE
 
 # [Value Data Types](http://redis.io/topics/data-types)
@@ -82,3 +81,27 @@ Costs
 !NOTE
 keys are strings, max size: 512MB
 
+!SLIDE
+
+# Redis CLI
+
+```sh
+$ sudo yum install -y redis
+$ sudo service redis start
+Starting redis-server:     [  OK  ]
+$ redis-cli
+redis 127.0.0.1:6379> ping
+PONG
+redis 127.0.0.1:6379> set salutation 'greetings earthling'
+OK
+redis 127.0.0.1:6379> set valediction adieu
+OK
+redis 127.0.0.1:6379> mget salutation valediction
+1) "greetings earthling"
+2) "adieu"
+redis 127.0.0.1:6379> dbsize
+(integer) 2
+```
+
+!NOTE
+Command-line interface
