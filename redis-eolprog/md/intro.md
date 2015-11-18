@@ -61,14 +61,36 @@ Benefits
   - can be persisted to disk, as backup, if needed
 - Single threaded
   - long-running command / query blocks others
+- Maximum of 16 databases per **Redis** instance
+
+!NOTE
+Costs / limitations
+
+!SLIDE
+
+# Redis Security
+
 - Security not strictly included
   - single password, transmitted in plain text
   - assumed that **Redis** is run in a protected environment
   - easily added on via firewalls, **SSL** or **SSH** tunnels
-- Maximum of 16 databases per **Redis** instance
+  - *"The Redis security model is: it's totally insecure to let untrusted clients access the system, please protect it from the outside world yourself."* \- [A few things about Redis security - antirez](http://www.antirez.com/news/96)
 
 !NOTE
-Costs
+
+'One Thing Well' means that time is not spent implementing and maintaining advanced security features
+
+"The reason is that, basically, 99.99% of the Redis use cases are inside a sandboxed environment. Security is complex. Adding security features adds complexity. Complexity for 0.01% of use cases is not great, but it is a matter of design philosophy, so you may disagree of course.""
+
+!SLIDE
+
+# Redis Security
+
+- Enhancements planned
+  - security-related bug fixes
+  - more conservative default configuration
+  - multiple users w/ ACLs
+  - \- [A few things about Redis security - antirez](http://www.antirez.com/news/96)
 
 !SLIDE
 
