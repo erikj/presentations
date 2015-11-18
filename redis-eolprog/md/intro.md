@@ -11,6 +11,18 @@
 
 # Redis
 
+- **REmote DIctionary Server**
+- initially released in 2009
+- created, maintained by Salvatore Sanfilippo, *aka* [antirez](http://antirez.com/latest/0)
+- currently sponsored by **Redis Labs**, previously **Pivotal Labs** and **VMWare**
+- written in **C**
+- **BSD** license
+<!--About-->
+
+!SLIDE
+
+# Redis
+
 - [Partioning](http://redis.io/topics/partitioning)
   - distribute data among multiple Redis instances
 - [Replication](http://redis.io/topics/replication)
