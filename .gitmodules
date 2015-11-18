@@ -15,4 +15,4 @@
 	url = https://github.com/hakimel/reveal.js.git
 [submodule "redis-eolprog/reveal.js"]
 	path = redis-eolprog/reveal.js
-	url = https://github.com:hakimel/reveal.js.git
+	url = https://github.com/hakimel/reveal.js.git
