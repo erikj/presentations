@@ -17,6 +17,7 @@
   - master / slave(s)
 - [Clustering](http://redis.io/topics/cluster-tutorial)
 - [Clients](http://redis.io/clients) available for all popular languages
+- High Availability via [Redis Sentinel](http://redis.io/topics/sentinel)
 
 !NOTE
 Features
