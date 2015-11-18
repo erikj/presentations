@@ -1,4 +1,6 @@
-# Redis
+<h1>
+  <img src='redis.png' alt='redis' />
+</h1>
 
 ## EOL-Prog Seminar
 
