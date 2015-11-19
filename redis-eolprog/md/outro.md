@@ -4,6 +4,7 @@
 - Key-Value schema: different paradigm from relational, SQL databases, with its own costs and benefits-- apply to affected areas as needed
 - Speed comes from utilizing what is typically most expensive computer component: **RAM**
 - Can be leveraged for many different use cases: data store, messaging queue, cache, etc.
+- Works well standalone and in hybrid environments w/ other types of databases
 
 !NOTE
 
