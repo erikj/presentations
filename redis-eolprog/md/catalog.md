@@ -106,14 +106,17 @@ class GetDatasetFilesByDate
 
   def self.call dataset_ids, begin_date, end_date=nil
 
-    file_ids = GetDatasetFileIdsByDateViaRedis.call dataset_ids, \
-                 begin_date, end_date
-    # file_ids = GetDatasetFileIdsByDateViaSql.call dataset_ids, \
-    #              begin_date, end_date
+    file_ids = GetDatasetFileIdsByDateViaRedis.call \
+                 dataset_ids, begin_date, end_date
+    # file_ids = GetDatasetFileIdsByDateViaSql.call \
+    #              dataset_ids, begin_date, end_date
     return file_ids.empty? ? [] : Datafile \
-      .catalog_viewable.where(id:file_ids).includes(:dataset)
+      .catalog_viewable \
+      .where(id:file_ids) \
+      .includes(:dataset)
 
   end
+end
 ```
 
 
@@ -129,10 +132,6 @@ class GetDatasetFileIdsByDateViaRedis
       end_date_param   = end_date ? end_date.to_i : '+inf'
 
       file_ids << dataset_ids.collect do |dataset_id|
-        #
-        # get ordered set based on dataset.id and date(s)
-        # http://redis.io/commands/zrangebyscore
-        #
         $redis.zrangebyscore \
           "dataset:#{dataset_id}:files_by_begin_date", \
           begin_date_param, end_date_param
