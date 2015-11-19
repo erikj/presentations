@@ -142,6 +142,10 @@ end
 # Catalog Redis
 
 - Date-browse queries
-  - **SQL**: several seconds
-  - **Redis** + **SQL**: tens of milliseconds
+  - **SQL**: more than a second
+  - **Redis** + **SQL**: a few milliseconds
+
+- Footprint
+  - ~5.9GB in memory
+  - 617MB **RDB** file on disk
 
