@@ -9,6 +9,8 @@
 
 Advanced, popular, well-maintained, actively developed, well-documented, Open-Source key-value database
 
+Schemas are query driven
+
 !SLIDE
 
 # Thanks!

@@ -44,6 +44,8 @@ HMSET: hash multiple-value set;
 followers-following is redundant, but enables faster queries
 max value size: 2^32, ~4.2B
 
+key-value schemas ARE NOT normallized
+
 !SLIDE
 
 ## Key-Value Schema Example
