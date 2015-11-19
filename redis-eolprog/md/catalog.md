@@ -2,14 +2,17 @@
 
 <table>
   <tr>
-    <td width=33%>
+        <td width=33% align='center'>
+      `#latest`
       <img src='img/tci-satellite-latest.png' alt='tci-satellite-latest'/>
     </td>
-    <td width=33%>
+    <td width=33% align='center'>
+      `#date`
       <img src='img/tci-satellite-date.png' alt='tci-satellite-date.png' />
     </td>
 
-    <td width=33%>
+    <td width=33% align='center'>
+      `#show`
       <img src='img/tci-satellite-product.png' alt='tci-satellite-product' />
     </td>
   </tr>
@@ -18,7 +21,10 @@
 Latest and retrospective access to product imagery
 
 !NOTE
+I'll zoom in on the first two screenshots in the next slides
+
 One of the primary purpose of the Field Catalog is to provide access to latest and retrospective product imagery
+
 
 !SLIDE
 
