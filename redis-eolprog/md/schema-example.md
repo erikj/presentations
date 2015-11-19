@@ -1,6 +1,5 @@
-## Key-Value Schema Example
-
-### Twitter Clone
+## Key-Value Schema
+### Example: Twitter Clone
 
 ```sh
 # entrypoint is typically username, e.g. twitter.com/antirez
@@ -22,9 +21,8 @@ HMSET: hash multiple-value set;
 
 !SLIDE
 
-## Key-Value Schema Example
-
-### Twitter Clone
+## Key-Value Schema
+### Example: Twitter Clone
 
 ```sh
 # other users follow user
@@ -48,9 +46,8 @@ key-value schemas ARE NOT normallized
 
 !SLIDE
 
-## Key-Value Schema Example
-
-### Twitter Clone
+## Key-Value Schema
+### Example: Twitter Clone
 
 ```sh
 # user makes posts / 'updates'
@@ -67,9 +64,8 @@ key-value schemas ARE NOT normallized
 
 !SLIDE
 
-## Key-Value Schema Example
-
-### Twitter Clone
+## Key-Value Schema
+### Example: Twitter Clone
 
 ```sh
 # key          => value

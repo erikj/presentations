@@ -60,6 +60,8 @@ Benefits
 
 Well-designed: does One Thing Well
 
+Fast: benchmarks @ 10k's to 100k's queries / second
+
 !SLIDE
 
 # Redis
