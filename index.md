@@ -14,6 +14,8 @@
   - NCAR EOL Programmer's-Lunch Seminar, 2014/08/21
 - [Docker & Fig / Docker Compose](docker-compose)
   - NCAR EOL Programmer's-Lunch Seminar, 2015/03/19
+- [Redis](redis-eolprog)
+  - NCAR EOL Programmer's-Lunch Seminar, 2015/11/19
 
 <!-- ## TODO -->
 
