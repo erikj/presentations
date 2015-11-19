@@ -154,3 +154,11 @@ end
   - ~5.9GB in memory
   - 617MB **RDB** file on disk
 
+!SLIDE
+
+# Catalog Redis TODO
+
+- model / forecast dates
+- populate Redis via **CatalogIngest**
+- QA, test for robustness
+- deploy
