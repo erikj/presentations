@@ -12,6 +12,8 @@
   - NCAR EOL CDS Strategic Meeting, 2014/04/16
 - [Intermediate Vagrant](intermediate-vagrant)
   - NCAR EOL Programmer's-Lunch Seminar, 2014/08/21
+- [MissionPlanner](http://erikj.github.io/slides/cds-mission-planner)
+  - CDS Monthly Talk, 2015/08/05
 - [Docker & Fig / Docker Compose](docker-compose)
   - NCAR EOL Programmer's-Lunch Seminar, 2015/03/19
 - [Redis](redis-eolprog)
