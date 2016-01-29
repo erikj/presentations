@@ -1,11 +1,11 @@
-# Whales On A Plane
+## Whales On A Plane
 
-## Deploying Software To NSF / NCAR Research Aircraft w/ Docker
+### Deploying Software To NSF / NCAR Research Aircraft w/ Docker
 
 <img src='images/docker-logo.png' width=262 height=149 alt='Docker logo' style='vertical-align:top;'/>&nbsp;&nbsp;&nbsp;<img src='images/ncar-white.png' style='vertical-align:top;'/>&nbsp;&nbsp;&nbsp;
 <img src='images/eollogo_transparent.png' height=150 width=150 style='vertical-align:top;'/>
 
-### Erik Johnson, NCAR EOL
+#### Erik Johnson, NCAR EOL
 
 #### 2016 NCAR SEA Conference, 2016/04/04
 
