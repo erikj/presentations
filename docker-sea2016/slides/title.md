@@ -2,10 +2,8 @@
 
 ## Deploying Software To NSF / NCAR Research Aircraft w/ Docker
 
-<!-- <div style='vertical-align:middle;'> -->
 <img src='images/docker-logo.png' width=262 height=149 alt='Docker logo' style='vertical-align:top;'/>&nbsp;&nbsp;&nbsp;<img src='images/ncar-white.png' style='vertical-align:top;'/>&nbsp;&nbsp;&nbsp;
 <img src='images/eollogo_transparent.png' height=150 width=150 style='vertical-align:top;'/>
-<!-- </div> -->
 
 ### Erik Johnson, NCAR EOL
 
