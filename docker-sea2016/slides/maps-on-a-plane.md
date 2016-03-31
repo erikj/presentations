@@ -1,16 +1,16 @@
 
 # Maps On A Plane
 
-  - deploy CatalogMaps and CatalogIngest to multiple servers
-    - metal and VM QA environments
-    - multiple aircraft servers
-      - C-130
-      - G-V
-      - cold spare
-  - isolation
-  - run on RHEL 6 and 7
-    - Scientific Linux 6.7 (current)
-    - CentOS 7.x (soon)
+- Deploy **CatalogMaps** to multiple servers
+  - metal and **VM** **QA** environments
+  - multiple aircraft servers
+    - C-130
+    - G-V
+    - cold spare
+- Isolation
+- Run on RHEL 6 and 7
+  - Scientific Linux 6.7 (current)
+  - CentOS 7.x (soon)
 
 
 !SLIDE
@@ -19,32 +19,28 @@
      - => Docker Compose
        - great way to orchestrate and manage Docker
 
-
 !SLIDE
 # Docker Images: MySQL
 
-- Official Image
-- configure via environment variables
-
+- Official image
+- Configured via environment variables
     ```yml
 MYSQL_ROOT_PASSWORD: rootpassword
 MYSQL_DATABASE:      catalog
 MYSQL_USER:          username
 MYSQL_PASSWORD:      userpassword
     ```
-
-- entrypoint files: SQL and Shell
+- Entrypoint files: **SQL** and **Shell**
   - load schema and initial data
   - only run first time / if database doesn't exist
-
 
 !SLIDE
 # Docker Images: Apache
 
-- extends official image to add `mod_rewrite`
+- Extends official image to add `mod_rewrite`
 - <https://github.com/ncareol/docker-library/tree/master/httpd/2.2/rewrite>
-- required for development, to serve JSON files and application on same port (same-origin policy)
-- not required in production, where Apache runs natively on the host and serves other resources besides **CatalogMaps**
+- Required for development, to serve **JSON** files and application on same port (same-origin policy)
+- Not required in production, where **Apache** runs natively on the host and serves other resources besides **CatalogMaps**
 
 !SLIDE
 # Docker Images: Apache
@@ -71,15 +67,13 @@ RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/con
 !SLIDE
 # Docker Images: catalog-ruby
 
-- custom image built from official **CentOS** image
-- runs version of **Ruby** not available as official image
+- Custom image built from official **CentOS** image
+- Runs version of **Ruby** not available as official image
 - <https://github.com/ncareol/docker-library/tree/master/catalog-ruby/1.9.3>
-- minimal image w/ only dependencies for Field-Catalog Ruby / Rails apps
+- Minimal image w/ only dependencies for **Field-Catalog** **Ruby** / **Rails** apps
 
 !SLIDE
 # Docker Images: catalog-ruby
-
-[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile)
 
 ```Dockerfile
 FROM centos:7
@@ -95,10 +89,10 @@ COPY src/ruby-install-0.5.0.tar.gz src/ruby-$RUBY_VERSION.tar.bz2 \
 # ...
 ```
 
+[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile)
+
 !SLIDE
 # Docker Images: catalog-ruby
-
-[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile) (continued)
 
 ```Dockerfile
 # ...
@@ -119,13 +113,13 @@ RUN yum install -y $BUILD_PACKAGES_KEEP $BUILD_PACKAGES_TMP && \
 # ...
 ```
 
+[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile) (continued)
+
 !NOTE
 keep image small by installing and removing source files and package dependencies in single RUN command
 
 !SLIDE
 # Docker Images: Ruby
-
-[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile) (continued)
 
 ```Dockerfile
 # ...
@@ -141,3 +135,5 @@ RUN gem install bundler
 RUN mkdir /app
 WORKDIR /app
 ```
+
+[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile) (continued)
