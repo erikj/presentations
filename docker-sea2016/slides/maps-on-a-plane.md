@@ -49,8 +49,7 @@ MYSQL_PASSWORD:      userpassword
 !SLIDE
 # Docker Images: Apache
 
-<!-- - show `Dockerfile` -->
-
+`Dockerfile`:
 
 ```Dockerfile
 FROM httpd:2.2.31
@@ -72,6 +71,72 @@ RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/con
 !SLIDE
 # Docker Images: Ruby
 
-- custom image
-- runs version of Ruby not available as official image
-- built from official CentOS image
+- custom image built from official **CentOS** image
+- runs version of **Ruby** not available as official image
+- <https://github.com/ncareol/docker-library/tree/master/catalog-ruby/1.9.3>
+
+!SLIDE
+# Docker Images: Ruby
+
+`Dockerfile`:
+
+```Dockerfile
+FROM centos:7
+MAINTAINER Erik Johnson <ej@ucar.edu>
+ENV RUBY_VERSION 1.9.3-p545
+ENV BUILD_PACKAGES_KEEP make gcc patch tar gcc-c++
+ENV BUILD_PACKAGES_TMP autoconf automake libffi-devel openssl-devel \
+                       zlib-devel bzip2 readline-devel
+ENV PACKAGES_RM autoconf perl libselinux-devel m4 \
+                keyutils-libs-devel keyutils-libs-devel libcom_err-devel libsepol-devel
+COPY src/ruby-install-0.5.0.tar.gz src/ruby-$RUBY_VERSION.tar.bz2 \
+     /tmp/
+# ...
+```
+
+!SLIDE
+# Docker Images: Ruby
+
+`Dockerfile` (continued):
+
+```Dockerfile
+# ...
+RUN yum install -y $BUILD_PACKAGES_KEEP $BUILD_PACKAGES_TMP && \
+    cd /tmp && \
+    tar -xzvf /tmp/ruby-install-0.5.0.tar.gz && \
+    cd ruby-install-0.5.0 && \
+    make install && \
+    cd /tmp && \
+    ruby-install --system -u file:///tmp/ruby-$RUBY_VERSION.tar.bz2 \
+      ruby $RUBY_VERSION && \
+    rm -rf ruby-$RUBY_VERSION.tar.bz2 \
+      /usr/local/src/ruby-$RUBY_VERSION* \
+      ruby-install-0.5.0 ruby-install-0.5.0.tar.gz && \
+    yum -y --setopt=tsflags=noscripts remove \
+      $BUILD_PACKAGES_TMP $PACKAGES_RM && \
+    yum -y clean all
+# ...
+```
+
+!NOTE
+keep image small by installing and removing source files and package dependencies in single RUN command
+
+!SLIDE
+# Docker Images: Ruby
+
+`Dockerfile` (continued):
+
+```Dockerfile
+# ...
+COPY gemrc /root/.gemrc
+
+# install mysql and dependency for mysql2 gem
+RUN yum install -y mariadb mariadb-devel && \
+    yum -y clean all
+
+# install bundler
+RUN gem install bundler
+
+RUN mkdir /app
+WORKDIR /app
+```
