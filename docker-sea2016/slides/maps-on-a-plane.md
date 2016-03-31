@@ -24,12 +24,14 @@
 
 - Official image
 - Configured via environment variables
-    ```yml
-MYSQL_ROOT_PASSWORD: rootpassword
-MYSQL_DATABASE:      catalog
-MYSQL_USER:          username
-MYSQL_PASSWORD:      userpassword
+
+    ```yaml
+    MYSQL_ROOT_PASSWORD: rootpassword
+    MYSQL_DATABASE:      catalog
+    MYSQL_USER:          username
+    MYSQL_PASSWORD:      userpassword
     ```
+
 - Entrypoint files: **SQL** and **Shell**
   - load schema and initial data
   - only run first time / if database doesn't exist
@@ -137,3 +139,169 @@ WORKDIR /app
 ```
 
 [`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile) (continued)
+
+
+<!-- TODO: incentives to use Docker Compose -->
+
+!SLIDE
+# Running Containers: MySQL
+
+```sh
+$ docker create \
+  --name catalog-db \
+  --publish-all \
+  --env "MYSQL_ROOT_PASSWORD=rootpw" \
+  --env "MYSQL_DATABASE=catalog" \
+  --env "MYSQL_USER=dockeruser" \
+  --env "MYSQL_PASSWORD=dockerpw" \
+  --volume "../docker/db/mysql:/var/lib/mysql" \
+  --volume "./docker/mysql/my-medium-innodb.cnf:/etc/mysql/conf.d/my-medium-innodb.cnf" \
+  --volume "./db/sql/acserver/001.farskol.zith9.schema.sql:/docker-entrypoint-initdb.d/001.farskol.zith9" \
+  --volume "./db/sql/acserver/002.data.common.sql:/docker-entrypoint-initdb.d/002.data.common.sql" \
+  --volume "./db/sql/acserver/003.data.gv.sql:/docker-entrypoint-initdb.d/003.data.gv.sql" \
+  mysql:5.5
+
+$ docker start catalog-db
+```
+
+!SLIDE
+# Running Containers: CatalogMaps
+
+
+```sh
+$ docker create \
+  --name catalog-maps \
+  --link catalog-db
+  --expose '8080:8080'
+  --publish-all \
+  --env "MYSQL_ROOT_PASSWORD=rootpw" \
+  --env "MYSQL_DATABASE=catalog" \
+  --env "MYSQL_USER=dockeruser" \
+  --env "MYSQL_PASSWORD=dockerpw" \
+  --volume "./:/app" \
+  --volume "../products/html:/catalog/html" \
+  --entrypoint ./bin/unicorn-runner
+  ncareol/catalog-ruby-1.9.3-p545:0.0.5
+
+$ docker start catalog-maps
+```
+
+!SLIDE
+# Orchestrating Containers: Fragility
+
+- Linking containers by names or IDs
+- Managing environment variables
+- Recreating and restarting containers when params change
+- Managing boot order of containers
+
+!NOTE
+Orchestrating containers is a pain!
+
+!SLIDE
+
+![Dublin Philharmonic Orchestra performing Tchaikovsky's Symphony No. 4 in Charlotte, North Carolina, USA, by Derek Gleeson](images/orchestra.jpg)
+
+[Dublin Philharmonic Orchestra performing Tchaikovsky's Symphony No. 4 in Charlotte, North Carolina, USA, by Derek Gleeson](https://en.wikipedia.org/wiki/Orchestra#/media/File:Dublin_Philharmonic_Orchestra_performing_Tchaikovsky%27s_Symphony_No_4_in_Charlotte,_North_Carolina.jpg)
+
+[CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+
+
+!NOTE
+Orchestration shouldn't be a pain, it should be a harmonious joy
+
+!SLIDE
+# [Docker Compose](https://docs.docker.com/compose/)
+
+> Compose is a tool for defining and running multi-container Docker applications.
+
+- Shell script
+- Open Source
+- Part of **Docker** project
+- Configured via **Yaml** file
+- Allows configuration and management of containers
+
+
+
+!SLIDE
+# [Docker Compose](https://docs.docker.com/compose/)
+<!--TODO: orchestration via DockerCompose-->
+
+<!-- https://en.wikipedia.org/wiki/Orchestra#/media/File:Dublin_Philharmonic_Orchestra_performing_Tchaikovsky%27s_Symphony_No_4_in_Charlotte,_North_Carolina.jpg -->
+
+```yaml
+db:
+  image: 'mysql:5.5' # https://hub.docker.com/_/mysql/
+  environment:
+    MYSQL_ROOT_PASSWORD: 'rootpw'
+    MYSQL_DATABASE:      'catalog'
+    MYSQL_USER:          'dockeruser'
+    MYSQL_PASSWORD:      'dockerpw'
+  volumes:
+    - '../docker/db/mysql:/var/lib/mysql'
+    - './docker/mysql/my-medium-innodb.cnf:/etc/mysql/conf.d/my-medium-innodb.cnf'
+    - './db/sql/acserver/001.farskol.zith9.schema.sql:/docker-entrypoint-initdb.d/001.farskol.zith9.schema.sql'
+    - './db/sql/acserver/002.data.common.sql:/docker-entrypoint-initdb.d/002.data.common.sql'
+    - './db/sql/acserver/003.data.gv.sql:/docker-entrypoint-initdb.d/003.data.gv.sql'
+# ...
+```
+
+`docker-compose.yml`
+
+!SLIDE
+# [Docker Compose](https://docs.docker.com/compose/)
+
+```yaml
+# ...
+maps:
+  image: 'ncareol/catalog-ruby-1.9.3-p545:0.0.5'
+  links:
+    - 'db'
+  environment:
+    RAILS_ENV: 'production'
+  volumes:
+    - '.:/app'
+    - '../products/html:/catalog/html' # catalog files
+  ports:
+    - '8088:8080'
+  command: './bin/unicorn-runner'
+# ...
+```
+
+`docker-compose.yml` (continued)
+
+!SLIDE
+# [Docker Compose](https://docs.docker.com/compose/)
+
+```yaml
+# ...
+ingest:
+  image: 'ncareol/catalog-ruby-1.9.3-p545:0.0.5'
+  links:
+    - 'db'
+  volumes:
+    - '../catalog-ingest:/app'
+    - '../products/incoming:/catalog/incoming'
+    - '../products/jail:/catalog/jail'
+    - '../products/html:/catalog/html'
+  command: './bin/monitor -c config/gv.yml -w 15 -p tmp/gv-monitor-queue.pid --stdout --debug'
+```
+
+`docker-compose.yml` (continued)
+
+!SLIDE
+# [Docker Compose](https://docs.docker.com/compose/)
+
+```sh
+$ docker-compose up -d db      # start db service, daemonized
+
+$ docker-compose up            # start all services in foreground
+
+$ docker-compose run maps rake # run rake command in maps container
+
+$ docker-compose run maps bash # start bash shell in maps container
+
+$ docker-compose ps            # display states of services
+
+$ docker-compose stop          # stop all services
+```
+
