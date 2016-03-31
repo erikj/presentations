@@ -69,16 +69,17 @@ RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/con
 ```
 
 !SLIDE
-# Docker Images: Ruby
+# Docker Images: catalog-ruby
 
 - custom image built from official **CentOS** image
 - runs version of **Ruby** not available as official image
 - <https://github.com/ncareol/docker-library/tree/master/catalog-ruby/1.9.3>
+- minimal image w/ only dependencies for Field-Catalog Ruby / Rails apps
 
 !SLIDE
-# Docker Images: Ruby
+# Docker Images: catalog-ruby
 
-`Dockerfile`:
+[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile)
 
 ```Dockerfile
 FROM centos:7
@@ -95,9 +96,9 @@ COPY src/ruby-install-0.5.0.tar.gz src/ruby-$RUBY_VERSION.tar.bz2 \
 ```
 
 !SLIDE
-# Docker Images: Ruby
+# Docker Images: catalog-ruby
 
-`Dockerfile` (continued):
+[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile) (continued)
 
 ```Dockerfile
 # ...
@@ -124,7 +125,7 @@ keep image small by installing and removing source files and package dependencie
 !SLIDE
 # Docker Images: Ruby
 
-`Dockerfile` (continued):
+[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile) (continued)
 
 ```Dockerfile
 # ...
