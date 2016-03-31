@@ -140,9 +140,6 @@ WORKDIR /app
 
 [`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/catalog-ruby/1.9.3/Dockerfile) (continued)
 
-
-<!-- TODO: incentives to use Docker Compose -->
-
 !SLIDE
 # Running Containers: MySQL
 
@@ -205,7 +202,6 @@ Orchestrating containers is a pain!
 
 [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 
-
 !NOTE
 Orchestration shouldn't be a pain, it should be a harmonious joy
 
@@ -220,13 +216,8 @@ Orchestration shouldn't be a pain, it should be a harmonious joy
 - Configured via **Yaml** file
 - Allows configuration and management of containers
 
-
-
 !SLIDE
 # [Docker Compose](https://docs.docker.com/compose/)
-<!--TODO: orchestration via DockerCompose-->
-
-<!-- https://en.wikipedia.org/wiki/Orchestra#/media/File:Dublin_Philharmonic_Orchestra_performing_Tchaikovsky%27s_Symphony_No_4_in_Charlotte,_North_Carolina.jpg -->
 
 ```yaml
 db:
