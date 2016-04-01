@@ -58,6 +58,14 @@ Dockerfile: will provide examples later
 - **Containers**: fast, isolated, package execution
 
 !SLIDE
+# Maps On A Plane: Stack
+
+- **MySQL** database w/ **Field-Catalog** schema
+- **CatalogIngest**: **Ruby**, **ActiveRecord** application
+- **CatalogMaps**: **Ruby-on-Rails** application
+- **Apache**: web server
+
+!SLIDE
 # Docker Images: MySQL
 
 - Official image
