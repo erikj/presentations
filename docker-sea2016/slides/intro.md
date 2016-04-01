@@ -58,13 +58,13 @@ satellite (ops), sounding (research), forecast (model)
 
 **Field-Catalog** Geo Interface
 
-- 'realtime' and playback'
-- independent layer controls
+- 'Realtime' and 'playback'
+- Independent layer controls
 - KMLs (flight tracks, flight plans, soundings, FIR boundaries, airways, etc.)
-- platform positions (aircraft, ships, vehicles, radar, etc.)
-- images
-- requirement: base layer
-- used by project participants on ground
+- Platform positions (aircraft, ships, vehicles, radar, etc.)
+- Images
+- Requirement: base layer
+- Used by project participants on ground
 
 !SLIDE
 # CatalogMaps
@@ -80,20 +80,13 @@ satellite (ops), sounding (research), forecast (model)
 - **Rails**
 - **MySQL**
 - **OpenLayers**
-
-<!--!SLIDE
-# CatalogIngest
-
-- **Ruby**
-- **ActiveRecord**
-- **MySQL**
--->
+- **Bootstrap**
 
 !SLIDE
 # EOL Research Aviation Facility (RAF)
 
 <img src='images/hercules-front.jpg' height='240px' />
-<img src='images/c130.jpg' height='240px' />
+<img src='images/c130fixa.jpg' height='240px' />
 
 **NSF / NCAR C-130 Hercules**
 
@@ -113,7 +106,8 @@ RAF is one of EOL's facilities, has two aircraft...
 
 - Runs on and serves ground and aircraft
 - Used by project participants on ground and on aircraft
-- 'realtime'
+- Mission critical
+- 'Realtime'
 
 !SLIDE
 # Mission-Coordinator Display
