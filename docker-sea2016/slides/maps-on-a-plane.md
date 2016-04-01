@@ -4,13 +4,13 @@
 - Deploy **CatalogMaps** to multiple servers
   - metal and **VM** **QA** environments
   - multiple aircraft servers
-    - C-130
-    - G-V
+    - **C-130**
+    - **G-V**
     - cold spare
 - Isolation
-- Run on RHEL 6 and 7
-  - Scientific Linux 6.7 (current)
-  - CentOS 7.x (soon)
+- Run on **RHEL** 6 and 7
+  - **Scientific Linux** 6.7 (current)
+  - **CentOS** 7.x (soon)
 
 !NOTE
 This sounds like a great use-case for Docker
@@ -21,10 +21,11 @@ This sounds like a great use-case for Docker
 <img src='images/docker-logo.png' height=120px; alt='Docker logo' style='vertical-align:bottom;'/>
 
 - **Linux** *containerization* engine and interface
-- Based on Linux-kernel [**cgroups**](http://en.wikipedia.org/wiki/Cgroups)
-- *chroot on steroids*
+- Based on **Linux**-kernel [**cgroups**](http://en.wikipedia.org/wiki/Cgroups) (*container* groups)
+- *"chroot on steroids"*
 - Isolated execution environments
 - No emulation penalty like **Virtualization**
+
 
 !SLIDE
 # Docker Images
