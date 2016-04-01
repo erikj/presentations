@@ -217,7 +217,6 @@ $ docker start catalog-db
 !SLIDE
 # Running Containers: CatalogMaps
 
-
 ```sh
 $ docker create \
   --name catalog-maps \
@@ -237,7 +236,9 @@ $ docker start catalog-maps
 ```
 
 !SLIDE
-# Orchestrating Containers: Fragility
+# Container Orchestration
+
+<img src='images/fragile.png' height='240' />
 
 - Linking containers by names or IDs
 - Managing environment variables
@@ -245,10 +246,16 @@ $ docker start catalog-maps
 - Managing boot order of containers
 
 !NOTE
-Orchestrating containers is a pain!
+Orchestrating containers is a pain! Fragile is no way to run robust, mission-critical services...
 
 !SLIDE
+# Container Orchestration
 
+<img src='images/fragile.png' height='240' />
+
+## `:(`
+
+!SLIDE
 ![Dublin Philharmonic Orchestra performing Tchaikovsky's Symphony No. 4 in Charlotte, North Carolina, USA, by Derek Gleeson](images/orchestra.jpg)
 
 [Dublin Philharmonic Orchestra performing Tchaikovsky's Symphony No. 4 in Charlotte, North Carolina, USA, by Derek Gleeson](https://en.wikipedia.org/wiki/Orchestra#/media/File:Dublin_Philharmonic_Orchestra_performing_Tchaikovsky%27s_Symphony_No_4_in_Charlotte,_North_Carolina.jpg)
