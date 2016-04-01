@@ -1,6 +1,6 @@
 # Objective
 
-Replace **MCD** w/ **CatalogMaps**
+Replace **Mission-Coordinator Display** w/ **CatalogMaps**
 
 <p class="fragment"><b>=> Maps On A Plane!</b></p>
 
@@ -29,8 +29,8 @@ This sounds like a great use-case for Docker
 
 - **Linux** *containerization* engine and interface
 - Based on **Linux**-kernel [**cgroups**](http://en.wikipedia.org/wiki/Cgroups) (*container* groups)
-- *"chroot on steroids"*
-- Isolated execution environments
+- Isolated execution environments: *"chroot on steroids"*
+- Processes executed by host's kernel
 - No emulation penalty like **Virtualization**
 
 !SLIDE
@@ -71,6 +71,9 @@ Dockerfile: will provide examples later
 - **CatalogIngest**: **Ruby**, **ActiveRecord** application
 - **CatalogMaps**: **Ruby-on-Rails** application
 - **Apache**: web server
+
+!NOTE
+Let's take a look @ how we can serve this stack w/ Docker...
 
 !SLIDE
 # Docker Images: MySQL
@@ -229,7 +232,7 @@ $ docker create \
   --env "MYSQL_PASSWORD=dockerpw" \
   --volume "./:/app" \
   --volume "../products/html:/catalog/html" \
-  --entrypoint ./bin/unicorn-runner
+  --entrypoint ./bin/unicorn-runner \
   ncareol/catalog-ruby-1.9.3-p545:0.0.5
 
 $ docker start catalog-maps
