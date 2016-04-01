@@ -128,8 +128,3 @@ RAF is one of EOL's facilities, has two aircraft...
 - **CGI**
 - **OpenLayers**
 - **Not** actively maintained / developed
-
-!SLIDE
-# Objective
-
-Replace **MCD** w/ **CatalogMaps**

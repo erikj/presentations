@@ -1,4 +1,10 @@
+# Objective
 
+Replace **MCD** w/ **CatalogMaps**
+
+<p class="fragment"><b>=> Maps On A Plane!</b></p>
+
+!SLIDE
 # Maps On A Plane
 
 - Deploy **CatalogMaps** to multiple servers
@@ -7,12 +13,13 @@
     - **C-130**
     - **G-V**
     - cold spare
-- Isolation
-- Run on **RHEL** 6 and 7
-  - **Scientific Linux** 6.7 (current)
-  - **CentOS** 7.x (soon)
+- Run in isolation
+- Run on **RHEL** `6` and `7`
+  - **Scientific Linux** `6.7` (current)
+  - **CentOS** `7.x` (soon)
 
 !NOTE
+Isolation: maps is developed and maintained by team separate from RAF
 This sounds like a great use-case for Docker
 
 !SLIDE
@@ -25,7 +32,6 @@ This sounds like a great use-case for Docker
 - *"chroot on steroids"*
 - Isolated execution environments
 - No emulation penalty like **Virtualization**
-
 
 !SLIDE
 # Docker Images
