@@ -111,20 +111,25 @@ RAF is one of EOL's facilities, has two aircraft...
 !SLIDE
 # Mission-Coordinator Display
 
-- runs on and serves ground and aircraft
-- used by project participants on ground and on aircraft
+- Runs on and serves ground and aircraft
+- Used by project participants on ground and on aircraft
 - 'realtime'
-<!-- - screenshot -->
 
 !SLIDE
-
 # Mission-Coordinator Display
 
-- CGI
-- OpenLayers
-- Not actively maintained / developed
+<img src='images/mcd-orcas.png' height='500' />
+
+**RAF** Geo Interface
+
+!SLIDE
+# Mission-Coordinator Display
+
+- **CGI**
+- **OpenLayers**
+- **Not** actively maintained / developed
 
 !SLIDE
 # Objective
 
-Replace MCD w/ CatalogMaps
+Replace **MCD** w/ **CatalogMaps**
