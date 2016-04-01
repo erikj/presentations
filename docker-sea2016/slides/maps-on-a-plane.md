@@ -33,9 +33,13 @@ This sounds like a great use-case for Docker
 - Typically built up from a base image to serve a single program
 - Most images are built on a series of underlying images or 'layers'
 - **Git**-like workflow, committed* and referenced by checksums and tags
+- Nominally built via a `Dockerfile`
 - Running an image creates a **Docker** *container*
 
 ** no longer recommended*
+
+!NOTE
+Dockerfile: will provide examples later
 
 !SLIDE
 # Docker Registry
