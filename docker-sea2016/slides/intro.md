@@ -12,7 +12,6 @@ Services and Facilities:
 - Field-Project Management (PMO)
 
 !SLIDE
-
 # Field Projects
 
 ## Atmospheric-Research Campaigns
@@ -23,7 +22,6 @@ Services and Facilities:
 - Pollution
 
 !SLIDE
-
 # Recent Field Projects
 
 - [CONTRAST](https://www.eol.ucar.edu/field_projects/contrast): Guam, 2014
@@ -33,16 +31,22 @@ Services and Facilities:
 - [ORCAS](https://www.eol.ucar.edu/field_projects/pecan): South America, 2016
 
 !SLIDE
-
-
 # EOL Research Aviation Facility (RAF)
 
-![](images/raf_n3.png)
+<img src='images/hercules-front.jpg' height='240px' />
+<img src='images/c130.jpg' height='240px' />
 
-<!-- TODO: - pictures of GV and C-130 -->
+**C-130 Hercules**
 
 !SLIDE
+# EOL Research Aviation Facility (RAF)
 
+<img src='images/gv-front-edit.jpg' height='240' />
+<img src='images/gv.jpg' height='240' />
+
+**Gulfstream V (G-V)**
+
+!SLIDE
 # Field Catalog
 
 - project organization and imagery archival framework
@@ -69,14 +73,17 @@ Services and Facilities:
 # CatalogMaps
 <!-- technologies -->
 
-- Ruby
-- Rails
-- MySQL
-- OpenLayers
+- **Ruby**
+- **Rails**
+- **MySQL**
+- **OpenLayers**
 
 !SLIDE
-
 # CatalogIngest
+
+- **Ruby**
+- **ActiveRecord**
+- **MySQL**
 
 !SLIDE
 # Mission-Coordinator Display
@@ -92,8 +99,9 @@ Services and Facilities:
 
 - CGI
 - OpenLayers
-- not actively maintained
+- not actively maintained / developed
 
 !SLIDE
+# Objective
 
-# objective: replace MCD w/ CatalogMaps
+Replace MCD w/ CatalogMaps
