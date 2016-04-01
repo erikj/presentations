@@ -1,15 +1,16 @@
 <!-- # NCAR Earth Observing Laboratory (EOL) -->
 
-# <img src='images/eollogo_transparent.png' height=120px style='vertical-align:middle;'/> EOL
+# <img src='images/eollogo_transparent.png' height=120px style='vertical-align:middle;'/> NCAR EOL
 
-Services and Facilities:
+- In-Situ (**ISF**)
+- Remote Sensing (**RSF**)
+- Aviation (**RAF**)
+- Design & Fabrication (**DFS**)
+- Digital Services (**CDS**, **CWIG**)
+- Field-Project Management (**PMO**)
 
-- In-Situ (ISF)
-- Remote Sensing (RSF)
-- Aviation (RAF)
-- Design & Fabrication (DFS)
-- Digital Services (CDS, CWIG)
-- Field-Project Management (PMO)
+!NOTE
+Services and Facilities
 
 !SLIDE
 # Field Projects
@@ -21,6 +22,9 @@ Services and Facilities:
 - Chemistry
 - Pollution
 
+!NOTE
+One of the major things that we support @ EOL
+
 !SLIDE
 # Recent Field Projects
 
@@ -31,35 +35,29 @@ Services and Facilities:
 - [ORCAS](https://www.eol.ucar.edu/field_projects/pecan): South America, 2016
 
 !SLIDE
-# EOL Research Aviation Facility (RAF)
+# Field Catalog
 
-<img src='images/hercules-front.jpg' height='240px' />
-<img src='images/c130.jpg' height='240px' />
+<img src='images/catalog-orcas-home.png' alt='ORCAS Field Catalog' height='500px'>
 
-**C-130 Hercules**
-
-!SLIDE
-# EOL Research Aviation Facility (RAF)
-
-<img src='images/gv-front-edit.jpg' height='240' />
-<img src='images/gv.jpg' height='240' />
-
-**Gulfstream V (G-V)**
+Project organization and imagery archival framework
 
 !SLIDE
 # Field Catalog
 
-- project organization and imagery archival framework
-<!-- - screenshot -->
-  <!-- - `images/catalog-orcas-home.png` -->
-<!-- - pictures of products: satellite, research, model -->
-  <!-- - `images/products/` -->
+<img src='images/products/satellite.NOAA_AVHRR.201602010645.AWC_Antarctic_Composite_IR.jpg' alt='' height='300px'>
+<img src='images/products/upperair.SkewT.201602010000.Buenos_Aires.png' alt='' height='300px'>
+<img src='images/products/model.NASA_GEOS-5.201602010000.000_200_mb_temp.png' alt='' height='300px'>
+
+Project organization and imagery archival framework
+
+!NOTE
+satellite (ops), sounding (research), forecast (model)
 
 !SLIDE
-
 # CatalogMaps
-<!-- capabilities / about -->
-  <!-- - screenshot -->
+
+**Field-Catalog** Geo Interface
+
 - 'realtime' and playback'
 - independent layer controls
 - KMLs (flight tracks, flight plans, soundings, FIR boundaries, airways, etc.)
@@ -69,21 +67,46 @@ Services and Facilities:
 - used by project participants on ground
 
 !SLIDE
-
 # CatalogMaps
-<!-- technologies -->
+
+<img src='images/maps-cset.png' height='500' />
+
+**Field-Catalog** Geo Interface
+
+!SLIDE
+# CatalogMaps
 
 - **Ruby**
 - **Rails**
 - **MySQL**
 - **OpenLayers**
 
-!SLIDE
+<!--!SLIDE
 # CatalogIngest
 
 - **Ruby**
 - **ActiveRecord**
 - **MySQL**
+-->
+
+!SLIDE
+# EOL Research Aviation Facility (RAF)
+
+<img src='images/hercules-front.jpg' height='240px' />
+<img src='images/c130.jpg' height='240px' />
+
+**NSF / NCAR C-130 Hercules**
+
+!NOTE
+RAF is one of EOL's facilities, has two aircraft...
+
+!SLIDE
+# EOL Research Aviation Facility (RAF)
+
+<img src='images/gv-front-edit.jpg' height='240' />
+<img src='images/gv.jpg' height='240' />
+
+**NSF / NCAR Gulfstream V (G-V)**
 
 !SLIDE
 # Mission-Coordinator Display
@@ -99,7 +122,7 @@ Services and Facilities:
 
 - CGI
 - OpenLayers
-- not actively maintained / developed
+- Not actively maintained / developed
 
 !SLIDE
 # Objective
