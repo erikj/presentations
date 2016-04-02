@@ -1,0 +1,122 @@
+<!-- osm-tiles -->
+
+# Requirement: Base-layer Map
+
+<!-- TODO: show some tiles -->
+
+- Tiles need to be served on plane
+  - Satcom is prohibitively expensive and slow for serving map tiles from ground
+- **OpenStreetMap** (OSM)
+  - Free, crowd-sourced map data
+
+!NOTE
+Planes use satcom, which is prohibitively expensive and slow for serving map tiles from ground-- can't use Google Maps, free service provided by openstreetmap.org, *etc.*
+
+!SLIDE
+# OSM Stack
+
+- **PostgreSQL** + **PostGIS** extensions
+- [**osm2pgsql**](http://wiki.openstreetmap.org/wiki/Osm2pgsql)
+- [**mapnik**](http://mapnik.org/)
+- **renderd**: tile generation
+- **Apache** + [**mod_tile**](http://wiki.openstreetmap.org/wiki/Mod_tile): webserver and module serving map tiles
+
+!NOTE
+lot of moving parts, many of which have deep, complicated dependencies
+
+!SLIDE
+# Docker Image: OSM Tiles
+
+Docker image w/ entire **OSM** stack
+
+Built from Phusion's [baseimage](http://phusion.github.io/baseimage-docker/)
+
+!SLIDE
+# Phusion's [baseimage](http://phusion.github.io/baseimage-docker/)
+
+
+- A 'correct' init process
+- syslog
+- cron
+- sshd
+- runit to manage and supervise service(s) within container
+  - running multiple processes via runit is *encouraged* by baseimage
+- setuser
+
+!SLIDE
+# Docker Image: OSM Tiles
+
+- Very useful
+- Multiple functions provided via `run.sh` entrypoint
+- Source-code repository on **GitHub**
+- Appears to be abandoned
+  - no recent commits
+  - not responding to issues or pull requests
+- Could use some updates and enhancements
+
+!SLIDE
+# osm-tiles-docker enhancements
+
+- Forked: <https://github.com/ncareol/osm-tiles-docker>
+- Shorted name!
+  - `openstreetmap-tiles` => `osm-tiles`
+- Updated to use latest `phusion/baseimage`
+- `init` + `startdb` + `createuser` + `createdb` => `initdb`
+- Allow for input to functions by specifying environment variables
+  - `OSM_IMPORT_FILE`
+  - `OSM_IMPORT_CACHE`
+  - `OSM_MAX_ZOOM`
+  - `OSM_RENDER_FORCE`
+- Added `index.html` based on simple **OpenLayers** example, serving tiles from container
+- Enabled serving only pre-generated tiles, for testing
+- Documented workflow on **GitHub** wiki: <https://github.com/ncareol/osm-tiles-docker/wiki>
+- Pushed to `ncareol` **Docker-Hub** organization: <https://hub.docker.com/r/ncareol/osm-tiles/>
+
+!SLIDE
+# Docker Image: osm-tiles
+
+- Initialize **PostgreSQL** database w/ **PostGIS** extensions: `initdb`
+- Import **OpenStreetMap** data into **PostgreSQL** database: `import`
+- Optionally pre-generate tiles: `render`
+- Serve pre-generated (if available) and dynamically generated tiles from **Apache**, **renderd** and **mapnik** via an **OpenLayers** interface: `startservices`
+- Serve exclusively pre-generated tiles from **Apache** via an **OpenLayers** interface: `startweb`
+
+!SLIDE
+# osm-tiles workflow
+
+```yaml
+osm:
+  image: "ncareol/osm-tiles"
+  volumes:
+    # keep postgresql database files on host in ./docker/osm:
+    - "./docker/osm/postgresql:/var/lib/postgresql"
+    # keep OSM tiles on host in ./docker/osm:
+    - "./docker/osm/mod_tile:/var/lib/mod_tile"
+    # mount OSM data file from host into Docker container
+    - "./planet-latest.osm.pbf:/tmp/planet-latest.osm.pbf"
+  environment:
+    OSM_IMPORT_FILE:  '/tmp/planet-latest.osm.pbf'
+    OSM_IMPORT_CACHE: '900'
+    OSM_MAX_ZOOM:     '12'
+    OSM_RENDER_FORCE: 'false'
+  ports:
+    - '8000:80'
+  command: 'startweb'
+```
+
+`docker-compose.yml`
+
+!SLIDE
+# osm-tiles workflow
+
+```sh
+$ docker-compose run osm initdb
+
+$ docker-compose run osm import
+
+$ docker-compose run osm render
+
+$ docker-compose up
+
+# => http://localhost:8000
+```
