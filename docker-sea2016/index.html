@@ -28,7 +28,7 @@ NSF / NCAR Research Aircraft w/ Docker">
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
@@ -48,6 +48,14 @@ NSF / NCAR Research Aircraft w/ Docker">
                  data-separator="^!SLIDE\n"
                  data-separator-vertical="^^!SLIDE vertical\n"
                  data-separator-notes="^!NOTE"
+                 data-charset="iso-8859-15">
+        </section>
+
+        <section data-markdown="slides/title-snakes.md"
+                 data-separator="^!SLIDE\n"
+                 data-separator-vertical="^^!SLIDE vertical\n"
+                 data-separator-notes="^!NOTE"
+                 data-background='images/jackson-snakes.jpg'
                  data-charset="iso-8859-15">
         </section>
 
@@ -78,6 +86,22 @@ NSF / NCAR Research Aircraft w/ Docker">
                  data-separator-notes="^!NOTE"
                  data-charset="iso-8859-15">
         </section>
+
+        <section data-markdown="slides/outro-bitten.md"
+                 data-separator="^!SLIDE\n"
+                 data-separator-vertical="^^!SLIDE vertical\n"
+                 data-separator-notes="^!NOTE"
+                 data-background='images/still-of-kenan-thompson-in-snakes-on-a-plane.jpg'
+                 data-charset="iso-8859-15">
+        </section>
+
+        <section data-markdown="slides/thanks.md"
+                 data-separator="^!SLIDE\n"
+                 data-separator-vertical="^^!SLIDE vertical\n"
+                 data-separator-notes="^!NOTE"
+                 data-charset="iso-8859-15">
+        </section>
+
 
     </div>
 
