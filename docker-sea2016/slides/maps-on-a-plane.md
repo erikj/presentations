@@ -23,6 +23,16 @@ Isolation: maps is developed and maintained by team separate from RAF
 This sounds like a great use-case for Docker
 
 !SLIDE
+<h3 class='fragment' ><i>I've had it w/ resolving these dependencies</i></h3>
+
+![](images/jackson-snakes.jpg)
+
+<h3 class='fragment'><i>on the server on my plane!</i></h3>
+
+!NOTE
+Or, as Samuel L. Jackson once said: I've had it w/ resolving these dependencies... on the server on my plane!
+
+!SLIDE
 # Docker
 
 <img src='images/docker-logo.png' height=120px; alt='Docker logo' style='vertical-align:bottom;'/>
