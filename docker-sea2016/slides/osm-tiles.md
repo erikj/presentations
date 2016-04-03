@@ -82,6 +82,15 @@ Built from Phusion's [baseimage](http://phusion.github.io/baseimage-docker/)
 - Serve exclusively pre-generated tiles from **Apache** via an **OpenLayers** interface: `startweb`
 
 !SLIDE
+
+<h2 class='fragment'><i>That's one tasty Docker image!</i></h2>
+
+<img src='images/jackson-beverage.png' />
+
+!NOTE
+As Samuel L. Jackson once said: That's one tasty Docker image!
+
+!SLIDE
 # osm-tiles workflow
 
 ```yaml
