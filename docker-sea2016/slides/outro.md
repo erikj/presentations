@@ -18,9 +18,3 @@
 - Easy to test and run different versions of software on same system
 - **Docker Compose** is a huge enhancement to **Docker** user interface
 - Different implementation patterns work, use according to your needs
-
-!SLIDE
-# Thanks!
-
-- **SEA**
-- You!
