@@ -6,8 +6,12 @@
 
 - Tiles need to be served on plane
   - Satcom is prohibitively expensive and slow for serving map tiles from ground
-- **OpenStreetMap** (OSM)
+- **OpenStreetMap** (**OSM**)
   - Free, crowd-sourced map data
+
+![](images/osm-us-tile.png)
+![](images/osm-denver-tile.png)
+![](images/osm-cg-tile.png)
 
 !NOTE
 Planes use satcom, which is prohibitively expensive and slow for serving map tiles from ground-- can't use Google Maps, free service provided by openstreetmap.org, *etc.*
