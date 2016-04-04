@@ -14,9 +14,9 @@ Replace **Mission-Coordinator Display** w/ **CatalogMaps**
     - **G-V**
     - cold spare
 - Run in isolation
-- Run on **RHEL** `6` and `7`
-  - **Scientific Linux** `6.7` (current)
-  - **CentOS** `7.x` (soon)
+- Run on **RHEL 6** and **7**
+  - **Scientific Linux 6.7** (current)
+  - **CentOS 7.x** (soon)
 
 !NOTE
 Isolation: maps is developed and maintained by team separate from RAF
@@ -101,13 +101,11 @@ Let's take a look @ how we can serve this stack w/ Docker...
 - Extends official image to add `mod_rewrite`
   - <https://hub.docker.com/_/httpd>
   - <https://github.com/ncareol/docker-library/tree/master/httpd/2.2/rewrite>
-- Required for development, to serve **JSON** files and application on same port (same-origin policy)
+- Required for development, to serve **JSON** files and application on same port (**JavaScript** same-origin policy)
 - Not required in production, where **Apache** runs natively on the host and serves other resources besides **CatalogMaps**
 
 !SLIDE
 # Docker Images: Apache
-
-`Dockerfile`:
 
 ```Dockerfile
 FROM httpd:2.2.31
@@ -125,6 +123,8 @@ RUN echo 'LoadModule proxy_module modules/mod_proxy.so' >> $HTTPD_PREFIX/conf/ht
 RUN echo 'LoadModule proxy_http_module modules/mod_proxy_http.so' >> $HTTPD_PREFIX/conf/httpd.conf
 RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/conf/httpd.conf
 ```
+
+[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/httpd/2.2/rewrite/Dockerfile)
 
 !SLIDE
 # Docker Images: catalog-ruby
@@ -283,6 +283,9 @@ Orchestration shouldn't be a pain, it should be a harmonious joy
 - Part of **Docker** suite
 - Configured via **Yaml** file
 - Allows configuration and management of containers
+
+!NOTE
+Transition: Let's jump right into things by looking @ how we're using Docker Compose for CatalogMaps...
 
 !SLIDE
 # [Docker Compose](https://docs.docker.com/compose/)
