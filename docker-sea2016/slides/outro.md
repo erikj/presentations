@@ -18,6 +18,7 @@
 - Easy to test and run different versions of software on same system
 - **Docker Compose**: major enhancement to **Docker** user interface
 - Different implementation patterns work, use according to your needs
+- Just scratching the surface of **Docker**'s capabilities
 
 !NOTE
 "different versions", epiphany: I was importing data using a previous version of software, while also simultaneously building and testing latest version of same software

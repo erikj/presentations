@@ -14,7 +14,7 @@
 ![](images/osm-cg-tile.png)
 
 !NOTE
-Planes use satcom, which is prohibitively expensive and slow for serving map tiles from ground-- can't use Google Maps, free service provided by openstreetmap.org, *etc.*
+Something else that I've been working on @ RAF has been updating the mapping tiles, which were last updated five years ago, and hopefully develop a workflow that lends itself to being used more frequently...
 
 !SLIDE
 # OSM Stack
