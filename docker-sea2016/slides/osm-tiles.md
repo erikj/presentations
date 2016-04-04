@@ -120,3 +120,12 @@ $ docker-compose up
 
 # => http://localhost:8000
 ```
+
+!SLIDE
+
+<h2 class='fragment'><i>That's one tasty Docker image!</i></h2>
+
+<img src='images/jackson-beverage.png' />
+
+!NOTE
+As Samuel L. Jackson once said: That's one tasty Docker image!

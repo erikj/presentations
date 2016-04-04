@@ -23,6 +23,16 @@ Isolation: maps is developed and maintained by team separate from RAF
 This sounds like a great use-case for Docker
 
 !SLIDE
+<h3 class='fragment' ><i>I've had it w/ resolving these dependencies</i></h3>
+
+![](images/jackson-snakes.jpg)
+
+<h3 class='fragment'><i>on the server on my plane!</i></h3>
+
+!NOTE
+Or, as Samuel L. Jackson once said: I've had it w/ resolving these dependencies... on the server on my plane!
+
+!SLIDE
 # Docker
 
 <img src='images/docker-logo.png' height=120px; alt='Docker logo' style='vertical-align:bottom;'/>
@@ -49,13 +59,6 @@ This sounds like a great use-case for Docker
 Dockerfile: will provide examples later
 
 !SLIDE
-# Docker Registry
-
-- Centralized repository of **Docker** images
-- [**Docker Hub**](https://hub.docker.com/) - public (free) and private (paid) repositories
-- [Quay.io](https://quay.io/) - private (paid) registry
-
-!SLIDE
 # Docker
 
 <img src='images/docker-logo.png' height=120px; alt='Docker logo' style='vertical-align:bottom;'/>
@@ -78,7 +81,7 @@ Let's take a look @ how we can serve this stack w/ Docker...
 !SLIDE
 # Docker Images: MySQL
 
-- Official image
+- Official image: <https://hub.docker.com/_/mysql>
 - Configured via environment variables
 
     ```yaml
@@ -96,7 +99,8 @@ Let's take a look @ how we can serve this stack w/ Docker...
 # Docker Images: Apache
 
 - Extends official image to add `mod_rewrite`
-- <https://github.com/ncareol/docker-library/tree/master/httpd/2.2/rewrite>
+  - <https://hub.docker.com/_/httpd>
+  - <https://github.com/ncareol/docker-library/tree/master/httpd/2.2/rewrite>
 - Required for development, to serve **JSON** files and application on same port (same-origin policy)
 - Not required in production, where **Apache** runs natively on the host and serves other resources besides **CatalogMaps**
 
@@ -126,8 +130,9 @@ RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/con
 # Docker Images: catalog-ruby
 
 - Custom image built from official **CentOS** image
+  - <https://hub.docker.com/r/ncareol/catalog-ruby-1.9.3-p545>
+  - <https://github.com/ncareol/docker-library/tree/master/catalog-ruby/1.9.3>
 - Runs version of **Ruby** not available as official image
-- <https://github.com/ncareol/docker-library/tree/master/catalog-ruby/1.9.3>
 - Minimal image w/ only dependencies for **Field-Catalog** **Ruby** / **Rails** apps
 
 !SLIDE
@@ -275,7 +280,7 @@ Orchestration shouldn't be a pain, it should be a harmonious joy
 
 - Shell script
 - Open Source
-- Part of **Docker** project
+- Part of **Docker** suite
 - Configured via **Yaml** file
 - Allows configuration and management of containers
 

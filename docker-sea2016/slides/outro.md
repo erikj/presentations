@@ -18,3 +18,26 @@
 - Easy to test and run different versions of software on same system
 - **Docker Compose** is a huge enhancement to **Docker** user interface
 - Different implementation patterns work, use according to your needs
+
+!SLIDE
+
+<h3 class='fragment' >Don't get bitten by software dependencies</h3>
+
+<img src='images/snakes-logo-crop.jpeg' height=400 />
+
+<h3 class='fragment'>
+  Use Docker
+  <img src='images/docker-logo.png' height=120px; alt='Docker logo' style='vertical-align:middle;'/>
+</h3>
+
+!NOTE
+Don't get bitten by software dependencies, use Docker
+
+!SLIDE
+# Thanks!
+
+<img src='images/jackson-burger.jpg' height=400 />
+
+[erikj.github.io/slides/docker-sea2016](http://erikj.github.io/slides/docker-sea2016)
+
+`ej@ucar.edu`

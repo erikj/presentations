@@ -32,55 +32,28 @@ One of the major things that we support @ EOL
 - [DEEPWAVE](https://www.eol.ucar.edu/field_projects/deepwave): New Zealand, 2014
 - [FRAPPE](https://www.eol.ucar.edu/field_projects/frappe): Colorado, 2014
 - [PECAN](https://www.eol.ucar.edu/field_projects/pecan): Kansas, Central US; 2015
-- [ORCAS](https://www.eol.ucar.edu/field_projects/pecan): South America, 2016
-
-!SLIDE
-# Field Catalog
-
-<img src='images/catalog-orcas-home.png' alt='ORCAS Field Catalog' height='500px'>
-
-Project organization and imagery archival framework
-
-!SLIDE
-# Field Catalog
-
-<img src='images/products/satellite.NOAA_AVHRR.201602010645.AWC_Antarctic_Composite_IR.jpg' alt='' height='300px'>
-<img src='images/products/upperair.SkewT.201602010000.Buenos_Aires.png' alt='' height='300px'>
-<img src='images/products/model.NASA_GEOS-5.201602010000.000_200_mb_temp.png' alt='' height='300px'>
-
-Project organization and imagery archival framework
-
-!NOTE
-satellite (ops), sounding (research), forecast (model)
+- [ORCAS](https://www.eol.ucar.edu/field_projects/orcas): South America, Southern Ocean; 2016
 
 !SLIDE
 # CatalogMaps
 
-**Field-Catalog** Geo Interface
+**Field-Project** Geo / GIS Interface
 
 - 'Realtime' and 'playback'
 - Independent layer controls
-- KMLs (flight tracks, flight plans, soundings, FIR boundaries, airways, etc.)
+- **KML**s (flight tracks, flight plans, soundings, **FIR** boundaries, airways, etc.)
 - Platform positions (aircraft, ships, vehicles, radar, etc.)
-- Images
+- Images: operational, research, model, *etc.*
 - Requirement: base layer
 - Used by project participants on ground
+
+!NOTE
+FIR: Flight Information Region
 
 !SLIDE
 # CatalogMaps
 
 <img src='images/maps-cset.png' height='500' />
-
-**Field-Catalog** Geo Interface
-
-!SLIDE
-# CatalogMaps
-
-- **Ruby**
-- **Rails**
-- **MySQL**
-- **OpenLayers**
-- **Bootstrap**
 
 !SLIDE
 # EOL Research Aviation Facility (RAF)
