@@ -23,12 +23,12 @@
 
 <h3 class='fragment' >Don't get bitten by software dependencies</h3>
 
-![](images/still-of-kenan-thompson-in-snakes-on-a-plane.jpg)
+<img src='images/snakes-logo-crop.jpeg' height=400 />
 
-<h1 class='fragment'>
+<h3 class='fragment'>
   Use Docker
   <img src='images/docker-logo.png' height=120px; alt='Docker logo' style='vertical-align:middle;'/>
-</h1>
+</h3>
 
 !NOTE
 Don't get bitten by software dependencies, use Docker
@@ -36,8 +36,7 @@ Don't get bitten by software dependencies, use Docker
 !SLIDE
 # Thanks!
 
-- **NCAR SEA**
-- You!
+<img src='images/jackson-burger.jpg' height=400 />
 
 [erikj.github.io/slides/docker-sea2016](http://erikj.github.io/slides/docker-sea2016)
 
