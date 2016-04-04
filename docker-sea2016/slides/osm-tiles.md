@@ -6,11 +6,15 @@
 
 - Tiles need to be served on plane
   - Satcom is prohibitively expensive and slow for serving map tiles from ground
-- **OpenStreetMap** (OSM)
+- **OpenStreetMap** (**OSM**)
   - Free, crowd-sourced map data
 
+![](images/osm-us-tile.png)
+![](images/osm-denver-tile.png)
+![](images/osm-cg-tile.png)
+
 !NOTE
-Planes use satcom, which is prohibitively expensive and slow for serving map tiles from ground-- can't use Google Maps, free service provided by openstreetmap.org, *etc.*
+Something else that I've been working on @ RAF has been updating the mapping tiles, which were last updated five years ago, and hopefully develop a workflow that lends itself to being used more frequently...
 
 !SLIDE
 # OSM Stack
@@ -61,9 +65,10 @@ Built from Phusion's [baseimage](http://phusion.github.io/baseimage-docker/)
 ## `osm-tiles`
 
 - Forked: <https://github.com/ncareol/osm-tiles-docker>
-- Shorted name!
-  - `openstreetmap-tiles` => `osm-tiles`
-  - <https://hub.docker.com/r/ncareol/osm-tiles>
+  - Shorted name!
+    - `openstreetmap-tiles` => `osm-tiles`
+    - 60% fewer characters!
+    - <https://hub.docker.com/r/ncareol/osm-tiles>
 - Updated to use latest `phusion/baseimage`
 - `init()` + `startdb()` + `createuser()` + `createdb()`
   - => `initdb()`

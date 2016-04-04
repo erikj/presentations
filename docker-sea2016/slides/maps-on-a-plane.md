@@ -46,7 +46,7 @@ Or, as Samuel L. Jackson once said: I've had it w/ resolving these dependencies.
 !SLIDE
 # Docker Images
 
-- Filesystems containing a (usually) minimal Linux OS
+- Filesystems containing a (usually) minimal **Linux** OS
 - Typically built up from a base image to serve a single program
 - Most images are built on a series of underlying images or 'layers'
 - **Git**-like workflow, committed* and referenced by checksums and tags
