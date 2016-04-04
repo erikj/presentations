@@ -10,7 +10,7 @@
 - Field-Project Management (**PMO**)
 
 !NOTE
-Services and Facilities
+I work @ EOL, where we provide a number of services and facilities for atmospheric observation
 
 !SLIDE
 # Field Projects
