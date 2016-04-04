@@ -25,7 +25,8 @@ Planes use satcom, which is prohibitively expensive and slow for serving map til
 lot of moving parts, many of which have deep, complicated dependencies
 
 !SLIDE
-# Docker Image: OSM Tiles
+# Docker Image
+## `openstreetmap-tiles`
 
 Docker image w/ entire **OSM** stack
 
@@ -44,7 +45,8 @@ Built from Phusion's [baseimage](http://phusion.github.io/baseimage-docker/)
 - setuser
 
 !SLIDE
-# Docker Image: OSM Tiles
+# Docker Image
+## `openstreetmap-tiles`
 
 - Very useful
 - Multiple functions provided via `run.sh` entrypoint
@@ -55,34 +57,34 @@ Built from Phusion's [baseimage](http://phusion.github.io/baseimage-docker/)
 - Could use some updates and enhancements
 
 !SLIDE
-# osm-tiles-docker enhancements
+# Enhancements
+## `osm-tiles`
 
 - Forked: <https://github.com/ncareol/osm-tiles-docker>
 - Shorted name!
   - `openstreetmap-tiles` => `osm-tiles`
+  - <https://hub.docker.com/r/ncareol/osm-tiles>
 - Updated to use latest `phusion/baseimage`
-- `init` + `startdb` + `createuser` + `createdb` => `initdb`
+- `init()` + `startdb()` + `createuser()` + `createdb()`
+  - => `initdb()`
 - Allow for input to functions by specifying environment variables
-  - `OSM_IMPORT_FILE`
-  - `OSM_IMPORT_CACHE`
-  - `OSM_MAX_ZOOM`
-  - `OSM_RENDER_FORCE`
+  - `OSM_IMPORT_FILE`, `OSM_IMPORT_CACHE`, `OSM_MAX_ZOOM`, `OSM_RENDER_FORCE`
 - Added `index.html` based on simple **OpenLayers** example, serving tiles from container
 - Enabled serving only pre-generated tiles, for testing
-- Documented workflow on **GitHub** wiki: <https://github.com/ncareol/osm-tiles-docker/wiki>
-- Pushed to `ncareol` **Docker-Hub** organization: <https://hub.docker.com/r/ncareol/osm-tiles/>
 
 !SLIDE
-# Docker Image: osm-tiles
+# Docker Image
+## `osm-tiles`
 
 - Initialize **PostgreSQL** database w/ **PostGIS** extensions: `initdb`
 - Import **OpenStreetMap** data into **PostgreSQL** database: `import`
 - Optionally pre-generate tiles: `render`
 - Serve pre-generated (if available) and dynamically generated tiles from **Apache**, **renderd** and **mapnik** via an **OpenLayers** interface: `startservices`
 - Serve exclusively pre-generated tiles from **Apache** via an **OpenLayers** interface: `startweb`
+- Workflow : <https://github.com/ncareol/osm-tiles-docker/wiki>
 
 !SLIDE
-# osm-tiles workflow
+# `osm-tiles` workflow
 
 ```yaml
 osm:
@@ -107,7 +109,8 @@ osm:
 `docker-compose.yml`
 
 !SLIDE
-# osm-tiles workflow
+# Workflow
+## `osm-tiles`
 
 ```sh
 $ docker-compose run osm initdb
