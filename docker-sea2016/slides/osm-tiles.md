@@ -23,7 +23,7 @@ Something else that I've been working on @ RAF has been updating the mapping til
 - [**osm2pgsql**](http://wiki.openstreetmap.org/wiki/Osm2pgsql)
 - [**mapnik**](http://mapnik.org/)
 - **renderd**: tile generation
-- **Apache** + [**mod_tile**](http://wiki.openstreetmap.org/wiki/Mod_tile): webserver and module serving map tiles
+- **Apache** + [**`mod_tile`**](http://wiki.openstreetmap.org/wiki/Mod_tile): webserver and module serving map tiles
 
 !NOTE
 lot of moving parts, many of which have deep, complicated dependencies
@@ -41,12 +41,12 @@ Built from Phusion's [baseimage](http://phusion.github.io/baseimage-docker/)
 
 
 - A 'correct' init process
-- syslog
-- cron
-- sshd
-- runit to manage and supervise service(s) within container
+- `syslog`
+- `cron`
+- `sshd`
+- `runit` to manage and supervise service(s) within container
   - running multiple processes via runit is *encouraged* by baseimage
-- setuser
+- `setuser`
 
 !SLIDE
 # Docker Image

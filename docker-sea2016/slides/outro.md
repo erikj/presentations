@@ -9,16 +9,18 @@
 - See what's already out there, use or adapt to suit your needs
   - Build on existing images
   - Modify existing images by editing their `Dockerfile`s and building new images
+- For **OSX**, **Docker Machine** isn't all the way there...
 
 !SLIDE
 # Conclusions
 
 - **Docker**: useful, mature, thriving ecosystem, works as advertisted
 - Discards software-dependency resolution / dependency hell on different systems, **Linux** distributions
-- Easy to test and run different versions of software on same system
+- Easy to simultaneously test and run different versions of software on same system
 - **Docker Compose**: major enhancement to **Docker** user interface
 - Different implementation patterns work, use according to your needs
 - Just scratching the surface of **Docker**'s capabilities
+- **Docker for Mac / Windows** should improve cross-platform usage
 
 !NOTE
 "different versions", epiphany: I was importing data using a previous version of software, while also simultaneously building and testing latest version of same software

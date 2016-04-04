@@ -10,7 +10,7 @@
 - Field-Project Management (**PMO**)
 
 !NOTE
-Services and Facilities
+I work @ EOL, where we provide a number of services and facilities for atmospheric observation
 
 !SLIDE
 # Field Projects
@@ -48,7 +48,7 @@ One of the major things that we support @ EOL
 - Used by project participants on ground
 
 !NOTE
-FIR: Flight Information Region
+Web application. 'Realtime'-- soft realtime, not hard realtime, where data is processed in milliseconds and available immediately. FIR: Flight Information Region
 
 !SLIDE
 # CatalogMaps
@@ -64,7 +64,7 @@ FIR: Flight Information Region
 **NSF / NCAR C-130 Hercules**
 
 !NOTE
-RAF is one of EOL's facilities, has two aircraft...
+RAF is one of EOL's facilities, has two aircraft / flying laboratories
 
 !SLIDE
 # EOL Research Aviation Facility (RAF)
@@ -81,6 +81,9 @@ RAF is one of EOL's facilities, has two aircraft...
 - Used by project participants on ground and on aircraft
 - Mission critical
 - 'Realtime'
+
+!NOTE
+soft realtime
 
 !SLIDE
 # RAF Mission-Coordinator Display
