@@ -13,11 +13,14 @@
 !SLIDE
 # Conclusions
 
-- **Docker**: mature, thriving ecosystem, works as advertisted
-- Don't have to worry about dependency resolution / dependency hell on different systems, Linux distributions
+- **Docker**: useful, mature, thriving ecosystem, works as advertisted
+- Discards software-dependency resolution / dependency hell on different systems, **Linux** distributions
 - Easy to test and run different versions of software on same system
-- **Docker Compose** is a huge enhancement to **Docker** user interface
+- **Docker Compose**: major enhancement to **Docker** user interface
 - Different implementation patterns work, use according to your needs
+
+!NOTE
+"different versions", epiphany: I was importing data using a previous version of software, while also simultaneously building and testing latest version of same software
 
 !SLIDE
 
