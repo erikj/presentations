@@ -9,3 +9,5 @@
 
 #### 2016 NCAR SEA Conference, 2016/04/04
 
+!NOTE
+I'm not a data scientist and this isn't a data-science talk, but, true to its title, it does feature Docker and Samuel L. Jackson...
