@@ -9,4 +9,5 @@
 
 #### 2016 NCAR SEA Conference, 2016/04/04
 
-[erikj.github.io/slides/docker-sea2016](http://erikj.github.io/slides/docker-sea2016)
+!NOTE
+I'm not a data scientist and this isn't a data-science talk, but, true to its title, there will be Docker and Samuel L. Jackson...

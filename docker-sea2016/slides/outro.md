@@ -2,6 +2,7 @@
 
 # Lessons Learned
 - `docker0` ethernet interface and `iptables`
+- `$ docker run -it <image> bash`
 - Lock versions
   - **Docker** images and installed software
   - `osm2pgsql` error
