@@ -59,13 +59,6 @@ Or, as Samuel L. Jackson once said: I've had it w/ resolving these dependencies.
 Dockerfile: will provide examples later
 
 !SLIDE
-# Docker Registry
-
-- Centralized repository of **Docker** images
-- [**Docker Hub**](https://hub.docker.com/) - public (free) and private (paid) repositories
-- [Quay.io](https://quay.io/) - private (paid) registry
-
-!SLIDE
 # Docker
 
 <img src='images/docker-logo.png' height=120px; alt='Docker logo' style='vertical-align:bottom;'/>
@@ -285,7 +278,7 @@ Orchestration shouldn't be a pain, it should be a harmonious joy
 
 - Shell script
 - Open Source
-- Part of **Docker** project
+- Part of **Docker** suite
 - Configured via **Yaml** file
 - Allows configuration and management of containers
 
