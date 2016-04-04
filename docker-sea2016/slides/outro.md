@@ -16,7 +16,7 @@
 
 - **Docker**: useful, mature, thriving ecosystem, works as advertisted
 - Discards software-dependency resolution / dependency hell on different systems, **Linux** distributions
-- Easy to test and run different versions of software on same system
+- Easy to simultaneously test and run different versions of software on same system
 - **Docker Compose**: major enhancement to **Docker** user interface
 - Different implementation patterns work, use according to your needs
 - Just scratching the surface of **Docker**'s capabilities
