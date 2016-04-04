@@ -32,7 +32,7 @@ One of the major things that we support @ EOL
 - [DEEPWAVE](https://www.eol.ucar.edu/field_projects/deepwave): New Zealand, 2014
 - [FRAPPE](https://www.eol.ucar.edu/field_projects/frappe): Colorado, 2014
 - [PECAN](https://www.eol.ucar.edu/field_projects/pecan): Kansas, Central US; 2015
-- [ORCAS](https://www.eol.ucar.edu/field_projects/pecan): South America, 2016
+- [ORCAS](https://www.eol.ucar.edu/field_projects/orcas): South America, Southern Ocean; 2016
 
 !SLIDE
 # Field Catalog
@@ -60,11 +60,14 @@ satellite (ops), sounding (research), forecast (model)
 
 - 'Realtime' and 'playback'
 - Independent layer controls
-- KMLs (flight tracks, flight plans, soundings, FIR boundaries, airways, etc.)
+- **KML**s (flight tracks, flight plans, soundings, **FIR** boundaries, airways, etc.)
 - Platform positions (aircraft, ships, vehicles, radar, etc.)
 - Images
 - Requirement: base layer
 - Used by project participants on ground
+
+!NOTE
+Major component of Field Catalog: CatalogMaps. FIR: Flight Information Region
 
 !SLIDE
 # CatalogMaps

@@ -1,4 +1,4 @@
-## Whales On A Plane
+# Whales On A Plane
 
 ### Deploying Software To NSF / NCAR Research Aircraft w/ Docker
 
