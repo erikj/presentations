@@ -81,7 +81,7 @@ Let's take a look @ how we can serve this stack w/ Docker...
 !SLIDE
 # Docker Images: MySQL
 
-- Official image
+- Official image: <https://hub.docker.com/_/mysql>
 - Configured via environment variables
 
     ```yaml
@@ -99,7 +99,8 @@ Let's take a look @ how we can serve this stack w/ Docker...
 # Docker Images: Apache
 
 - Extends official image to add `mod_rewrite`
-- <https://github.com/ncareol/docker-library/tree/master/httpd/2.2/rewrite>
+  - <https://hub.docker.com/_/httpd>
+  - <https://github.com/ncareol/docker-library/tree/master/httpd/2.2/rewrite>
 - Required for development, to serve **JSON** files and application on same port (same-origin policy)
 - Not required in production, where **Apache** runs natively on the host and serves other resources besides **CatalogMaps**
 
@@ -129,8 +130,9 @@ RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/con
 # Docker Images: catalog-ruby
 
 - Custom image built from official **CentOS** image
+  - <https://hub.docker.com/r/ncareol/catalog-ruby-1.9.3-p545>
+  - <https://github.com/ncareol/docker-library/tree/master/catalog-ruby/1.9.3>
 - Runs version of **Ruby** not available as official image
-- <https://github.com/ncareol/docker-library/tree/master/catalog-ruby/1.9.3>
 - Minimal image w/ only dependencies for **Field-Catalog** **Ruby** / **Rails** apps
 
 !SLIDE
