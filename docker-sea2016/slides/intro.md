@@ -48,23 +48,12 @@ One of the major things that we support @ EOL
 - Used by project participants on ground
 
 !NOTE
-Major component of Field Catalog: CatalogMaps. FIR: Flight Information Region
+FIR: Flight Information Region
 
 !SLIDE
 # CatalogMaps
 
 <img src='images/maps-cset.png' height='500' />
-
-**Field-Project** Geo / GIS Interface
-
-!SLIDE
-# CatalogMaps
-
-- **Ruby**
-- **Rails**
-- **MySQL**
-- **OpenLayers**
-- **Bootstrap**
 
 !SLIDE
 # EOL Research Aviation Facility (RAF)
