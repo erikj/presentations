@@ -41,12 +41,12 @@ Built from Phusion's [baseimage](http://phusion.github.io/baseimage-docker/)
 
 
 - A 'correct' init process
-- syslog
-- cron
-- sshd
-- runit to manage and supervise service(s) within container
+- `syslog`
+- `cron`
+- `sshd`
+- `runit` to manage and supervise service(s) within container
   - running multiple processes via runit is *encouraged* by baseimage
-- setuser
+- `setuser`
 
 !SLIDE
 # Docker Image
