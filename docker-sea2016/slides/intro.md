@@ -35,34 +35,15 @@ One of the major things that we support @ EOL
 - [ORCAS](https://www.eol.ucar.edu/field_projects/orcas): South America, Southern Ocean; 2016
 
 !SLIDE
-# Field Catalog
-
-<img src='images/catalog-orcas-home.png' alt='ORCAS Field Catalog' height='500px'>
-
-Project organization and imagery archival framework
-
-!SLIDE
-# Field Catalog
-
-<img src='images/products/satellite.NOAA_AVHRR.201602010645.AWC_Antarctic_Composite_IR.jpg' alt='' height='300px'>
-<img src='images/products/upperair.SkewT.201602010000.Buenos_Aires.png' alt='' height='300px'>
-<img src='images/products/model.NASA_GEOS-5.201602010000.000_200_mb_temp.png' alt='' height='300px'>
-
-Project organization and imagery archival framework
-
-!NOTE
-satellite (ops), sounding (research), forecast (model)
-
-!SLIDE
 # CatalogMaps
 
-**Field-Catalog** Geo Interface
+**Field-Project** Geo / GIS Interface
 
 - 'Realtime' and 'playback'
 - Independent layer controls
 - **KML**s (flight tracks, flight plans, soundings, **FIR** boundaries, airways, etc.)
 - Platform positions (aircraft, ships, vehicles, radar, etc.)
-- Images
+- Images: operational, research, model, *etc.*
 - Requirement: base layer
 - Used by project participants on ground
 
@@ -74,7 +55,7 @@ Major component of Field Catalog: CatalogMaps. FIR: Flight Information Region
 
 <img src='images/maps-cset.png' height='500' />
 
-**Field-Catalog** Geo Interface
+**Field-Project** Geo / GIS Interface
 
 !SLIDE
 # CatalogMaps
