@@ -18,6 +18,9 @@
   - NCAR EOL Programmer's-Lunch Seminar, 2015/03/19
 - [Redis](redis-eolprog)
   - NCAR EOL Programmer's-Lunch Seminar, 2015/11/19
+- [Whales On A Plane: Deploying Software To NSF / NCAR Research Aircraft w/ Docker](http://erikj.github.io/slides/docker-sea2016/)
+  - NCAR SEA Software-Engineering Conference, 2016/04/04
+
 
 <!-- ## TODO -->
 
