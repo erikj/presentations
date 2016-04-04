@@ -41,3 +41,6 @@ Don't get bitten by software dependencies, use Docker
 [erikj.github.io/slides/docker-sea2016](http://erikj.github.io/slides/docker-sea2016)
 
 `ej@ucar.edu`
+
+!NOTE
+Thanks for your time and attention, and thanks to the SEA for the opportunity to present today.
