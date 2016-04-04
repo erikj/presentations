@@ -107,8 +107,6 @@ Let's take a look @ how we can serve this stack w/ Docker...
 !SLIDE
 # Docker Images: Apache
 
-`Dockerfile`:
-
 ```Dockerfile
 FROM httpd:2.2.31
 MAINTAINER Erik Johnson <ej@ucar.edu>
@@ -125,6 +123,8 @@ RUN echo 'LoadModule proxy_module modules/mod_proxy.so' >> $HTTPD_PREFIX/conf/ht
 RUN echo 'LoadModule proxy_http_module modules/mod_proxy_http.so' >> $HTTPD_PREFIX/conf/httpd.conf
 RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/conf/httpd.conf
 ```
+
+[`Dockerfile`](https://github.com/ncareol/docker-library/blob/master/httpd/2.2/rewrite/Dockerfile)
 
 !SLIDE
 # Docker Images: catalog-ruby
