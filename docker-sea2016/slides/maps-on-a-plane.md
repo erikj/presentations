@@ -19,7 +19,7 @@ Replace **Mission-Coordinator Display** w/ **CatalogMaps**
   - **CentOS 7.x** (soon)
 
 !NOTE
-Isolation: maps is developed and maintained by team separate from RAF
+Isolation: maps is developed and maintained by team separate from RAF.
 This sounds like a great use-case for Docker
 
 !SLIDE
@@ -42,6 +42,9 @@ Or, as Samuel L. Jackson once said: I've had it w/ resolving these dependencies.
 - Isolated execution environments: *"chroot on steroids"*
 - Processes executed by host's kernel
 - No emulation penalty like **Virtualization**
+
+!NOTE
+Adorable whale logo
 
 !SLIDE
 # Docker Images
