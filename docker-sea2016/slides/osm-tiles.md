@@ -23,7 +23,7 @@ Something else that I've been working on @ RAF has been updating the mapping til
 - [**osm2pgsql**](http://wiki.openstreetmap.org/wiki/Osm2pgsql)
 - [**mapnik**](http://mapnik.org/)
 - **renderd**: tile generation
-- **Apache** + [**mod_tile**](http://wiki.openstreetmap.org/wiki/Mod_tile): webserver and module serving map tiles
+- **Apache** + [**`mod_tile`**](http://wiki.openstreetmap.org/wiki/Mod_tile): webserver and module serving map tiles
 
 !NOTE
 lot of moving parts, many of which have deep, complicated dependencies
