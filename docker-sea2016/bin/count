@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+md_files_count=`find slides/ *.md -type f|wc -l`
+
+# echo $md_files_count
+
+grep_slide_count=`grep SLIDE slides/*.md|wc -l`
+
+total_slides=$(( $md_files_count + $grep_slide_count ))
+
+echo total slides: $total_slides
+
+echo estimated duration: $(( $total_slides * 3 / 4 )) minutes

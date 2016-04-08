@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+git co gh-pages && git m feature-docker-sea2016 && git push && git co feature-docker-sea2016
