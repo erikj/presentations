@@ -1,5 +1,26 @@
 # Docker @ EOL - ej
 
+Tools
+
+- macOS: [dlite](https://github.com/nlf/dlite)
+  - also:
+    - [Docker Toolbox](https://docs.docker.com/toolbox/overview/)
+    - [dinghy](https://github.com/codekitchen/dinghy)
+  - all provide faster file sharing via **NFS**
+
+!SLIDE
+# Docker @ EOL - ej
+
+Tools
+
+- [**Docker Compose**](https://docs.docker.com/compose/overview/)
+  - YAML-based configuration
+  - Orchestration of multiple containers as 'services'
+  - Shorter commands
+
+!SLIDE
+# Docker @ EOL - ej
+
 - All of my dev stacks
 
 !SLIDE
