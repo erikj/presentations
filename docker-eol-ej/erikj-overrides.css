@@ -24,3 +24,13 @@
   background: none;
   border: none;
 }
+
+
+/*
+
+undo https://github.com/hakimel/reveal.js/commit/8162855d23601e66a25ba79dd4013ef416c4f1b4
+
+*/
+.reveal {
+  font-size: 30px;
+}
