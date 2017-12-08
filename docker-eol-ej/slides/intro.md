@@ -18,7 +18,7 @@
 
 Images built via `Dockerfile`s
 
-Add mod_rewrite to Apache:
+[Add mod_rewrite to Apache](https://github.com/ncareol/docker-library/blob/master/httpd/2.2/rewrite/Dockerfile):
 
 ```Dockerfile
 FROM httpd:2.2.31
