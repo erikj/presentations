@@ -1,5 +1,15 @@
 # Docker @ EOL - ej
 
+Resources
+
+- <https://hub.docker.com/u/ncareol>
+  - **Docker** images
+- <https://github.com/ncareol/docker-library>
+  - `Dockerfile`s
+  
+!SLIDE
+# Docker @ EOL - ej
+
 Tools
 
 - macOS: [dlite](https://github.com/nlf/dlite)
@@ -47,3 +57,12 @@ Tools
 - **LROSE** solo ii
   - **RHEL 5**
   - **X11**
+
+!SLIDE
+# Docker @ EOL - ej
+
+Prior Art:
+
+**Docker & Compose**: <http://erikj.github.io/slides/docker-compose>
+
+**Whales On A Plane**: <http://erikj.github.io/slides/docker-sea2016>
