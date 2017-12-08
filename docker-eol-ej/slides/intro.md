@@ -18,4 +18,21 @@
 
 Images built via `Dockerfile`s
 
-![Example Dockerfile](images/example-dockerfile.png)
+Add mod_rewrite to Apache:
+
+```Dockerfile
+FROM httpd:2.2.31
+ENV HTTPD_PREFIX /usr/local/apache2
+COPY modules /tmp/httpd/modules/
+RUN apt-get update \
+    && apt-get install -y gcc \
+    && apxs -c -i /tmp/httpd/modules/proxy/mod_proxy.c /tmp/httpd/modules/proxy/proxy_util.c \
+    && apxs -c -i /tmp/httpd/modules/proxy/mod_proxy_http.c  /tmp/httpd/modules/proxy/proxy_util.c \
+    && apxs -c -i /tmp/httpd/modules/mod_rewrite.c \
+    && rm -r /var/lib/apt/lists/* /tmp/httpd \
+    && apt-get purge -y --auto-remove gcc
+RUN echo 'LoadModule proxy_module modules/mod_proxy.so' >> $HTTPD_PREFIX/conf/httpd.conf
+RUN echo 'LoadModule proxy_http_module modules/mod_proxy_http.so' >> $HTTPD_PREFIX/conf/httpd.conf
+RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/conf/httpd.conf
+
+```
