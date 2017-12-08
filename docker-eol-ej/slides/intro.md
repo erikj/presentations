@@ -36,3 +36,19 @@ RUN echo 'LoadModule proxy_http_module modules/mod_proxy_http.so' >> $HTTPD_PREF
 RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/conf/httpd.conf
 
 ```
+
+!SLIDE
+# Docker
+
+Example Workflow
+
+```sh
+$ cat hello-world.Dockerfile
+FROM alpine
+CMD echo hello world
+
+$ docker build -f hello-world.Dockerfile -t hello-world .
+
+$ docker run hello-world
+hello world
+```
