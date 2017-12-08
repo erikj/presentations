@@ -34,21 +34,22 @@ RUN apt-get update \
 RUN echo 'LoadModule proxy_module modules/mod_proxy.so' >> $HTTPD_PREFIX/conf/httpd.conf
 RUN echo 'LoadModule proxy_http_module modules/mod_proxy_http.so' >> $HTTPD_PREFIX/conf/httpd.conf
 RUN echo 'LoadModule rewrite_module modules/mod_rewrite.so' >> $HTTPD_PREFIX/conf/httpd.conf
-
 ```
 
 !SLIDE
 # Docker
 
-Example Workflow
+## Example Workflow
 
 ```sh
 $ cat hello-world.Dockerfile
 FROM alpine
 CMD echo hello world
 
+# build tagged image
 $ docker build -f hello-world.Dockerfile -t hello-world .
 
+# run image from tag
 $ docker run hello-world
 hello world
 ```
