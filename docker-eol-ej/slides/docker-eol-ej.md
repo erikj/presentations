@@ -47,9 +47,9 @@ Tools
 !SLIDE
 # Docker @ EOL - ej
 
-- **Presto**
-  - NCSA database-less Rails app
-  - Data provided by NCSA API
+- **PRESTO**: **LAOF** facility-request web app
+  - **NCSA** database-less **Rails** app
+  - Data provided by **NCSA** **API**
 
 !SLIDE
 # Docker @ EOL - ej
