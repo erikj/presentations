@@ -34,3 +34,13 @@ undo https://github.com/hakimel/reveal.js/commit/8162855d23601e66a25ba79dd4013ef
 .reveal {
   font-size: 30px;
 }
+
+
+/*
+
+display discs instead of squares for sub-bullets
+
+*/
+ul li li {
+   list-style: disc;
+}
