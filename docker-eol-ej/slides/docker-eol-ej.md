@@ -30,6 +30,16 @@
 
 !SLIDE
 # Docker @ EOL - ej
+## Tools: [`wait-for-it.sh`](https://github.com/vishnubob/wait-for-it)
+
+> Pure bash script to test and wait on the availability of a TCP host and port
+
+Keep Docker Compose services running while they wait for the services they depend on to fully start
+
+*e.g.* **CatalogMaps** and **CatalogIngest** depend on `db` service
+
+!SLIDE
+# Docker @ EOL - ej
 
 ## All of my dev stacks
 
