@@ -20,13 +20,21 @@
 
 !SLIDE
 # Docker @ EOL - ej
+## Tools [**Docker Compose**](https://docs.docker.com/compose/overview/)
 
-## Tools
+- YAML-based configuration
+- Orchestration of multiple containers as 'services'
+- Shorter commands
 
-- [**Docker Compose**](https://docs.docker.com/compose/overview/)
-  - YAML-based configuration
-  - Orchestration of multiple containers as 'services'
-  - Shorter commands
+# Docker @ EOL - ej
+## Tools [`phusion/baseimage`](http://phusion.github.io/baseimage-docker/)
+
+*"A minimal Ubuntu base image modified for Docker-friendliness"*
+
+- init system running as PID 1: `runit`
+- syslog
+- cron
+- good for running multiple processes or services within a single container
 
 !SLIDE
 # Docker @ EOL - ej
@@ -49,6 +57,7 @@ Keep Docker Compose services running while they wait for the services they depen
 ## Maps On A Plane
 
 - [**osm-tiles-docker**](https://github.com/ncareol/osm-tiles-docker): load data & generate map tiles
+  - based on [`phusion/baseimage`](http://phusion.github.io/baseimage-docker/)
 - **CatalogMaps** stack
   - **MySQL** database
   - **CatalogIngest** (inotify + eventmachine)
