@@ -1,5 +1,4 @@
 # Docker @ EOL - ej
-
 ## Resources
 
 - <https://hub.docker.com/u/ncareol>
@@ -9,7 +8,6 @@
   
 !SLIDE
 # Docker @ EOL - ej
-
 ## Tools
 
 - macOS: [dlite](https://github.com/nlf/dlite)
@@ -48,15 +46,13 @@ Keep Docker Compose services running while they wait for the services they depen
 
 !SLIDE
 # Docker @ EOL - ej
-
 ## All of my dev stacks
 
 !SLIDE
 # Docker @ EOL - ej
-
 ## Maps On A Plane
 
-- [**osm-tiles-docker**](https://github.com/ncareol/osm-tiles-docker): load data & generate map tiles
+- [**osm-tiles-docker**](https://github.com/ncareol/osm-tiles-docker): load **OpenStreetMap** data & generate map tiles
   - based on [`phusion/baseimage`](http://phusion.github.io/baseimage-docker/)
 - **CatalogMaps** stack
   - **MySQL** database
@@ -66,7 +62,6 @@ Keep Docker Compose services running while they wait for the services they depen
 
 !SLIDE
 # Docker @ EOL - ej
-
 ## PRESTO: LAOF facility-request web app
 
 - **NCSA** database-less **Rails** app
@@ -74,7 +69,6 @@ Keep Docker Compose services running while they wait for the services they depen
 
 !SLIDE
 # Docker @ EOL - ej
-
 ## LROSE solo ii
 
 - **RHEL 5**
@@ -82,7 +76,6 @@ Keep Docker Compose services running while they wait for the services they depen
 
 !SLIDE
 # Docker @ EOL - ej
-
 ## Prior Art
 
 - [**Docker & Compose**](https://erikj.github.io/slides/docker-compose)
