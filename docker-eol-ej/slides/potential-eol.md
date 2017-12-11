@@ -1,5 +1,7 @@
 # Docker - Potential @ EOL
 
+- DevOps
+  - *"Treat your servers like cattle, not pets"*
 - Web applications & microservices
 - Continuous Integration
 - Cross-platform distribution of complex stacks of software
