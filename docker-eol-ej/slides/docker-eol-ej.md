@@ -24,6 +24,7 @@
 - Orchestration of multiple containers as 'services'
 - Shorter commands
 
+!SLIDE
 # Docker @ EOL - ej
 ## Tools [`phusion/baseimage`](http://phusion.github.io/baseimage-docker/)
 
