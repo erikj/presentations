@@ -1,10 +1,17 @@
 # Docker
 
 - Linux containerization system
+  - *chroot on steroids*
 - Provides isolation from host system and other containers without performance penalty of virtualization
 - Allows for sharing of resources between host system and other containers
   - file-system
   - ports
+
+!SLIDE
+# Docker
+## Virtualization vs. Containerization
+
+![vm-vs-container stacks](images/docker_vm.jpg)
 
 !SLIDE
 # Docker
