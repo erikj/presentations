@@ -20,7 +20,7 @@
 # Docker @ EOL - ej
 ## Tools [**Docker Compose**](https://docs.docker.com/compose/overview/)
 
-- YAML-based configuration
+- **YAML**-based configuration
 - Orchestration of multiple containers as 'services'
 - Shorter commands
 
@@ -41,7 +41,7 @@
 
 > Pure bash script to test and wait on the availability of a TCP host and port
 
-Keep Docker Compose services running while they wait for the services they depend on to fully start
+Keep **Docker Compose** services running while they wait for the services they depend on to fully start
 
 *e.g.* **CatalogMaps** and **CatalogIngest** depend on `db` service
 
@@ -53,7 +53,7 @@ Keep Docker Compose services running while they wait for the services they depen
 # Docker @ EOL - ej
 ## Maps On A Plane
 
-- [**osm-tiles-docker**](https://github.com/ncareol/osm-tiles-docker): load **OpenStreetMap** data & generate map tiles
+- [**osm-tiles-docker**](https://github.com/ncareol/osm-tiles-docker): load **OpenStreetMap** data, generate and serve map tiles
   - based on [`phusion/baseimage`](http://phusion.github.io/baseimage-docker/)
 - **CatalogMaps** stack
   - **MySQL** database
