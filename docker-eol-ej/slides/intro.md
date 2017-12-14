@@ -64,9 +64,14 @@ FROM alpine
 CMD echo hello world
 
 # build tagged image
-$ docker build -f hello-world.Dockerfile -t hello-world .
+$ docker build -f hello-world.Dockerfile -t erikj/hello-world .
 
 # run image from tag
-$ docker run hello-world
+$ docker run erikj/hello-world
 hello world
+
+# push to repo
+$ docker push erikj/hello-world
 ```
+
+Note: Git-like work flow: hashes, tags, repos, push / pull
