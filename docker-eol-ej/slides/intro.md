@@ -17,6 +17,8 @@ The End.
   - file-system
   - ports
 
+Note: Isolation via cgroups in Linux kernel. Most app packaging system use containerization for security: iOS, Android, etc.
+
 !SLIDE
 # Docker
 ## Virtualization vs. Containerization
