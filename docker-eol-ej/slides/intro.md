@@ -1,3 +1,13 @@
+![Docker logo](images/docker-logo.png)
+
+Note: Most important: logo / mascot is a whale named Moby
+
+!SLIDE
+# Docker
+
+The End.
+
+!SLIDE
 # Docker
 
 - Linux containerization system
