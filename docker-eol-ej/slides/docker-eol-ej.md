@@ -49,6 +49,9 @@ Keep **Docker Compose** services running while they wait for the services they d
 # Docker @ EOL - ej
 ## All of my dev stacks
 
+- Replaces **Vagrant** 99% of the time
+- Web-application development on **macOS** for **Linux** server target
+
 !SLIDE
 # Docker @ EOL - ej
 ## Maps On A Plane
@@ -67,6 +70,8 @@ Keep **Docker Compose** services running while they wait for the services they d
 
 - **NCSA** database-less **Rails** app
 - Data provided by **NCSA** **API**
+
+Note: Does Julie have anything to add?
 
 !SLIDE
 # Docker @ EOL - ej
