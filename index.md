@@ -1,5 +1,7 @@
 # Slides of My Presentations
 
+- [Docker @ EOL - ej](https://erikj.github.io/slides/docker-eol-ej)
+  - NCAR EOL SE Lunch Seminar, 2017/12/14
 - [Whales On A Plane: Deploying Software To NSF / NCAR Research Aircraft w/ Docker](http://erikj.github.io/slides/docker-sea2016/)
   - NCAR SEA Software-Engineering Conference, 2016/04/04
 - [Redis](redis-eolprog)
