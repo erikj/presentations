@@ -1,6 +1,5 @@
-# Design && Build Great Web APIs
+# Design and Build Great Web APIs
+
+## Review && Discussion
 
 Erik Johnson
-
-EOL Prog Lunch, 2021/11/02
-
