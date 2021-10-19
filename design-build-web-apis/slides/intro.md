@@ -7,22 +7,24 @@ HTTP APIs are ubiquitous these days:
   - Web servers
   - Load balancers and high availability
   - Web-application frameworks
+  - Security
 - Third-party software
   - AWS, cloud-services APIs
   - InfluxDB: client-server interactions are over HTTP
 
 !SLIDE
 
-# Anti-motivation
+# Anti-motivation: Skepticism
 
-Healthy Skepticism
-
-["The Best Code is No Code At All"](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)
+> "The Best Code is No Code At All"- [Jeff Atwood](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)
 
 Will a native client suffice? Eg. connecting directly to database.
 
 Is there something already written? OPenDAP, PostgREST, SDK, etc.
 
+> "Microservices: 'I wish my method calls had more latency'" - [Aaron Patterson](https://twitter.com/tenderlove/status/1337483916492488705)
+
+!SLIDE
 
 # [Design and Build Great Web APIs](https://pragprog.com/titles/maapis/design-and-build-great-web-apis/)
 
