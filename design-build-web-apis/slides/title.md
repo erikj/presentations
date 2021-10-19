@@ -1,5 +1,5 @@
 # Design and Build Great Web APIs
 
-## Review && Discussion
+## Book Highlights
 
 Erik Johnson
