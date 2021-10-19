@@ -1,6 +1,34 @@
+# API background / motivation
+
+HTTP APIs are ubiquitous these days:
+
+- Contemporary websites and apps
+- Robust tools and techniques
+  - Web servers
+  - Load balancers and high availability
+  - Web-application frameworks
+- Third-party software
+  - AWS, cloud-services APIs
+  - InfluxDB: client-server interactions are over HTTP
+
+!SLIDE
+
+# Anti-motivation
+
+Healthy Skepticism
+
+["The Best Code is No Code At All"](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)
+
+Will a native client suffice? Eg. connecting directly to database.
+
+Is there something already written? OPenDAP, PostgREST, SDK, etc.
+
+
 # [Design and Build Great Web APIs](https://pragprog.com/titles/maapis/design-and-build-great-web-apis/)
 
 Mike Amundsen, The Pragmatic Bookshelf
+
+> An internationally known author and speaker, Mike Amundsen travels the world consulting and talking about network architecture, web development, and the intersection of technology and society. He works with companies large and small to help them capitalize on the opportunities APIs and microservices present for both consumers and the enterprise.
 
 !SLIDE
 
@@ -70,7 +98,7 @@ name=mike&email=mike@example.org&sms=123456789
 
 !SLIDE
 
-# HTTP Reponse Messages
+# HTTP Response Messages
 !SLIDE
 
 # HTTP Methods
@@ -98,3 +126,9 @@ Typically Javascript Object Notation (JSON)
   a: [1,2,3]
 }
 ```
+
+!SLIDE
+
+# HTTP APIs
+
+Typically used for client to query server for data from a backend
