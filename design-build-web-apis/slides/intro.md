@@ -34,7 +34,7 @@ Mike Amundsen, The Pragmatic Bookshelf
 
 !SLIDE
 
-# [Design and Build Great Web APIs](https://pragprog.com/titles/maapis/design-and-build-great-web-apis/)
+# Table of Contents
 
 - I: Getting started
 - II: Design Phase
@@ -46,39 +46,50 @@ Mike Amundsen, The Pragmatic Bookshelf
 
 !SLIDE
 
-# [Design and Build Great Web APIs](https://pragprog.com/titles/maapis/design-and-build-great-web-apis/)
+# "In Reality"
 
-## "In Reality"
+Narrative: Linear approach
 
-- Narrative: linear approach
-- In practice: loops of iteration, jump back and forth between modeling, design and implementation
+In practice:
+
+Loops of iteration, jump back and forth between modeling, design and implementation
 
 !SLIDE
 
-# [Design and Build Great Web APIs](https://pragprog.com/titles/maapis/design-and-build-great-web-apis/)
+# Approach
 
-## Approach
-
-Uses example of developing an API for onboarding new clients at a company, "BigCo"
+Example: "BigCo"
 
 Standalone services
 
-- Company: a client
-- Account: the affiliation between BigCo and client
+- Company: business client
+- Account: affiliation, BigCo <=> client
 - Activity: interactions between BigCo and client "mails, phone calls, office visits," etc.
 
 !SLIDE
 
 # A Brief History of HTTP
 
-1989: Tim Berners-Lee, CERN
+1989: Tim Berners-Lee, CERN 
 
 2021: Ubiquitous application and data-interchange framework
 
-Message passing
+Message passing: Request, Response
 
-- Request Messages
-- Response Messages
+!SLIDE
+
+# HTTP Message Passing
+
+> The most important thing to know about the HTTP protocol is that it was designed entirely on the notion of passing messages, not objects or database query results. This message-orientation is one of the reasons HTTP (and HTML) became so popular and so pervasive so quickly. As long as you could write a client or service that can deal with HTTP messages, you could create an HTTP server and start serving up content, no matter what programming language, object model, or database you used.
+
+!SLIDE
+
+# HTTP Methods
+
+- `GET`: typical web request, get data from server
+- `POST`: create entity
+- `PUT`: update update entity
+- `DELETE`
 
 !SLIDE
 
@@ -86,7 +97,7 @@ Message passing
 
 - Start line: method + target, eg. a URL / path
 - Headers: user agent; content type and length; accept document types (`text/html`), language, encoding
-- Body: request or response data
+- Body: data
 
 ```
 POST /create-user HTTP/2
@@ -102,7 +113,7 @@ name=mike&email=mike@example.org&sms=123456789
 
 - Status line: protocol version, status code, status text
 - Headers: case insensitive, colon-delimited
-- Body: the content of the response, eg. HTML, JSON, binary data (eg. images, audio, video), etc.
+- Body: response data, eg. HTML, JSON, binary data (eg. images, audio, video), etc.
 
 ```
 HTTP/1.1 200 OK
@@ -123,7 +134,7 @@ Connection: Closed
 
 # HTTP Response Status Codes
 
-Examples:
+Examples
 
 ```plaintext
 200 OK
@@ -140,16 +151,56 @@ https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
 
 !SLIDE
 
-# HTTP Methods
+# Representational State Transfer (REST)
 
-- `GET`: typical web request, get data from server
-- `POST`: form submission for new entity
-- `PUT`: form submission to update entity
-- `DELETE`: form submission to remove an entity
+Six guiding constraints
+
+1. Client-server
+2. Stateless
+3. Cacheable
+4. Uniform interface
+5. Layered system
+6. Code on demand
 
 !SLIDE
 
-# Representational State Transfer (REST)
+# CRUD
+
+Example and subset of REST
+
+<table>
+<tr><th>
+CRUD
+</th>
+<th>
+HTTP
+</th></tr>
+
+<tr><td>
+Create
+</td><td>
+POST
+</td></tr>
+
+<tr><td>
+Read
+</td><td>
+GET
+</td></tr>
+
+<tr><td>
+Update
+</td><td>
+PUT
+</td></tr>
+
+<tr><td>
+Delete
+</td><td>
+DELETE
+</td></tr>
+
+</table>
 
 !SLIDE
 
