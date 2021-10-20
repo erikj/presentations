@@ -1,4 +1,4 @@
-# HTTP API Motivation
+# Web API Motivation
 
 Ubiquity
 
@@ -14,7 +14,7 @@ Ubiquity
 
 !SLIDE
 
-# HTTP API Skepticism
+# Web API Skepticism
 
 > "The Best Code is No Code At All"- [Jeff Atwood](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)
 
@@ -153,7 +153,7 @@ https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
 
 !SLIDE
 
-# HTTP API Responses
+# Web API Responses
 
 Typically Javascript Object Notation (JSON)
 
@@ -166,6 +166,6 @@ Typically Javascript Object Notation (JSON)
 
 !SLIDE
 
-# HTTP APIs
+# Web APIs
 
 Typically used for client to query server for data from a backend

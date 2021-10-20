@@ -87,7 +87,7 @@ Tools
 
 # Discussion
 
-- HTTP APIs developed or in consideration @ NCAR?
+- Web APIs developed or in consideration @ NCAR?
 - Other tools & techniques for designing and building APIs?
-- HTTP APIs in use?
+- Web APIs in use?
 - Experience w/ OPenDAP?
