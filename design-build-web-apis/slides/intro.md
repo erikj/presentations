@@ -1,6 +1,6 @@
-# API background / motivation
+# HTTP API Motivation
 
-HTTP APIs are ubiquitous these days:
+Ubiquity
 
 - Contemporary websites and apps
 - Robust tools and techniques
@@ -8,19 +8,19 @@ HTTP APIs are ubiquitous these days:
   - Load balancers and high availability
   - Web-application frameworks
   - Security
-- Third-party software
+- Third-party software, eg.
   - AWS, cloud-services APIs
   - InfluxDB: client-server interactions are over HTTP
 
 !SLIDE
 
-# Anti-motivation: Skepticism
+# HTTP API Skepticism
 
 > "The Best Code is No Code At All"- [Jeff Atwood](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)
 
-Will a native client suffice? Eg. connecting directly to database.
+- Will a native client suffice? Eg. connecting directly to database.
 
-Is there something already written? OPenDAP, PostgREST, SDK, etc.
+- Is there something already written? OPenDAP, PostgREST, SDK, etc.
 
 > "Microservices: 'I wish my method calls had more latency'" - [Aaron Patterson](https://twitter.com/tenderlove/status/1337483916492488705)
 
@@ -51,7 +51,7 @@ Mike Amundsen, The Pragmatic Bookshelf
 ## "In Reality"
 
 - Narrative: linear approach
-- Book: loops of iteration, jump back and forth between modeling, design and implementation
+- In practice: loops of iteration, jump back and forth between modeling, design and implementation
 
 !SLIDE
 
@@ -66,7 +66,6 @@ Standalone services
 - Company: a client
 - Account: the affiliation between BigCo and client
 - Activity: interactions between BigCo and client "mails, phone calls, office visits," etc.
-
 
 !SLIDE
 
@@ -89,7 +88,6 @@ Message passing
 - Headers: user agent; content type and length; accept document types (`text/html`), language, encoding
 - Body: request or response data
 
-
 ```
 POST /create-user HTTP/2
 Host: www.example.com
@@ -101,6 +99,45 @@ name=mike&email=mike@example.org&sms=123456789
 !SLIDE
 
 # HTTP Response Messages
+
+- Status line: protocol version, status code, status text
+- Headers: case insensitive, colon-delimited
+- Body: the content of the response, eg. HTML, JSON, binary data (eg. images, audio, video), etc.
+
+```
+HTTP/1.1 200 OK
+Date: Mon, 27 Jul 2009 12:28:53 GMT
+Server: Apache/2.2.14 (Win32)
+Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
+Content-Length: 88
+Content-Type: text/html
+Connection: Closed
+<html>
+<body>
+<h1>Hello, World!</h1>
+</body>
+</html>
+```
+
+!SLIDE
+
+# HTTP Response Status Codes
+
+Examples:
+
+```plaintext
+200 OK
+404 Not Found
+418 I'm a teapot
+429 Too Many Requests
+500 Internal Server Error
+```
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418
+https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
+
 !SLIDE
 
 # HTTP Methods
@@ -109,8 +146,6 @@ name=mike&email=mike@example.org&sms=123456789
 - `POST`: form submission for new entity
 - `PUT`: form submission to update entity
 - `DELETE`: form submission to remove an entity
-
-API handles interactions w/ datastore, could be relational (SQL) database, filesystem, document database, key-value database, etc.
 
 !SLIDE
 
