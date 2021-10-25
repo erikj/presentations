@@ -136,9 +136,6 @@ Typically Javascript Object Notation (JSON)
 {
   k: "value",
   a: [1,2,3]
-  h: {
-    k1:1,
-    k2:2
-  }
+  h: { k1: 1, k2: 2 }
 }
 ```
