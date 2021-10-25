@@ -8,12 +8,6 @@
 
 !SLIDE
 
-# HTTP Message Passing
-
- This message-orientation is one of the reasons HTTP (and HTML) became so popular and so pervasive so quickly. As long as you could write a client or service that can deal with HTTP messages, you could create an HTTP server and start serving up content, no matter what programming language, object model, or database you used.
-
-!SLIDE
-
 # HTTP Methods
 
 - `GET`: typical web request, get data from server
@@ -42,7 +36,7 @@ name=mike&email=mike@example.org&sms=123456789
 # HTTP Response Messages
 
 - Status line: protocol version, status code, status text
-- Headers: case insensitive, colon-delimited
+- Headers: case insensitive, colon-, newline-delimited
 - Body: response data, eg. HTML, JSON, binary data (eg. images, audio, video), etc.
 
 ```
@@ -148,9 +142,3 @@ Typically Javascript Object Notation (JSON)
   }
 }
 ```
-
-!SLIDE
-
-# Web APIs
-
-Typically used for client to query server for data from a backend

@@ -30,14 +30,6 @@ Ubiquity
 
 !SLIDE
 
-# [Design and Build Great Web APIs](https://pragprog.com/titles/maapis/design-and-build-great-web-apis/)
-
-Mike Amundsen, The Pragmatic Bookshelf
-
-> An internationally known author and speaker, Mike Amundsen travels the world consulting and talking about network architecture, web development, and the intersection of technology and society. He works with companies large and small to help them capitalize on the opportunities APIs and microservices present for both consumers and the enterprise.
-
-!SLIDE
-
 # Table of Contents
 
 - I: Getting started
@@ -69,5 +61,3 @@ Standalone services
 - Company: business client
 - Account: affiliation, BigCo <=> client
 - Activity: interactions between BigCo and client "mails, phone calls, office visits," etc.
-
-!SLIDE
