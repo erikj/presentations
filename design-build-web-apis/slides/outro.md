@@ -30,6 +30,12 @@ Human-friendly JSON
 
 !SLIDE
 
+# JSON Viewer browser extension
+
+https://github.com/tulios/json-viewer
+
+!SLIDE
+
 # Tools: Apache Bench
 
 Load testing and benchmarking
@@ -69,15 +75,9 @@ Total:         99  345  55.1    342     483
 
 EOL ISF
 
-[dv2-api docs](https://ncar.github.io/dv2-api/api/swagger-ui/)
+[dv2-api docs, OpenAPI + swagger-ui](https://ncar.github.io/dv2-api/api/swagger-ui/)
 
 [Profiler time-height-plot](http://datavis.eol.ucar.edu/time-height-plot/)
-
-Tools
-
-[Python `json.tool`](https://docs.python.org/3/library/json.html#module-json.tool)
-
-[`ab` - Apache HTTP server benchmarking tool](https://httpd.apache.org/docs/2.4/programs/ab.html)
 
 </td></tr></tbody></table>
 
@@ -87,7 +87,7 @@ Tools
 
 # Discussion
 
-- Web APIs developed or in consideration @ NCAR?
 - Other tools & techniques for designing and building APIs?
+- Web APIs developed or in consideration @ NCAR?
 - Web APIs in use?
 - Experience w/ OPenDAP?
