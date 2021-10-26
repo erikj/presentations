@@ -58,8 +58,6 @@ Connection: Closed
 
 # HTTP Response Status Codes
 
-Examples
-
 ```plaintext
 200 OK
 404 Not Found
@@ -77,8 +75,6 @@ https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
 
 # Representational State Transfer (REST)
 
-Six guiding constraints
-
 1. Client-server
 2. Stateless
 3. Cacheable
@@ -86,11 +82,11 @@ Six guiding constraints
 5. Layered system
 6. Code on demand
 
+Roy Fielding Ph. D Dissertation, [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
+
 !SLIDE
 
 # CRUD
-
-Example and subset of REST
 
 <table>
 <tr><th>
