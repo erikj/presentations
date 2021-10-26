@@ -4,23 +4,11 @@
 
 # Norman's Action Lifecycle
 
-The Design of Everyday Things - Donald Norman, 1998/2013
-
-> principles of designing and building "things" (doorways, telephone, computers, and so on) for human interaction
-
-1. Intention
-
-| Execution| Evaluation|
-| --- | --- |
-| 2. Plan | 5.Perceive |
-| 3. Specify | 6. Interpret |
-| 4. Perform | 7. Compare |
+![Norman's Action Lifecycle](images/normans-action-lifecycle.png)
 
 !SLIDE
 
 # User Stories
-
-> “short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.”
 
 *As an \<actor> I want to \<action> so that \<reason>*
 
@@ -44,9 +32,7 @@ https://www.mountaingoatsoftware.com/agile/user-stories
 
 ## API Action Lifecycle: The RPW Loop
 
-- Request
-- Parse
-- Wait
+![Request Parse Wait Loop](images/request-parse-wait.png)
 
 !SLIDE
 
