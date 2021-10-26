@@ -66,6 +66,8 @@ Total:         99  345  55.1    342     483
 
 REST: Roy Fielding Ph. D Dissertation, [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 
+[Mountain Goat Software: User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
+
 [WebSequence Diagram editor](https://www.websequencediagrams.com/)
 
 [OpenAPI Specification](https://swagger.io/specification/)

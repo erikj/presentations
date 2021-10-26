@@ -30,11 +30,29 @@ https://www.mountaingoatsoftware.com/agile/user-stories
 
 !SLIDE
 
+Notes
+Diagrams
+
+!SLIDE
+
 ## API Action Lifecycle: The RPW Loop
 
 ![Request Parse Wait Loop](images/request-parse-wait.png)
 
 !SLIDE
+
+!SLIDE
+
+# Modeling Synopsis
+
+Map out the API workflow and identify the internal cycles
+
+Ask questions of stakeholders
+
+> Good designers never start out by trying to solve the problem given to them: they start by trying to understand what the real issues are. - Donald Norman, The Design of Everyday Things
+
+Write an API story document - narrative
+
 
 # Design
 
