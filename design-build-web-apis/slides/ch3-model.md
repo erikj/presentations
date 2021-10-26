@@ -16,48 +16,44 @@ https://www.mountaingoatsoftware.com/agile/user-stories
 
 !SLIDE
 
-# Document steps of process
-
-*As an account manager, I was to store a company in the database to track an account.*
-
-> Home
-> 
-> -> Company
-> 
-> -> CreateCompany(companyName, email, phone, status)
-> 
-> -> CreatedCompany
-
-!SLIDE
-
-Notes
-Diagrams
-
-!SLIDE
-
 ## API Action Lifecycle: The RPW Loop
 
 ![Request Parse Wait Loop](images/request-parse-wait.png)
 
 !SLIDE
 
-!SLIDE
-
 # Modeling Synopsis
-
-Map out the API workflow and identify the internal cycles
 
 Ask questions of stakeholders
 
 > Good designers never start out by trying to solve the problem given to them: they start by trying to understand what the real issues are. - Donald Norman, The Design of Everyday Things
 
+Map out the API workflow and identify the internal cycles
+
 Write an API story document - narrative
 
-
-# Design
+Create and preserve notes and diagram
 
 !SLIDE
 
-# Describe
+# API Stories
 
+- Purpose
+- Data
+- Actions
+- Rules
+- Processing
 
+!SLIDE
+
+# Example
+
+*As an account manager, I was to store a company in the database to track an account.*
+
+> Home
+>
+> -> Company
+>
+> -> CreateCompany(companyName, email, phone, status)
+>
+> -> CreatedCompany
