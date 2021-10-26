@@ -46,9 +46,9 @@ Create and preserve notes and diagram
 
 !SLIDE
 
-# Example
+# API Story Example
 
-*As an account manager, I was to store a company in the database to track an account.*
+*As an account manager, I want to store a company in the database to track an account.*
 
 > Home
 >
