@@ -8,6 +8,12 @@
 
 !SLIDE
 
+## API Action Lifecycle: The RPW Loop
+
+![Request Parse Wait Loop](images/request-parse-wait.png)
+
+!SLIDE
+
 # User Stories
 
 *As an \<actor> I want to \<action> so that \<reason>*
@@ -16,9 +22,33 @@ https://www.mountaingoatsoftware.com/agile/user-stories
 
 !SLIDE
 
-## API Action Lifecycle: The RPW Loop
+# API Stories
 
-![Request Parse Wait Loop](images/request-parse-wait.png)
+- Purpose
+- Data
+- Actions
+- Rules
+- Processing
+
+!SLIDE
+
+# API Story Examples
+
+*As an account manager, I want to store a company and account in the database to track sale activity.*
+
+```
+Home
+-> Company
+-> CreateCompany(companyName, email, phone, status)
+-> CreatedCompany
+-> Home
+
+Home
+-> Account
+-> CreateAccount(companyId, division, defaultDiscount, creditLimit)
+-> CreatedAccount
+-> Home
+```
 
 !SLIDE
 
@@ -33,27 +63,3 @@ Map out the API workflow and identify the internal cycles
 Write an API story document - narrative
 
 Create and preserve notes and diagram
-
-!SLIDE
-
-# API Stories
-
-- Purpose
-- Data
-- Actions
-- Rules
-- Processing
-
-!SLIDE
-
-# API Story Example
-
-*As an account manager, I want to store a company in the database to track an account.*
-
-> Home
->
-> -> Company
->
-> -> CreateCompany(companyName, email, phone, status)
->
-> -> CreatedCompany
