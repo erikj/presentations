@@ -1,3 +1,10 @@
+# ... And Beyond!
+
+- GraphQL
+- Websockets
+
+!SLIDE
+
 # Tools: python json.tool
 
 Human-friendly JSON
