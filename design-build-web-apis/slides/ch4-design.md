@@ -23,15 +23,15 @@
 
 !SLIDE
 
-# Descriptors Examples
+# Descriptors
 
-Elements: `companyName`
+Examples:
 
-Actions: `approveUser`
+Element: `companyName`
 
-!SLIDE
+Action: `approveUser`
 
-# Normalize Descriptors
+Normalization and validation:
 
 [https://schema.org](https://schema.org)
 
@@ -39,6 +39,45 @@ Actions: `approveUser`
 
 !SLIDE
 
+# Workflows
+
+User and API Stories + Descriptors => Workflows
+
+Workflows => Sequence Diagrams
+
+!SLIDE
+
 # WebSequenceDiagram editor
 
 https://www.websequencediagrams.com/#
+
+Author created a node cli application, `wsdgen`, that stores txt (input) files locally, and uses WSD API to generate diagrams, then stores them locally.
+
+Mitigates data loss that I experienced using web editor
+
+!SLIDE
+
+# [websequencediagrams.com ](https://www.websequencediagrams.com)
+
+[txt format](https://www.websequencediagrams.com/examples.html)
+
+```
+title BigCo, Inc. Onboarding API
+home->+WIP: startOnboarding
+WIP->+companyData: collectCompanyData
+companyData-->-WIP: saveToWIP
+WIP->+accountData: collectAccountData
+accountData-->-WIP:saveToWIP
+WIP->+activityData: collectActivityData
+activityData-->-WIP:saveToWIP
+WIP-->+finalizeWIP:completeOnboarding
+finalizeWIP->-home:goHome
+WIP->+cancelWIP:abandonOnboarding
+cancelWIP-->-home:goHome
+```
+
+!SLIDE
+
+# [websequencediagrams.com ](https://www.websequencediagrams.com)
+
+![BigCo Onboarding API](images/bigco-onboarding-api.png)
