@@ -75,4 +75,11 @@
 }
 ```
 
+!SLIDE
+
+# Sketches Are Disposable
+
+- Don't have to be perfect
+- Still preserved as artifacts
+
 
