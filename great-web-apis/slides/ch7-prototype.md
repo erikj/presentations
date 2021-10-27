@@ -85,3 +85,24 @@ content:
 Schema visualization app
 
 ![SwaggerUI Example](images/swaggerui-example.png)
+
+!SLIDE
+
+# SwaggerHub Mocking Server
+
+```sh
+curl https://virtserver.swaggerhub.com/molecule/simple-demo/1.0.0/inventory
+```
+
+```json
+[ {
+  "id" : "d290f1ee-6c54-4b01-90e6-d701748f0851",
+  "name" : "Widget Adapter",
+  "releaseDate" : "2015-07-20T15:49:04-07:00",
+  "manufacturer" : {
+    "name" : "ACME Corporation",
+    "homePage" : "https://www.acme-corp.com",
+    "phone" : "408-867-5309"
+  }
+} ]
+```
