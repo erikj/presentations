@@ -18,7 +18,7 @@ Formerly "Swagger"
 
 !SLIDE
 
-# OpenAPI
+# OpenAPI - Ceremony
 
 ```yaml
 title: Sample Pet Store App
@@ -36,7 +36,7 @@ version: 1.0.1
 
 !SLIDE
 
-# OpenAPI
+# OpenAPI - Business
 
 ```yaml
 components:
@@ -78,3 +78,10 @@ content:
         $ref: '#/components/schemas/pet'
 ```
 
+!SLIDE
+
+# SwaggerUI
+
+Schema visualization app
+
+![SwaggerUI Example](images/swaggerui-example.png)
