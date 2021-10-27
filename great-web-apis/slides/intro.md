@@ -18,11 +18,15 @@ Ubiquity
 
 > "The Best Code is No Code At All"- [Jeff Atwood](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)
 
-> "Microservices: 'I wish my method calls had more latency'" - [Aaron Patterson](https://twitter.com/tenderlove/status/1337483916492488705)
-
 - Will a native client suffice? Eg. connecting directly to database.
 
 - Is there something already written? OPenDAP, PostgREST, SDK, etc.
+
+!SLIDE
+
+# Web API Skepticism
+
+> "Microservices: 'I wish my method calls had more latency'" - [Aaron Patterson](https://twitter.com/tenderlove/status/1337483916492488705)
 
 - Dynamic, server-side HTML updates
   - Rails HTML Over The Wire (HOTWIRE)
@@ -44,7 +48,7 @@ Ubiquity
 
 # "In Reality"
 
-Narrative: Linear approach
+Linnear narrative
 
 In practice:
 
@@ -52,12 +56,16 @@ Loops of iteration, jump back and forth between modeling, design and implementat
 
 !SLIDE
 
-# Approach
-
-Example: "BigCo"
+# Approach: "BigCo" Example
 
 Standalone services
 
 - Company: business client
 - Account: affiliation, BigCo <=> client
 - Activity: interactions between BigCo and client "mails, phone calls, office visits," etc.
+
+!SLIDE
+
+# Shortcut
+
+`alias api="restful web api"`
