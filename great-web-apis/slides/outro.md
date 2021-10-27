@@ -75,6 +75,8 @@ REST: Roy Fielding Ph. D Dissertation, [Architectural Styles and the Design of N
 
 [Mountain Goat Software: User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
 
+[Apiary Blueprint](https://apiblueprint.org/)
+
 [WebSequence Diagram editor](https://www.websequencediagrams.com/)
 
 [OpenAPI Specification](https://swagger.io/specification/)
