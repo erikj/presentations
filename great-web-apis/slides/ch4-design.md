@@ -4,7 +4,7 @@
 
 # Design Thinking
 
-"match people’s needs” with a “viable business strategy.”
+"match people's needs" with a "viable business strategy."
 
 !SLIDE
 
@@ -16,10 +16,10 @@
 
 > This API design method consists of four steps:
 > 
-> - Descriptor: Review all the names of the data and action elements and, where needed, convert them into the names already understood in your API program.
-> - Diagram: Convert your notes on workflow and internal cycles into something visual people can understand.
-> - Definition: Create a machine-readable API definition document that developers can use as a starting point for their implementation.
-> - Documentation: Write basic reference documentation for both service developers and service consumers (those using the API in the future).
+> - Descriptor
+> - Diagram
+> - Definition
+> - Documentation
 
 !SLIDE
 
@@ -47,7 +47,7 @@ Workflows => Sequence Diagrams
 
 !SLIDE
 
-# WebSequenceDiagram editor
+# WebSequenceDiagrams editor
 
 https://www.websequencediagrams.com/#
 
@@ -57,7 +57,7 @@ Mitigates data loss that I experienced using web editor
 
 !SLIDE
 
-# [websequencediagrams.com ](https://www.websequencediagrams.com)
+# [WebSequenceDiagrams](https://www.websequencediagrams.com)
 
 [txt format](https://www.websequencediagrams.com/examples.html)
 
@@ -78,6 +78,6 @@ cancelWIP-->-home:goHome
 
 !SLIDE
 
-# [websequencediagrams.com ](https://www.websequencediagrams.com)
+# [WebSequenceDiagramms](https://www.websequencediagrams.com)
 
 ![BigCo Onboarding API](images/bigco-onboarding-api.png)
