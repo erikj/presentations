@@ -103,25 +103,25 @@ HTTP
 <tr><td>
 Create
 </td><td>
-POST
+<code>POST /projects</code>
 </td></tr>
 
 <tr><td>
 Read
 </td><td>
-GET
+<code>GET /projects/1</code>
 </td></tr>
 
 <tr><td>
 Update
 </td><td>
-PUT
+<code>PUT /projects/1</code>
 </td></tr>
 
 <tr><td>
 Delete
 </td><td>
-DELETE
+<code>DELETE /projects/1</code>
 </td></tr>
 
 </table>
