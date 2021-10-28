@@ -3,6 +3,7 @@
 Ubiquity
 
 - Contemporary websites and apps
+  - Dynamic javascript applications
 - Robust tools and techniques
   - Web servers
   - Load balancers and high availability
@@ -48,7 +49,7 @@ Ubiquity
 
 # "In Reality"
 
-Linnear narrative
+Linear narrative
 
 In practice:
 
