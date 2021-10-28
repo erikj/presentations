@@ -1,18 +1,21 @@
 # EOL ISF Time Height Plot
 
+Visualize atmospheric sounds with windbarbs
+
 - React.js - Page elements and interactions
 - D3.js - data visualization
 - Rails - Web API backend, dv2-api
+- InfluxDB - time-series database, sounding data
 
 !SLIDE
 
-# time-height-plot
+# [time-height-plot](http://datavis.eol.ucar.edu/time-height-plot/)
 
 ![time-height-plot screenshot](images/time-height-plot.png)
 
 !SLIDE
 
-# dv2-api
+# [dv2-api](https://ncar.github.io/dv2-api/api/swagger-ui/)
 
 `/projects/LOTOS2021/profilers/iss4/date?begin_date=...&end_date=...&processing_algorithm=nima`
 
