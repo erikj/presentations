@@ -101,7 +101,7 @@ I think this is more commonly known / handled as[ JSON for Linking Data, JSON-LD
 
 # DARRT <=> Rails
 
-Reinvention of wheel to accommodate NodeJS
+Implementation of common web-app patterns in NodeJS
 
 | DARRT | Rails |
 | --- | --- |
