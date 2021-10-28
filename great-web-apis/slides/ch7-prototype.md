@@ -2,9 +2,7 @@
 
 !SLIDE
 
-# Define
-
-[OpenAPIv3](https://swagger.io/specification/)
+# Define: [OpenAPIv3](https://swagger.io/specification/)
 
 Formerly "Swagger"
 
@@ -14,7 +12,9 @@ Formerly "Swagger"
 
 # OpenAPI
 
-> An OpenAPI document that conforms to the OpenAPI Specification is itself a JSON object, which may be represented either in JSON or YAML format.
+OpenAPI spec document
+
+> JSON object, which may be represented either in JSON or YAML format.
 
 !SLIDE
 
@@ -46,7 +46,6 @@ components:
 paths: # API endpoints
   /some_path:
     get:
-    
 ```
 
 !SLIDE
@@ -86,9 +85,13 @@ Schema visualization app
 
 ![SwaggerUI Example](images/swaggerui-example.png)
 
+[DV2 Rails API](https://ncar.github.io/dv2-api/api/swagger-ui/)
+
 !SLIDE
 
 # SwaggerHub Mocking Server
+
+OpenAPI Spec => Mocked JSON responses
 
 ```sh
 curl https://virtserver.swaggerhub.com/molecule/simple-demo/1.0.0/inventory
