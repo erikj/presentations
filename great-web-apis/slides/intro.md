@@ -19,7 +19,7 @@ Ubiquity
 
 > "The Best Code is No Code At All"- [Jeff Atwood](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)
 
-- Will a native client suffice? Eg. connecting directly to database.
+- Will a native client suffice? Eg. connecting directly to database or message queue.
 
 - Is there something already written? OPenDAP, PostgREST, SDK, etc.
 
@@ -54,6 +54,14 @@ Linear narrative
 In practice:
 
 Loops of iteration, jump back and forth between modeling, design and implementation
+
+!SLIDE
+
+# Approach
+
+Language agnostic
+
+Example written NodeJS + Express web framework
 
 !SLIDE
 
