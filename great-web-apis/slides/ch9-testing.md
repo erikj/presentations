@@ -2,6 +2,13 @@
 
 !SLIDE
 
+# API Testing
+
+- Successful Responses ("Happy Path :)")
+- Error Codes and Messages ("Sad Path :(")
+
+!SLIDE
+
 # Testing Tools
 
 - Shell scripts that call `curl` or `wget`
@@ -10,7 +17,7 @@
 
 !SLIDE
 
-# Testing Rails: [Integration Tests](https://guides.rubyonrails.org/testing.html#integration-testing)
+# Rails: [Integration Tests](https://guides.rubyonrails.org/testing.html#integration-testing)
 
 ```ruby
 test "should get /projects" do
