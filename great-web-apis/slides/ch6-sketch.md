@@ -69,8 +69,18 @@
 
 ```json
 {
-  "projects": [
-    "cheesehead"
+  [
+    {
+      "name": "cheesehead",
+      "facilities": [
+        {
+          "name": "isfs"
+        },
+        {
+          "name": "iss"
+        }
+      ]
+    }
   ]
 }
 ```
