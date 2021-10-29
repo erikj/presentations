@@ -2,13 +2,7 @@
 
 1989: Tim Berners-Lee, CERN 
 
-2000: Roy Fielding REST dissertation
-
-mid-2000s: REST adopted for Web APIs
-
-2021: Ubiquitous application and data-interchange framework
-
-> The most important thing to know about the HTTP protocol is that it was designed entirely on the notion of passing messages, not objects or database query results. - TBL
+> The most important thing to know about the HTTP protocol is that it was designed entirely on the notion of passing messages, not objects or database query results.
 
 !SLIDE
 
@@ -16,8 +10,8 @@ mid-2000s: REST adopted for Web APIs
 
 - `GET`: typical web request, get data from server
 - `POST`: create entity
-- `PUT`: update update entity
-- `DELETE`
+- `PUT`: update entity
+- `DELETE`: remove entity
 
 !SLIDE
 
