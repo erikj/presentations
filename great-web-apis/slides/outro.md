@@ -2,6 +2,9 @@
 
 - GraphQL
 - Websockets
+- Writing data: Message Queues + Background Processing?
+- API-specific cloud hosting
+  - AWS Lambda, Application Load Balancer, API Gateway
 
 !SLIDE
 
@@ -40,6 +43,8 @@ Human-friendly JSON
 # JSON Viewer browser extension
 
 https://github.com/tulios/json-viewer
+
+![Chrome JSON Viewer](images/chrome-json-viewer.png)
 
 !SLIDE
 
