@@ -22,18 +22,18 @@
 ```ruby
 test "should get /projects" do
   get v0_projects_url
-  assert_response :success
+  assert_response :success # 200
 end
 
-test "should get list of projects" do
+test "/projects should get list of projects" do
   get v0_projects_url
   assert_equal config_projects.to_json(), @response.body
 end
 
-test "should return a 404 if project is not found" do
+test "/projects/:projectId should return a 404 if project is not found" do
   project_name = 'unknownProjectX'
   get v0_project_url(project_name)
-  assert_response :missing
+  assert_response :missing # 404
   response_body = JSON.parse @response.body
   assert_equal 'Project Not Found', response_body['error']['name']
   assert_equal "Unable to find project '#{project_name}'", response_body['error']['message']
