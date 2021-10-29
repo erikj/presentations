@@ -63,21 +63,14 @@ Mitigates data loss that I experienced using web editor
 
 ```
 title BigCo, Inc. Onboarding API
-home->+WIP: startOnboarding
-WIP->+companyData: collectCompanyData
-companyData-->-WIP: saveToWIP
-WIP->+accountData: collectAccountData
-accountData-->-WIP:saveToWIP
-WIP->+activityData: collectActivityData
-activityData-->-WIP:saveToWIP
-WIP-->+finalizeWIP:completeOnboarding
-finalizeWIP->-home:goHome
-WIP->+cancelWIP:abandonOnboarding
-cancelWIP-->-home:goHome
+home->+WIP: startOnboarding(identifier)
+WIP->+companyData: collectCompanyData(identifier, companyName, address,  email, telephone, status)
+companyData-->-WIP: saveToWIP(identifier, companyName, address, email, telephone, status)
+WIP->-home:goHome
 ```
 
 !SLIDE
 
 # [WebSequenceDiagramms](https://www.websequencediagrams.com)
 
-![BigCo Onboarding API](images/bigco-onboarding-api.png)
+![BigCo Onboarding API](images/short-bigco-onboarding-api.png)
