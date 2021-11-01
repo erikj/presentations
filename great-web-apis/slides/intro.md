@@ -25,14 +25,6 @@
 
 !SLIDE
 
-# "In Reality"
-
-Book: Linear narrative
-
-In practice: Loops of iteration, jump back and forth between modeling, design and implementation
-
-!SLIDE
-
 # Shortcut
 
 `alias api="restful web api"`
