@@ -4,7 +4,7 @@
 
 # Design Thinking
 
-"match people's needs" with a "viable business strategy."
+"Match people's needs" with a "viable business strategy."
 
 !SLIDE
 
@@ -25,8 +25,6 @@
 
 # Descriptors
 
-Examples:
-
 Element: `companyName`
 
 Action: `approveUser`
@@ -35,7 +33,7 @@ Normalization and validation:
 
 [https://schema.org](https://schema.org)
 
-(More oriented around business, events, health care and biology)
+(More oriented around business, events, health care and biology.)
 
 !SLIDE
 
@@ -47,30 +45,28 @@ Workflows => Sequence Diagrams
 
 !SLIDE
 
-# WebSequenceDiagrams editor
+# [WebSequenceDiagrams](https://www.websequencediagrams.com/) editor
 
-https://www.websequencediagrams.com/#
+Text format => diagram images
 
-Author created a node cli application, `wsdgen`, that stores txt (input) files locally, and uses WSD API to generate diagrams, then stores them locally.
+Author created a NodeJS cli application, `wsdgen`, that stores txt (input) files locally, and uses WSD API to generate diagrams, then stores them locally.
 
-Mitigates data loss that I experienced using web editor
+Mitigates data loss that I experienced using web editor.
 
 !SLIDE
 
 # [WebSequenceDiagrams](https://www.websequencediagrams.com)
 
-[txt format](https://www.websequencediagrams.com/examples.html)
+[text format](https://www.websequencediagrams.com/examples.html)
 
-```
+<pre class="code-wrapper" style="font-size: 0.4em;">
+<code class="plaintext hls">
 title BigCo, Inc. Onboarding API
 home->+WIP: startOnboarding(identifier)
 WIP->+companyData: collectCompanyData(identifier, companyName, address,  email, telephone, status)
 companyData-->-WIP: saveToWIP(identifier, companyName, address, email, telephone, status)
 WIP->-home:goHome
-```
-
-!SLIDE
-
-# [WebSequenceDiagramms](https://www.websequencediagrams.com)
+</code>
+</pre>
 
 ![BigCo Onboarding API](images/short-bigco-onboarding-api.png)

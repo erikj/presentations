@@ -1,7 +1,5 @@
 # Web API Motivation
 
-Ubiquity
-
 - Contemporary websites and apps
   - Dynamic javascript applications
 - Robust tools and techniques
@@ -49,11 +47,9 @@ Ubiquity
 
 # "In Reality"
 
-Linear narrative
+Book: Linear narrative
 
-In practice:
-
-Loops of iteration, jump back and forth between modeling, design and implementation
+In practice: Loops of iteration, jump back and forth between modeling, design and implementation
 
 !SLIDE
 
@@ -62,16 +58,6 @@ Loops of iteration, jump back and forth between modeling, design and implementat
 Language agnostic
 
 Example written NodeJS + Express web framework
-
-!SLIDE
-
-# Approach: "BigCo" Example
-
-Standalone services
-
-- Company: business client
-- Account: affiliation, BigCo <=> client
-- Activity: interactions between BigCo and client "mails, phone calls, office visits," etc.
 
 !SLIDE
 

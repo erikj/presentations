@@ -62,4 +62,4 @@ Map out the API workflow and identify the internal cycles
 
 Write an API story document - narrative
 
-Create and preserve notes and diagram
+Create and preserve notes and diagrams
