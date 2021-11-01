@@ -1,11 +1,11 @@
-# EOL ISF Time Height Plot
+# EOL ISF `TimeHeightPlot(dv2-api)`
 
 Visualize atmospheric sounds with windbarbs
 
-- React.js - Page elements and interactions
-- D3.js - data visualization
+- InfluxDB - Time-series database, sounding data
 - Rails - Web API backend, dv2-api
-- InfluxDB - time-series database, sounding data
+- React.js - Page elements and interactions
+- D3.js - Data visualization
 
 !SLIDE
 
@@ -19,8 +19,8 @@ Visualize atmospheric sounds with windbarbs
 
 `/projects/LOTOS2021/profilers/iss4/date?begin_date=...&end_date=...&processing_algorithm=nima`
 
-```json
-{
+<pre class="code-wrapper" style="font-size: 0.4em;">
+<code class="json hls">{
   "project": "LOTOS2021",
   "profiler": "iss4",
   "profiles": [
@@ -41,8 +41,11 @@ Visualize atmospheric sounds with windbarbs
       "height": 350.0,
       "time": 1635447622.0,
       "humanTime": "2021-10-28T19:00:22.000+00:00"
-    },
-```
+    }
+  }
+}
+</code>
+</pre>
 
 !SLIDE
 
