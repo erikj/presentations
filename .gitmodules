@@ -22,3 +22,6 @@
 [submodule "docker-eol-ej/reveal.js"]
 	path = docker-eol-ej/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
+[submodule "design-build-web-apis/reveal.js"]
+	path = great-web-apis/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
