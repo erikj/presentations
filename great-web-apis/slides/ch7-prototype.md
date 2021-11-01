@@ -40,9 +40,9 @@ version: 1.0.1
 
 ```yaml
 components:
-  schemas:    # input and output shortcuts
-  parameters: # inputs
-  responses:  # outputs
+  schemas:    # common shortcuts
+  parameters: # input shortcuts
+  responses:  # output shortcuts
 paths: # API endpoints
   /some_path:
     get:
@@ -81,7 +81,7 @@ content:
 
 # SwaggerUI
 
-Schema visualization app
+OpenAPI spec visualization app
 
 ![SwaggerUI Example](images/swaggerui-example.png)
 

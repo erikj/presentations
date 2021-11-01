@@ -2,20 +2,12 @@
 
 !SLIDE
 
-# Sketch Tools
-
-- [Apiary Blueprint](https://apiblueprint.org/)
-- HTML
-
-!SLIDE
-
 # Actions and Responses => Paths and JSON
 
 `/start` =>
 
 <pre class="code-wrapper" style="font-size: 0.4em;">
-<code class="json hls">
-{
+<code class="json hls">{
    "onboardingAPI":{
       "metadata":[
          {
@@ -69,17 +61,10 @@
 
 ```json
 {
-  [
+  projects: [
     {
       "name": "cheesehead",
-      "facilities": [
-        {
-          "name": "isfs"
-        },
-        {
-          "name": "iss"
-        }
-      ]
+      "facilities": [ { "name": "iss" } ]
     }
   ]
 }
