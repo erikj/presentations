@@ -10,14 +10,6 @@ Formerly "Swagger"
 
 !SLIDE
 
-# OpenAPI
-
-OpenAPI spec document
-
-> JSON object, which may be represented either in JSON or YAML format.
-
-!SLIDE
-
 # OpenAPI - Ceremony
 
 ```yaml
