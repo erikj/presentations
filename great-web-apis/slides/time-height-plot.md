@@ -13,7 +13,7 @@ Visualize atmospheric soundings with windbarbs
 
 !SLIDE
 
-# [time-height-plot](http://datavis.eol.ucar.edu/time-height-plot/)
+# [TimeHeightPlot](http://datavis.eol.ucar.edu/time-height-plot/)
 
 ![time-height-plot screenshot](images/time-height-plot.png)
 

@@ -46,6 +46,6 @@ end
 
 Tests configured in JSON and written in ChaiJS
 
-Tests performed on running API server
+Tests performed against running API server
 
 ![](images/postman.png)
