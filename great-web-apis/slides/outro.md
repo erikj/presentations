@@ -8,9 +8,11 @@
 
 !SLIDE
 
-# Tools: python json.tool
+Utils
 
-Human-friendly JSON
+!SLIDE
+
+# `python json.tool` for Human-friendly JSON
 
 ```
 {"project":"LOTOS2021","profiler":"iss1","profiles":[{"snrw":11.012911796569824,"wdir"
@@ -48,12 +50,9 @@ https://github.com/tulios/json-viewer
 
 !SLIDE
 
-# Tools: Apache Bench
+# Apache Bench: `ab`
 
 Load testing and benchmarking
-
-Apache Bench: `ab`
-
 
 ```
 $ ab -n 100 -c 4 http://localhost:3000/projects
