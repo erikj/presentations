@@ -53,6 +53,42 @@ Visualize atmospheric sounds with windbarbs
 
 !SLIDE
 
+# THP + dv2-api Sequence Diagram
+
+<pre class="code-wrapper" style="font-size: 0.4em;">
+<code class="plaintext hls">Actor User
+
+User->+THPClient: loadRootPage()
+THPClient->+API: getProjects()
+API-->-THPClient: projects.json
+THPClient->-User: list.html => projects
+
+User->+THPClient: select(project)
+THPClient->+API: getTags(project, 'profilers')
+API-->-THPClient: tags.json => profilers
+
+loop profilers => profiler
+
+  THPClient->+API: getTags(project, 'profilers', profiler, 'site')
+  API-->-THPClient: tags.json => sites
+
+  loop sites => site
+    THPClient->+API: getTags(project, profiler, site, 'processingAlgorithm')
+    API-->-THPClient: tags.json => processingAlgorithms
+  end
+
+end
+</pre>
+</code>
+
+!SLIDE
+
+# THP + dv2-api Sequence Diagram
+
+![time-height-plot-and-generalized-dv2-api-truncated](images/time-height-plot-and-generalized-dv2-api-truncated.png)
+
+!SLIDE
+
 # Next Steps
 
 - Profilers endpoints => Generalized measurements endpoints
