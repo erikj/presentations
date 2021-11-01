@@ -91,7 +91,7 @@ end
 
 # Next Steps
 
-- Profilers endpoints => Generalized measurements endpoints
+- Profilers endpoints => generalized measurements endpoints
 - `/v1`
 - `https` (TLS/'SSL')
 - ISF Catalog + NetCDF?
