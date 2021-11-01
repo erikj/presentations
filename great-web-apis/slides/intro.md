@@ -19,7 +19,7 @@
 
 - Will a native client suffice? Eg. connecting directly to database or message queue.
 
-- Is there something already written? OPenDAP, PostgREST, SDK, etc.
+- Is there something already written? OPenDAP, THREDDS, PostgREST, SDK, etc.
 
 !SLIDE
 

@@ -39,3 +39,13 @@ test "/projects/:projectId should return a 404 if project is not found" do
   assert_equal "Unable to find project '#{project_name}'", response_body['error']['message']
 end
 ```
+
+!SLIDE
+
+# Postman GUI + newman CLI
+
+Tests configured in JSON and written in ChaiJS
+
+Tests performed on running API server
+
+![](images/postman.png)
