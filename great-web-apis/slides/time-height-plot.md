@@ -2,9 +2,9 @@
 
 !SLIDE
 
-# EOL ISF `TimeHeightPlot(dv2-api)`
+# `TimeHeightPlot(dv2-api)`
 
-Visualize atmospheric sounds with windbarbs
+Visualize atmospheric soundings with windbarbs
 
 - InfluxDB - Time-series database, sounding data
 - Rails - Web API backend, dv2-api
