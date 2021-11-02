@@ -4,6 +4,8 @@
 
 # Norman's Action Lifecycle
 
+Donald Norman, The Design of Everyday Things
+
 ![Norman's Action Lifecycle](images/normans-action-lifecycle.png)
 
 !SLIDE
@@ -54,7 +56,7 @@ Home
 
 # Modeling Synopsis
 
-Ask questions of stakeholders
+Ask questions of stakeholders: "The Five Whys"
 
 > Good designers never start out by trying to solve the problem given to them: they start by trying to understand what the real issues are. - Donald Norman, The Design of Everyday Things
 
