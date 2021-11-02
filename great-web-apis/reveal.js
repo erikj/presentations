@@ -1,1 +1,1 @@
-reveal.js-4.1.2
+../common/reveal.js-4.1.2
