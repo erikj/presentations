@@ -19,6 +19,3 @@
 [submodule "docker-sea2016/reveal.js"]
 	path = docker-sea2016/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
-[submodule "docker-eol-ej/reveal.js"]
-	path = docker-eol-ej/reveal.js
-	url = https://github.com/hakimel/reveal.js.git
