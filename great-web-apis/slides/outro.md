@@ -65,40 +65,6 @@ Waiting:       98  342  54.8    338     480
 Total:         99  345  55.1    342     483
 ```
 
-!SLIDE
-
-# References
-
-<!--<div style="font-size: 0.5em;">-->
-
-<table><tbody><tr><td>
-
-[Design and Build Great Web APIs](https://pragprog.com/titles/maapis/design-and-build-great-web-apis/) | [Licensed copies purchased by NCAR](https://wiki.ucar.edu/display/SEW/Design+and+Build+Great+Web+APIs)
-
-Roy Fielding, REST: [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
-
-[Mountain Goat Software: User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
-
-[Apiary Blueprint](https://apiblueprint.org/)
-
-[WebSequence Diagram editor](https://www.websequencediagrams.com/)
-
-[OpenAPI Specification](https://swagger.io/specification/)
-
-[Swagger UI](https://swagger.io/tools/swagger-ui/)
-
-</td>
-<td>
-
-EOL ISF
-
-[dv2-api docs, OpenAPI + swagger-ui](https://ncar.github.io/dv2-api/api/swagger-ui/)
-
-[Profiler time-height-plot](http://datavis.eol.ucar.edu/time-height-plot/)
-
-</td></tr></tbody></table>
-
-<!--</div>-->
 
 !SLIDE
 
