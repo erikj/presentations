@@ -1,24 +1,3 @@
 [submodule "intermediate-vagrant/reveal.js"]
 	path = intermediate-vagrant/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
-[submodule "gitgithubncareol/reveal.js"]
-	path = gitgithubncareol/reveal.js
-	url = https://github.com/hakimel/reveal.js.git
-[submodule "risk-mgmt-devops/reveal.js"]
-	path = risk-mgmt-devops/reveal.js
-	url = https://github.com/hakimel/reveal.js.git
-[submodule "docker-compose/reveal.js"]
-	path = docker-compose/reveal.js
-	url = https://github.com/hakimel/reveal.js.git
-[submodule "cds-mission-planner/reveal.js"]
-	path = cds-mission-planner/reveal.js
-	url = https://github.com/hakimel/reveal.js.git
-[submodule "redis-eolprog/reveal.js"]
-	path = redis-eolprog/reveal.js
-	url = https://github.com/hakimel/reveal.js.git
-[submodule "docker-sea2016/reveal.js"]
-	path = docker-sea2016/reveal.js
-	url = https://github.com/hakimel/reveal.js.git
-[submodule "docker-eol-ej/reveal.js"]
-	path = docker-eol-ej/reveal.js
-	url = https://github.com/hakimel/reveal.js.git
